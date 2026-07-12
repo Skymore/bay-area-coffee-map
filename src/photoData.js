@@ -1814,5 +1814,107 @@ export const photoData = {
       "credit": "Google Maps 门店页",
       "source": "https://maps.google.com/?cid=11784106521923304650"
     }
+  ],
+  "coast-steamer-lane-supply": [
+    {
+      "file": "images/cafes/coast-steamer-lane-supply.jpg",
+      "credit": "Google Maps 门店页",
+      "source": "https://maps.google.com/?cid=824717223867566678"
+    },
+    {
+      "file": "images/gallery/coast-steamer-lane-supply-2.jpg",
+      "credit": "Google Maps 门店页",
+      "source": "https://maps.google.com/?cid=824717223867566678"
+    },
+    {
+      "file": "images/gallery/coast-steamer-lane-supply-3.jpg",
+      "credit": "Google Maps 门店页",
+      "source": "https://maps.google.com/?cid=824717223867566678"
+    }
+  ],
+  "coast-mr-toots": [
+    {
+      "file": "images/cafes/coast-mr-toots.jpg",
+      "credit": "Google Maps 门店页",
+      "source": "https://maps.google.com/?cid=8808085162116674809"
+    },
+    {
+      "file": "images/gallery/coast-mr-toots-2.jpg",
+      "credit": "Google Maps 门店页",
+      "source": "https://maps.google.com/?cid=8808085162116674809"
+    },
+    {
+      "file": "images/gallery/coast-mr-toots-3.jpg",
+      "credit": "Google Maps 门店页",
+      "source": "https://maps.google.com/?cid=8808085162116674809"
+    }
+  ],
+  "coast-cliffside-coffee": [
+    {
+      "file": "images/cafes/coast-cliffside-coffee.jpg",
+      "credit": "Google Maps 门店页",
+      "source": "https://maps.google.com/?cid=13301657684007160248"
+    },
+    {
+      "file": "images/gallery/coast-cliffside-coffee-2.jpg",
+      "credit": "Google Maps 门店页",
+      "source": "https://maps.google.com/?cid=13301657684007160248"
+    },
+    {
+      "file": "images/gallery/coast-cliffside-coffee-3.jpg",
+      "credit": "Google Maps 门店页",
+      "source": "https://maps.google.com/?cid=13301657684007160248"
+    }
+  ],
+  "coast-tidal-monterey": [
+    {
+      "file": "images/cafes/coast-tidal-monterey.jpg",
+      "credit": "Google Maps 门店页",
+      "source": "https://maps.google.com/?cid=14069800539113822877"
+    },
+    {
+      "file": "images/gallery/coast-tidal-monterey-2.jpg",
+      "credit": "Google Maps 门店页",
+      "source": "https://maps.google.com/?cid=14069800539113822877"
+    },
+    {
+      "file": "images/gallery/coast-tidal-monterey-3.jpg",
+      "credit": "Google Maps 门店页",
+      "source": "https://maps.google.com/?cid=14069800539113822877"
+    }
+  ],
+  "coast-crema-lovers-point": [
+    {
+      "file": "images/cafes/coast-crema-lovers-point.jpg",
+      "credit": "Google Maps 门店页",
+      "source": "https://maps.google.com/?cid=13660283418855139132"
+    },
+    {
+      "file": "images/gallery/coast-crema-lovers-point-2.jpg",
+      "credit": "Google Maps 门店页",
+      "source": "https://maps.google.com/?cid=13660283418855139132"
+    },
+    {
+      "file": "images/gallery/coast-crema-lovers-point-3.jpg",
+      "credit": "Google Maps 门店页",
+      "source": "https://maps.google.com/?cid=13660283418855139132"
+    }
+  ],
+  "coast-cafe-aquatica": [
+    {
+      "file": "images/cafes/coast-cafe-aquatica.jpg",
+      "credit": "Google Maps 门店页",
+      "source": "https://maps.google.com/?cid=17574138328287343668"
+    },
+    {
+      "file": "images/gallery/coast-cafe-aquatica-2.jpg",
+      "credit": "Google Maps 门店页",
+      "source": "https://maps.google.com/?cid=17574138328287343668"
+    },
+    {
+      "file": "images/gallery/coast-cafe-aquatica-3.jpg",
+      "credit": "Google Maps 门店页",
+      "source": "https://maps.google.com/?cid=17574138328287343668"
+    }
   ]
 };

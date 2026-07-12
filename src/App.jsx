@@ -87,6 +87,7 @@ const preferenceGroups = [
     label: "顺路体验",
     options: [
       { id: "experience-food", label: "甜点早午餐", icon: "cookie", tags: ["pastry", "brunch"] },
+      { id: "experience-ocean", label: "直接看海", icon: "waves", tags: ["ocean-view"] },
       { id: "experience-outdoor", label: "户外风景", icon: "waves", tags: ["outdoor", "scenic"] },
       { id: "experience-heritage", label: "老派经典", icon: "coffee", tags: ["heritage"] }
     ]

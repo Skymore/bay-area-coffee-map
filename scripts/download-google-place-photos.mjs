@@ -25,7 +25,12 @@ async function trackedFetch(url, init, endpoint) {
   }
 }
 
-const ids = process.argv.slice(2).filter(arg => arg.startsWith("--id=")).map(arg => arg.slice(5));
+const args = process.argv.slice(2);
+const ids = args.filter(arg => arg.startsWith("--id=")).map(arg => arg.slice(5));
+const requestedCount = Number(args.find(arg => arg.startsWith("--count="))?.slice(8) ?? 3);
+if (!Number.isInteger(requestedCount) || requestedCount < 3 || requestedCount > 10) {
+  throw new Error("--count must be an integer from 3 to 10");
+}
 if (!ids.length) throw new Error("Pass at least one --id=CAFE_ID");
 
 const cafeById = new Map(cafes.map(cafe => [cafe.id, cafe]));
@@ -51,8 +56,9 @@ for (const id of ids) {
   if (!response.ok) throw new Error(`${id}: place details HTTP ${response.status}`);
   const { photos = [] } = await response.json();
   if (photos.length < 3) throw new Error(`${id}: only ${photos.length} photos available`);
+  const photoCount = Math.min(requestedCount, photos.length);
 
-  for (let index = 0; index < 3; index += 1) {
+  for (let index = 0; index < photoCount; index += 1) {
     const photoUrl = new URL(`https://places.googleapis.com/v1/${photos[index].name}/media`);
     photoUrl.searchParams.set("maxWidthPx", "1400");
     photoUrl.searchParams.set("maxHeightPx", "1050");

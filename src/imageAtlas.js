@@ -557,6 +557,36 @@ export const imageAtlas = {
       "page": 1,
       "x": 5040,
       "y": 1620
+    },
+    "coast-steamer-lane-supply": {
+      "page": 1,
+      "x": 5760,
+      "y": 1620
+    },
+    "coast-mr-toots": {
+      "page": 1,
+      "x": 6480,
+      "y": 1620
+    },
+    "coast-cliffside-coffee": {
+      "page": 1,
+      "x": 0,
+      "y": 2025
+    },
+    "coast-tidal-monterey": {
+      "page": 1,
+      "x": 720,
+      "y": 2025
+    },
+    "coast-crema-lovers-point": {
+      "page": 1,
+      "x": 1440,
+      "y": 2025
+    },
+    "coast-cafe-aquatica": {
+      "page": 1,
+      "x": 2160,
+      "y": 2025
     }
   }
 };
