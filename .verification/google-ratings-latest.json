@@ -1,0 +1,5924 @@
+{
+  "generatedAt": "2026-07-11T22:53:08.271Z",
+  "source": "Google Places API (New)",
+  "applied": true,
+  "thresholds": {
+    "minScore": 0.72,
+    "minMargin": 0.06
+  },
+  "summary": {
+    "total": 100,
+    "matched": 96,
+    "needsReview": 4,
+    "notFound": 0,
+    "errors": 0
+  },
+  "results": [
+    {
+      "id": "andytown",
+      "expectedName": "Andytown Coffee Roasters",
+      "expectedAddress": "3655 Lawton St, San Francisco, CA 94122",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 1317,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 57,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJee4DupqHhYARXadb2DlBtr8",
+        "name": "Andytown Coffee Roasters",
+        "address": "3655 Lawton St, San Francisco, CA 94122",
+        "location": {
+          "latitude": 37.7566712,
+          "longitude": -122.50231470000001
+        },
+        "rating": 4.6,
+        "ratingCount": 1192,
+        "mapsUri": "https://maps.google.com/?cid=13814300623704401757&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -125
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJee4DupqHhYARXadb2DlBtr8",
+          "name": "Andytown Coffee Roasters",
+          "address": "3655 Lawton St, San Francisco, CA 94122",
+          "rating": 4.6,
+          "ratingCount": 1192,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 57,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "sightglass",
+      "expectedName": "Sightglass Coffee",
+      "expectedAddress": "270 7th St, San Francisco, CA 94103",
+      "previous": {
+        "rating": 4.4,
+        "ratingCount": 4239,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 34,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJf-V9OIKAhYARu8bBG2S6RME",
+        "name": "Sightglass Coffee",
+        "address": "270 7th St, San Francisco, CA 94103",
+        "location": {
+          "latitude": 37.7770356,
+          "longitude": -122.40845429999997
+        },
+        "rating": 4.4,
+        "ratingCount": 3390,
+        "mapsUri": "https://maps.google.com/?cid=13926460886861596347&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -849
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJf-V9OIKAhYARu8bBG2S6RME",
+          "name": "Sightglass Coffee",
+          "address": "270 7th St, San Francisco, CA 94103",
+          "rating": 4.4,
+          "ratingCount": 3390,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 34,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ritual",
+      "expectedName": "Ritual Coffee Roasters",
+      "expectedAddress": "1026 Valencia St, San Francisco, CA 94110",
+      "previous": {
+        "rating": 4.3,
+        "ratingCount": 1323,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 31,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJm8vaiT5-j4ARU2MyuxNCc2s",
+        "name": "Ritual Coffee Roasters",
+        "address": "1026 Valencia St, San Francisco, CA 94110",
+        "location": {
+          "latitude": 37.7564253,
+          "longitude": -122.4214111
+        },
+        "rating": 4.3,
+        "ratingCount": 1718,
+        "mapsUri": "https://maps.google.com/?cid=7742604836892468051&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 395
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJm8vaiT5-j4ARU2MyuxNCc2s",
+          "name": "Ritual Coffee Roasters",
+          "address": "1026 Valencia St, San Francisco, CA 94110",
+          "rating": 4.3,
+          "ratingCount": 1718,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 31,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "saint-frank",
+      "expectedName": "Saint Frank Coffee",
+      "expectedAddress": "2340 Polk St, San Francisco, CA 94109",
+      "previous": {
+        "rating": 4.5,
+        "ratingCount": 1140,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 48,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJmfgIQ-iAhYARq5osc-JybBo",
+        "name": "Saint Frank Coffee",
+        "address": "2340 Polk St, San Francisco, CA 94109",
+        "location": {
+          "latitude": 37.7984797,
+          "longitude": -122.4220775
+        },
+        "rating": 4.5,
+        "ratingCount": 1379,
+        "mapsUri": "https://maps.google.com/?cid=1904023059391355563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 239
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJmfgIQ-iAhYARq5osc-JybBo",
+          "name": "Saint Frank Coffee",
+          "address": "2340 Polk St, San Francisco, CA 94109",
+          "rating": 4.5,
+          "ratingCount": 1379,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 48,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-crown",
+      "expectedName": "The Crown: Royal Coffee Lab",
+      "expectedAddress": "2523 Broadway, Oakland, CA 94612",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 367,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.925,
+        "nameScore": 0.75,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 45,
+        "hardFailures": []
+      },
+      "margin": 0.925,
+      "google": {
+        "placeId": "ChIJrVeVEOWHj4ARvUAZyJpyVY4",
+        "name": "The Crown: Royal Coffee Lab & Tasting Room",
+        "address": "2523 Broadway, Oakland, CA 94612",
+        "location": {
+          "latitude": 37.8144975,
+          "longitude": -122.26514879999999
+        },
+        "rating": 4.6,
+        "ratingCount": 244,
+        "mapsUri": "https://maps.google.com/?cid=10256229735513800893&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -123
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJrVeVEOWHj4ARvUAZyJpyVY4",
+          "name": "The Crown: Royal Coffee Lab & Tasting Room",
+          "address": "2523 Broadway, Oakland, CA 94612",
+          "rating": 4.6,
+          "ratingCount": 244,
+          "match": {
+            "score": 0.925,
+            "nameScore": 0.75,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 45,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "mother-tongue",
+      "expectedName": "Mother Tongue Cafe & Bar",
+      "expectedAddress": "308 41st St, Oakland, CA 94609",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 286,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.96,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 135,
+        "hardFailures": []
+      },
+      "margin": 0.96,
+      "google": {
+        "placeId": "ChIJRwe0Ev5_hYARMok6isibKVE",
+        "name": "Mother Tongue Cafe & Bar",
+        "address": "308 41st St, Oakland, CA 94609",
+        "location": {
+          "latitude": 37.828665799999996,
+          "longitude": -122.25638989999997
+        },
+        "rating": 4.6,
+        "ratingCount": 169,
+        "mapsUri": "https://maps.google.com/?cid=5848376876732156210&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -117
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJRwe0Ev5_hYARMok6isibKVE",
+          "name": "Mother Tongue Cafe & Bar",
+          "address": "308 41st St, Oakland, CA 94609",
+          "rating": 4.6,
+          "ratingCount": 169,
+          "match": {
+            "score": 0.96,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 135,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "states",
+      "expectedName": "States Coffee",
+      "expectedAddress": "419 40th St, Oakland, CA 94609",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 24,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 70,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJQ8kInJB9hYARc0xnrLM63g4",
+        "name": "States Coffee",
+        "address": "419 40th St, Oakland, CA 94609",
+        "location": {
+          "latitude": 37.8284029,
+          "longitude": -122.26072210000001
+        },
+        "rating": 4.6,
+        "ratingCount": 107,
+        "mapsUri": "https://maps.google.com/?cid=1071358304726764659&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 83
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJQ8kInJB9hYARc0xnrLM63g4",
+          "name": "States Coffee",
+          "address": "419 40th St, Oakland, CA 94609",
+          "rating": 4.6,
+          "ratingCount": 107,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 70,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "1951",
+      "expectedName": "1951 Coffee Company",
+      "expectedAddress": "2410 Channing Way, Berkeley, CA 94704",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 277,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 18,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJW2yuxCh8hYARGGQHIaJzsZc",
+        "name": "1951 Coffee Company",
+        "address": "2410 Channing Way, Berkeley, CA 94704",
+        "location": {
+          "latitude": 37.8666433,
+          "longitude": -122.25997860000001
+        },
+        "rating": 4.6,
+        "ratingCount": 441,
+        "mapsUri": "https://maps.google.com/?cid=10930644910780933144&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 164
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJW2yuxCh8hYARGGQHIaJzsZc",
+          "name": "1951 Coffee Company",
+          "address": "2410 Channing Way, Berkeley, CA 94704",
+          "rating": 4.6,
+          "ratingCount": 441,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 18,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "coro",
+      "expectedName": "CoRo Coffee Room",
+      "expectedAddress": "2324 Fifth St, Berkeley, CA 94710",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 343,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 70,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJ4-0j0Oh-hYAR_rDr6cfh-N4",
+        "name": "CoRo Coffee Room",
+        "address": "2324 Fifth St, Berkeley, CA 94710",
+        "location": {
+          "latitude": 37.862439699999996,
+          "longitude": -122.29736
+        },
+        "rating": 4.6,
+        "ratingCount": 307,
+        "mapsUri": "https://maps.google.com/?cid=16066839919383523582&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -36
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJ4-0j0Oh-hYAR_rDr6cfh-N4",
+          "name": "CoRo Coffee Room",
+          "address": "2324 Fifth St, Berkeley, CA 94710",
+          "rating": 4.6,
+          "ratingCount": 307,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 70,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "artis",
+      "expectedName": "Artis Coffee",
+      "expectedAddress": "1717 Fourth St B, Berkeley, CA 94710",
+      "previous": {
+        "rating": 4.4,
+        "ratingCount": 571,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.96,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 170,
+        "hardFailures": []
+      },
+      "margin": 0.96,
+      "google": {
+        "placeId": "ChIJMbB3FNt-hYAR-FZpf8Lpdxs",
+        "name": "Artís Coffee",
+        "address": "1717 Fourth St B, Berkeley, CA 94710",
+        "location": {
+          "latitude": 37.871593399999995,
+          "longitude": -122.30090419999998
+        },
+        "rating": 4.4,
+        "ratingCount": 753,
+        "mapsUri": "https://maps.google.com/?cid=1979307582823159544&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 182
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJMbB3FNt-hYAR-FZpf8Lpdxs",
+          "name": "Artís Coffee",
+          "address": "1717 Fourth St B, Berkeley, CA 94710",
+          "rating": 4.4,
+          "ratingCount": 753,
+          "match": {
+            "score": 0.96,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 170,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "equator",
+      "expectedName": "Equator Coffees",
+      "expectedAddress": "2 Miller Ave, Mill Valley, CA 94941",
+      "previous": {
+        "rating": 4.5,
+        "ratingCount": 848,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 65,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJ3Qt5gHKQhYAR1lasgUpcLIY",
+        "name": "Equator Coffees",
+        "address": "2 Miller Ave, Mill Valley, CA 94941",
+        "location": {
+          "latitude": 37.905948699999996,
+          "longitude": -122.54843860000001
+        },
+        "rating": 4.5,
+        "ratingCount": 653,
+        "mapsUri": "https://maps.google.com/?cid=9668203975130502870&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -195
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJ3Qt5gHKQhYAR1lasgUpcLIY",
+          "name": "Equator Coffees",
+          "address": "2 Miller Ave, Mill Valley, CA 94941",
+          "rating": 4.5,
+          "ratingCount": 653,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 65,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "devout",
+      "expectedName": "Devout Coffee",
+      "expectedAddress": "37323 Niles Blvd, Fremont, CA 94536",
+      "previous": {
+        "rating": 4.5,
+        "ratingCount": 1362,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.96,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 190,
+        "hardFailures": []
+      },
+      "margin": 0.96,
+      "google": {
+        "placeId": "ChIJBUN0jW3Aj4ARiUk9mQkTgQ8",
+        "name": "Devout Coffee",
+        "address": "37323 Niles Blvd, Fremont, CA 94536",
+        "location": {
+          "latitude": 37.5772214,
+          "longitude": -121.9807194
+        },
+        "rating": 4.5,
+        "ratingCount": 1188,
+        "mapsUri": "https://maps.google.com/?cid=1117195114511157641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -174
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJBUN0jW3Aj4ARiUk9mQkTgQ8",
+          "name": "Devout Coffee",
+          "address": "37323 Niles Blvd, Fremont, CA 94536",
+          "rating": 4.5,
+          "ratingCount": 1188,
+          "match": {
+            "score": 0.96,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 190,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "verve-palo-alto",
+      "expectedName": "Verve Coffee Roasters",
+      "expectedAddress": "162 University Ave, Palo Alto, CA 94301",
+      "previous": {
+        "rating": 4.4,
+        "ratingCount": 1285,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.96,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 127,
+        "hardFailures": []
+      },
+      "margin": 0.96,
+      "google": {
+        "placeId": "ChIJIdyPATq7j4ARMGiI0FBTjos",
+        "name": "Verve Coffee Roasters",
+        "address": "162 University Ave, Palo Alto, CA 94301",
+        "location": {
+          "latitude": 37.4442151,
+          "longitude": -122.1630528
+        },
+        "rating": 4.4,
+        "ratingCount": 1134,
+        "mapsUri": "https://maps.google.com/?cid=10056066624525985840&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -151
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJIdyPATq7j4ARMGiI0FBTjos",
+          "name": "Verve Coffee Roasters",
+          "address": "162 University Ave, Palo Alto, CA 94301",
+          "rating": 4.4,
+          "ratingCount": 1134,
+          "match": {
+            "score": 0.96,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 127,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "red-rock",
+      "expectedName": "Red Rock Coffee",
+      "expectedAddress": "201 Castro St, Mountain View, CA 94041",
+      "previous": {
+        "rating": 4.4,
+        "ratingCount": 1449,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.96,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 88,
+        "hardFailures": []
+      },
+      "margin": 0.96,
+      "google": {
+        "placeId": "ChIJF8VqETS3j4ARxmLCuGE7dzk",
+        "name": "Red Rock Coffee",
+        "address": "201 Castro St, Mountain View, CA 94041",
+        "location": {
+          "latitude": 37.3936221,
+          "longitude": -122.0787562
+        },
+        "rating": 4.4,
+        "ratingCount": 3326,
+        "mapsUri": "https://maps.google.com/?cid=4140843673288073926&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 1877
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJF8VqETS3j4ARxmLCuGE7dzk",
+          "name": "Red Rock Coffee",
+          "address": "201 Castro St, Mountain View, CA 94041",
+          "rating": 4.4,
+          "ratingCount": 3326,
+          "match": {
+            "score": 0.96,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 88,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "voyager",
+      "expectedName": "Voyager Craft Coffee",
+      "expectedAddress": "111 W St John St Ste 100, San Jose, CA 95113",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 759,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.96,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 181,
+        "hardFailures": []
+      },
+      "margin": 0.7886,
+      "google": {
+        "placeId": "ChIJSxInvZrNj4ARmiGfPRj2mOI",
+        "name": "Voyager Craft Coffee",
+        "address": "111 W St John St Ste 100, San Jose, CA 95113",
+        "location": {
+          "latitude": 37.3374162,
+          "longitude": -121.8937484
+        },
+        "rating": 4.7,
+        "ratingCount": 626,
+        "mapsUri": "https://maps.google.com/?cid=16328071033005220250&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -133
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJSxInvZrNj4ARmiGfPRj2mOI",
+          "name": "Voyager Craft Coffee",
+          "address": "111 W St John St Ste 100, San Jose, CA 95113",
+          "rating": 4.7,
+          "ratingCount": 626,
+          "match": {
+            "score": 0.96,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 181,
+            "hardFailures": []
+          }
+        },
+        {
+          "placeId": "ChIJQ32TBpTLj4ARhCbyCe1Uqa4",
+          "name": "Voyager Craft Coffee - Santa Clara University",
+          "address": "2221 The Alameda, Santa Clara, CA 95050",
+          "rating": 4.5,
+          "ratingCount": 497,
+          "match": {
+            "score": 0.1714,
+            "nameScore": 0.5714,
+            "streetScore": 0,
+            "numberMatches": false,
+            "zipMatches": false,
+            "distanceMeters": 3386,
+            "hardFailures": [
+              "street-number-mismatch",
+              "zip-mismatch",
+              "distance-over-1500m"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nirvana",
+      "expectedName": "Nirvana Soul",
+      "expectedAddress": "315 S 1st St, San Jose, CA 95113",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 899,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.96,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 225,
+        "hardFailures": []
+      },
+      "margin": 0.96,
+      "google": {
+        "placeId": "ChIJz1LOsPnNj4ARsOE14qXH6v0",
+        "name": "Nirvana Soul Coffee",
+        "address": "315 S 1st St, San Jose, CA 95113",
+        "location": {
+          "latitude": 37.3311664,
+          "longitude": -121.8870153
+        },
+        "rating": 4.7,
+        "ratingCount": 807,
+        "mapsUri": "https://maps.google.com/?cid=18296655951424774576&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -92
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJz1LOsPnNj4ARsOE14qXH6v0",
+          "name": "Nirvana Soul Coffee",
+          "address": "315 S 1st St, San Jose, CA 95113",
+          "rating": 4.7,
+          "ratingCount": 807,
+          "match": {
+            "score": 0.96,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 225,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "barefoot",
+      "expectedName": "Barefoot Coffee",
+      "expectedAddress": "1819 S Bascom Ave, Campbell, CA 95008",
+      "previous": {
+        "rating": 4.5,
+        "ratingCount": 533,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.96,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 228,
+        "hardFailures": []
+      },
+      "margin": 0.96,
+      "google": {
+        "placeId": "ChIJk4QBtMM0joAR0t7u18qjWmY",
+        "name": "Barefoot Coffee",
+        "address": "1819 S Bascom Ave, Campbell, CA 95008",
+        "location": {
+          "latitude": 37.2908468,
+          "longitude": -121.93202640000001
+        },
+        "rating": 4.5,
+        "ratingCount": 735,
+        "mapsUri": "https://maps.google.com/?cid=7375387431374085842&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 202
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJk4QBtMM0joAR0t7u18qjWmY",
+          "name": "Barefoot Coffee",
+          "address": "1819 S Bascom Ave, Campbell, CA 95008",
+          "rating": 4.5,
+          "ratingCount": 735,
+          "match": {
+            "score": 0.96,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 228,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "big-mug",
+      "expectedName": "Big Mug Coffee Roaster",
+      "expectedAddress": "3014 El Camino Real, Santa Clara, CA 95051",
+      "previous": {
+        "rating": 4.2,
+        "ratingCount": 1745,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.88,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 341,
+        "hardFailures": []
+      },
+      "margin": 0.88,
+      "google": {
+        "placeId": "ChIJATChnBLKj4ARC6PCtPL9FrU",
+        "name": "Big Mug Coffee Roaster",
+        "address": "3014 El Camino Real, Santa Clara, CA 95051",
+        "location": {
+          "latitude": 37.3515167,
+          "longitude": -121.980882
+        },
+        "rating": 4.2,
+        "ratingCount": 1556,
+        "mapsUri": "https://maps.google.com/?cid=13048896189209158411&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -189
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJATChnBLKj4ARC6PCtPL9FrU",
+          "name": "Big Mug Coffee Roaster",
+          "address": "3014 El Camino Real, Santa Clara, CA 95051",
+          "rating": 4.2,
+          "ratingCount": 1556,
+          "match": {
+            "score": 0.88,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 341,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "coffee-movement-chinatown",
+      "expectedName": "The Coffee Movement",
+      "expectedAddress": "1030 Washington St, San Francisco, CA 94108",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 1716,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 4,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJoTMb3PKAhYARsXkQt469sBw",
+        "name": "The Coffee Movement",
+        "address": "1030 Washington St, San Francisco, CA 94108",
+        "location": {
+          "latitude": 37.7947671,
+          "longitude": -122.41029420000001
+        },
+        "rating": 4.7,
+        "ratingCount": 1358,
+        "mapsUri": "https://maps.google.com/?cid=2067360649617373617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -358
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJoTMb3PKAhYARsXkQt469sBw",
+          "name": "The Coffee Movement",
+          "address": "1030 Washington St, San Francisco, CA 94108",
+          "rating": 4.7,
+          "ratingCount": 1358,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 4,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "coffee-movement-richmond",
+      "expectedName": "The Coffee Movement",
+      "expectedAddress": "1737 Balboa St, San Francisco, CA 94121",
+      "previous": {
+        "rating": 4.8,
+        "ratingCount": 507,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 4,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJTfb1d_uHhYARRpn5d_Fk1SU",
+        "name": "The Coffee Movement",
+        "address": "1737 Balboa St, San Francisco, CA 94121",
+        "location": {
+          "latitude": 37.7764721,
+          "longitude": -122.47782249999999
+        },
+        "rating": 4.8,
+        "ratingCount": 595,
+        "mapsUri": "https://maps.google.com/?cid=2726196137705445702&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 88
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJTfb1d_uHhYARRpn5d_Fk1SU",
+          "name": "The Coffee Movement",
+          "address": "1737 Balboa St, San Francisco, CA 94121",
+          "rating": 4.8,
+          "ratingCount": 595,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 4,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "wrecking-ball",
+      "expectedName": "Wrecking Ball Coffee Roasters",
+      "expectedAddress": "2271 Union St, San Francisco, CA 94123",
+      "previous": {
+        "rating": 4.4,
+        "ratingCount": 392,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 12,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJ5-YJa9CAhYARotrWtgywaAE",
+        "name": "Wrecking Ball Coffee Roasters",
+        "address": "2271 Union St, San Francisco, CA 94123",
+        "location": {
+          "latitude": 37.7968015,
+          "longitude": -122.43664039999997
+        },
+        "rating": 4.4,
+        "ratingCount": 603,
+        "mapsUri": "https://maps.google.com/?cid=101524560269466274&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 211
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJ5-YJa9CAhYARotrWtgywaAE",
+          "name": "Wrecking Ball Coffee Roasters",
+          "address": "2271 Union St, San Francisco, CA 94123",
+          "rating": 4.4,
+          "ratingCount": 603,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 12,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "linea-potrero",
+      "expectedName": "Linea Caffe",
+      "expectedAddress": "1125 Mariposa St, San Francisco, CA 94107",
+      "previous": {
+        "rating": 4.4,
+        "ratingCount": 304,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.9,
+        "nameScore": 0.6667,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 16,
+        "hardFailures": []
+      },
+      "margin": 0.9,
+      "google": {
+        "placeId": "ChIJ_e_mC2B_j4ARHJS5QQaIqnk",
+        "name": "Linea Coffee Roasting + Caffe",
+        "address": "1125 Mariposa St, San Francisco, CA 94107",
+        "location": {
+          "latitude": 37.7638051,
+          "longitude": -122.39522790000001
+        },
+        "rating": 4.4,
+        "ratingCount": 306,
+        "mapsUri": "https://maps.google.com/?cid=8766969185083954204&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 2
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJ_e_mC2B_j4ARHJS5QQaIqnk",
+          "name": "Linea Coffee Roasting + Caffe",
+          "address": "1125 Mariposa St, San Francisco, CA 94107",
+          "rating": 4.4,
+          "ratingCount": 306,
+          "match": {
+            "score": 0.9,
+            "nameScore": 0.6667,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 16,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "linea-mission",
+      "expectedName": "Linea Caffe",
+      "expectedAddress": "3417 18th St, San Francisco, CA 94110",
+      "previous": {
+        "rating": 4.5,
+        "ratingCount": 321,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 39,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJFUuuvzx-j4ARAYJkkQoM5so",
+        "name": "Linea Caffe",
+        "address": "3417 18th St, San Francisco, CA 94110",
+        "location": {
+          "latitude": 37.761665199999996,
+          "longitude": -122.41996099999999
+        },
+        "rating": 4.5,
+        "ratingCount": 417,
+        "mapsUri": "https://maps.google.com/?cid=14620386479833383425&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 96
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJFUuuvzx-j4ARAYJkkQoM5so",
+          "name": "Linea Caffe",
+          "address": "3417 18th St, San Francisco, CA 94110",
+          "rating": 4.5,
+          "ratingCount": 417,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 39,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "four-barrel",
+      "expectedName": "Four Barrel Coffee",
+      "expectedAddress": "375 Valencia St, San Francisco, CA 94103",
+      "previous": {
+        "rating": 4.5,
+        "ratingCount": 2800,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 11,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJ__abjyF-j4ARmyuzGS1yOdc",
+        "name": "Four Barrel Coffee",
+        "address": "375 Valencia St, San Francisco, CA 94103",
+        "location": {
+          "latitude": 37.7670234,
+          "longitude": -122.42178059999999
+        },
+        "rating": 4.5,
+        "ratingCount": 2672,
+        "mapsUri": "https://maps.google.com/?cid=15508552329857280923&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -128
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJ__abjyF-j4ARmyuzGS1yOdc",
+          "name": "Four Barrel Coffee",
+          "address": "375 Valencia St, San Francisco, CA 94103",
+          "rating": 4.5,
+          "ratingCount": 2672,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 11,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-mill",
+      "expectedName": "The Mill",
+      "expectedAddress": "736 Divisadero St, San Francisco, CA 94117",
+      "previous": {
+        "rating": 4.5,
+        "ratingCount": 2540,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 34,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJVzS3LbCAhYAR6Dw2KqlhWhg",
+        "name": "The Mill",
+        "address": "736 Divisadero St, San Francisco, CA 94117",
+        "location": {
+          "latitude": 37.7764861,
+          "longitude": -122.4378944
+        },
+        "rating": 4.5,
+        "ratingCount": 2277,
+        "mapsUri": "https://maps.google.com/?cid=1754822383999794408&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "CLOSED_TEMPORARILY"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -263
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJVzS3LbCAhYAR6Dw2KqlhWhg",
+          "name": "The Mill",
+          "address": "736 Divisadero St, San Francisco, CA 94117",
+          "rating": 4.5,
+          "ratingCount": 2277,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 34,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "home-sunset",
+      "expectedName": "Home Coffee Roasters",
+      "expectedAddress": "1222 Noriega St, San Francisco, CA 94122",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 1304,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 6,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJrdB62Il9j4ARsRPxJPHaaqQ",
+        "name": "Home Coffee Roasters",
+        "address": "1222 Noriega St, San Francisco, CA 94122",
+        "location": {
+          "latitude": 37.7544545,
+          "longitude": -122.4770135
+        },
+        "rating": 4.6,
+        "ratingCount": 653,
+        "mapsUri": "https://maps.google.com/?cid=11847522498993263537&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -651
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJrdB62Il9j4ARsRPxJPHaaqQ",
+          "name": "Home Coffee Roasters",
+          "address": "1222 Noriega St, San Francisco, CA 94122",
+          "rating": 4.6,
+          "ratingCount": 653,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 6,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "sextant-folsom",
+      "expectedName": "Sextant Coffee Roasters",
+      "expectedAddress": "1415 Folsom St, San Francisco, CA 94103",
+      "previous": {
+        "rating": 4.4,
+        "ratingCount": 732,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 10,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJg1s92Sd-j4ARTKJr-IhF_-Q",
+        "name": "Sextant Coffee Roasters",
+        "address": "1415 Folsom St, San Francisco, CA 94103",
+        "location": {
+          "latitude": 37.772471599999996,
+          "longitude": -122.41296140000001
+        },
+        "rating": 4.4,
+        "ratingCount": 740,
+        "mapsUri": "https://maps.google.com/?cid=16500984014294458956&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 8
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJg1s92Sd-j4ARTKJr-IhF_-Q",
+          "name": "Sextant Coffee Roasters",
+          "address": "1415 Folsom St, San Francisco, CA 94103",
+          "rating": 4.4,
+          "ratingCount": 740,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 10,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "sextant-valencia",
+      "expectedName": "Sextant Coffee Roasters",
+      "expectedAddress": "539 Valencia St, San Francisco, CA 94110",
+      "previous": {
+        "rating": 4.1,
+        "ratingCount": 125,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 6,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJIQZjHwB_j4ARsTSjaZw1feA",
+        "name": "Sextant Coffee Roasters",
+        "address": "539 Valencia St, San Francisco, CA 94110",
+        "location": {
+          "latitude": 37.7643584,
+          "longitude": -122.4216987
+        },
+        "rating": 4.1,
+        "ratingCount": 77,
+        "mapsUri": "https://maps.google.com/?cid=16176144382488163505&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -48
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJIQZjHwB_j4ARsTSjaZw1feA",
+          "name": "Sextant Coffee Roasters",
+          "address": "539 Valencia St, San Francisco, CA 94110",
+          "rating": 4.1,
+          "ratingCount": 77,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 6,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "highwire-rockridge",
+      "expectedName": "Highwire Coffee Roasters",
+      "expectedAddress": "5615 College Ave, Oakland, CA 94618",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 188,
+        "placeId": null
+      },
+      "status": "needs-review",
+      "reasons": [
+        "score-below-0.72"
+      ],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.65,
+        "nameScore": 1,
+        "streetScore": 0,
+        "numberMatches": false,
+        "zipMatches": true,
+        "distanceMeters": 5,
+        "hardFailures": []
+      },
+      "margin": 0.65,
+      "google": {
+        "placeId": "ChIJ8xdRjcJ9hYARM0sJ4KjvIe4",
+        "name": "Highwire Coffee Roasters",
+        "address": "Rockridge Market Hall, 5615 College Ave, Oakland, CA 94618",
+        "location": {
+          "latitude": 37.8436036,
+          "longitude": -122.25185150000001
+        },
+        "rating": 4.6,
+        "ratingCount": 308,
+        "mapsUri": "https://maps.google.com/?cid=17159259563850550067&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": null,
+      "candidates": [
+        {
+          "placeId": "ChIJ8xdRjcJ9hYARM0sJ4KjvIe4",
+          "name": "Highwire Coffee Roasters",
+          "address": "Rockridge Market Hall, 5615 College Ave, Oakland, CA 94618",
+          "rating": 4.6,
+          "ratingCount": 308,
+          "match": {
+            "score": 0.65,
+            "nameScore": 1,
+            "streetScore": 0,
+            "numberMatches": false,
+            "zipMatches": true,
+            "distanceMeters": 5,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "highwire-alameda",
+      "expectedName": "Highwire Coffee Roasters",
+      "expectedAddress": "1234 Park St, Alameda, CA 94501",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 142,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 2,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJwf3zBeqHj4ARhvAlyTJSTrY",
+        "name": "Highwire Coffee Roasters",
+        "address": "1234 Park St, Alameda, CA 94501",
+        "location": {
+          "latitude": 37.7616216,
+          "longitude": -122.24480419999999
+        },
+        "rating": 4.7,
+        "ratingCount": 144,
+        "mapsUri": "https://maps.google.com/?cid=13136527541162864774&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 2
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJwf3zBeqHj4ARhvAlyTJSTrY",
+          "name": "Highwire Coffee Roasters",
+          "address": "1234 Park St, Alameda, CA 94501",
+          "rating": 4.7,
+          "ratingCount": 144,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 2,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "highwire-montclair",
+      "expectedName": "Highwire Coffee Roasters",
+      "expectedAddress": "2059 Mountain Blvd, Oakland, CA 94611",
+      "previous": {
+        "rating": 4.5,
+        "ratingCount": 120,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 16,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJE0PZWH-Hj4ARX1fbI6pOitQ",
+        "name": "Highwire Coffee Roasters",
+        "address": "2059 Mountain Blvd, Oakland, CA 94611",
+        "location": {
+          "latitude": 37.826439,
+          "longitude": -122.2094856
+        },
+        "rating": 4.5,
+        "ratingCount": 126,
+        "mapsUri": "https://maps.google.com/?cid=15315139975479777119&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 6
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJE0PZWH-Hj4ARX1fbI6pOitQ",
+          "name": "Highwire Coffee Roasters",
+          "address": "2059 Mountain Blvd, Oakland, CA 94611",
+          "rating": 4.5,
+          "ratingCount": 126,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 16,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "timeless-piedmont",
+      "expectedName": "Timeless Coffee",
+      "expectedAddress": "4252 Piedmont Ave, Oakland, CA 94611",
+      "previous": {
+        "rating": 4.5,
+        "ratingCount": 1034,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 2,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJF3Pix_Z9hYAREl-3wI4BX_I",
+        "name": "Timeless Coffee",
+        "address": "4252 Piedmont Ave, Oakland, CA 94611",
+        "location": {
+          "latitude": 37.828221299999996,
+          "longitude": -122.24979400000001
+        },
+        "rating": 4.5,
+        "ratingCount": 1019,
+        "mapsUri": "https://maps.google.com/?cid=17464679592596299538&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -15
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJF3Pix_Z9hYAREl-3wI4BX_I",
+          "name": "Timeless Coffee",
+          "address": "4252 Piedmont Ave, Oakland, CA 94611",
+          "rating": 4.5,
+          "ratingCount": 1019,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 2,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "timeless-downtown",
+      "expectedName": "Timeless Coffee",
+      "expectedAddress": "1700 Webster St, Oakland, CA 94612",
+      "previous": {
+        "rating": 4.4,
+        "ratingCount": 312,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 5,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJvTm6TMqBj4ARCp4A1LLm6ms",
+        "name": "Timeless Coffee",
+        "address": "1700 Webster St, Oakland, CA 94612",
+        "location": {
+          "latitude": 37.805732,
+          "longitude": -122.26714559999999
+        },
+        "rating": 4.4,
+        "ratingCount": 265,
+        "mapsUri": "https://maps.google.com/?cid=7776281362343960074&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -47
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJvTm6TMqBj4ARCp4A1LLm6ms",
+          "name": "Timeless Coffee",
+          "address": "1700 Webster St, Oakland, CA 94612",
+          "rating": 4.4,
+          "ratingCount": 265,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 5,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "bicycle-coffee",
+      "expectedName": "Bicycle Coffee",
+      "expectedAddress": "377 2nd St #110, Oakland, CA 94607",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 520,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 8,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJSbBdUciAj4ARwTBjTQ6u0FY",
+        "name": "Bicycle Coffee",
+        "address": "377 2nd St #110, Oakland, CA 94607",
+        "location": {
+          "latitude": 37.7952647,
+          "longitude": -122.2746496
+        },
+        "rating": 4.6,
+        "ratingCount": 602,
+        "mapsUri": "https://maps.google.com/?cid=6255691258868740289&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 82
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJSbBdUciAj4ARwTBjTQ6u0FY",
+          "name": "Bicycle Coffee",
+          "address": "377 2nd St #110, Oakland, CA 94607",
+          "rating": 4.6,
+          "ratingCount": 602,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 8,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "red-bay",
+      "expectedName": "Red Bay Coffee",
+      "expectedAddress": "3098 E 10th St, Oakland, CA 94601",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 391,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.94,
+        "nameScore": 0.8,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 28,
+        "hardFailures": []
+      },
+      "margin": 0.94,
+      "google": {
+        "placeId": "ChIJjcpKrPOGj4ARnp_iaUXAWnY",
+        "name": "Red Bay Coffee Roastery",
+        "address": "3098 E 10th St, Oakland, CA 94601",
+        "location": {
+          "latitude": 37.776125,
+          "longitude": -122.22815279999999
+        },
+        "rating": 4.7,
+        "ratingCount": 382,
+        "mapsUri": "https://maps.google.com/?cid=8528340248741191582&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -9
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJjcpKrPOGj4ARnp_iaUXAWnY",
+          "name": "Red Bay Coffee Roastery",
+          "address": "3098 E 10th St, Oakland, CA 94601",
+          "rating": 4.7,
+          "ratingCount": 382,
+          "match": {
+            "score": 0.94,
+            "nameScore": 0.8,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 28,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "souvenir",
+      "expectedName": "Souvenir Coffee",
+      "expectedAddress": "3084 Claremont Ave, Berkeley, CA 94705",
+      "previous": {
+        "rating": 4.5,
+        "ratingCount": 230,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 13,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJG1xfM899hYARfrx1-OhOLQM",
+        "name": "Souvenir Coffee Co.",
+        "address": "3084 Claremont Ave, Berkeley, CA 94705",
+        "location": {
+          "latitude": 37.854604099999996,
+          "longitude": -122.24846040000001
+        },
+        "rating": 4.5,
+        "ratingCount": 224,
+        "mapsUri": "https://maps.google.com/?cid=228925918573608062&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -6
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJG1xfM899hYARfrx1-OhOLQM",
+          "name": "Souvenir Coffee Co.",
+          "address": "3084 Claremont Ave, Berkeley, CA 94705",
+          "rating": 4.5,
+          "ratingCount": 224,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 13,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "bartavelle",
+      "expectedName": "Bartavelle",
+      "expectedAddress": "1621 San Pablo Ave, Berkeley, CA 94702",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 513,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 7,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJAYt4gMZ-hYARyMgp8yrKXpE",
+        "name": "Bartavelle",
+        "address": "1621 San Pablo Ave, Berkeley, CA 94702",
+        "location": {
+          "latitude": 37.8745088,
+          "longitude": -122.29352899999999
+        },
+        "rating": 4.6,
+        "ratingCount": 394,
+        "mapsUri": "https://maps.google.com/?cid=10475032069127391432&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "CLOSED_PERMANENTLY"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -119
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJAYt4gMZ-hYARyMgp8yrKXpE",
+          "name": "Bartavelle",
+          "address": "1621 San Pablo Ave, Berkeley, CA 94702",
+          "rating": 4.6,
+          "ratingCount": 394,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 7,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "backhaus",
+      "expectedName": "Backhaus",
+      "expectedAddress": "32 E 3rd Ave, San Mateo, CA 94401",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 1172,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.85,
+        "nameScore": 0.5,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 10,
+        "hardFailures": []
+      },
+      "margin": 0.85,
+      "google": {
+        "placeId": "ChIJZUKtRO6dj4ARnBtJIUgEkwM",
+        "name": "Backhaus | San Mateo",
+        "address": "32 E 3rd Ave, San Mateo, CA 94401",
+        "location": {
+          "latitude": 37.5633452,
+          "longitude": -122.32510669999999
+        },
+        "rating": 4.7,
+        "ratingCount": 862,
+        "mapsUri": "https://maps.google.com/?cid=257554311532845980&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -310
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJZUKtRO6dj4ARnBtJIUgEkwM",
+          "name": "Backhaus | San Mateo",
+          "address": "32 E 3rd Ave, San Mateo, CA 94401",
+          "rating": 4.7,
+          "ratingCount": 862,
+          "match": {
+            "score": 0.85,
+            "nameScore": 0.5,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 10,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "backyard-brew",
+      "expectedName": "Backyard Brew",
+      "expectedAddress": "444 California Ave, Palo Alto, CA 94306",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 1360,
+        "placeId": null
+      },
+      "status": "needs-review",
+      "reasons": [
+        "zip-mismatch"
+      ],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.85,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": false,
+        "distanceMeters": 12,
+        "hardFailures": [
+          "zip-mismatch"
+        ]
+      },
+      "margin": 0.85,
+      "google": {
+        "placeId": "ChIJtVNO8OW6j4AR9sfufgwNafQ",
+        "name": "Backyard Brew",
+        "address": "444 California Ave, Palo Alto, CA 94301",
+        "location": {
+          "latitude": 37.4260472,
+          "longitude": -122.14538610000001
+        },
+        "rating": 4.7,
+        "ratingCount": 717,
+        "mapsUri": "https://maps.google.com/?cid=17611622165129381878&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "CLOSED_TEMPORARILY"
+      },
+      "delta": null,
+      "candidates": [
+        {
+          "placeId": "ChIJtVNO8OW6j4AR9sfufgwNafQ",
+          "name": "Backyard Brew",
+          "address": "444 California Ave, Palo Alto, CA 94301",
+          "rating": 4.7,
+          "ratingCount": 717,
+          "match": {
+            "score": 0.85,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": false,
+            "distanceMeters": 12,
+            "hardFailures": [
+              "zip-mismatch"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "coupa-ramona",
+      "expectedName": "Coupa Cafe",
+      "expectedAddress": "538 Ramona St, Palo Alto, CA 94301",
+      "previous": {
+        "rating": 4.3,
+        "ratingCount": 1660,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.9,
+        "nameScore": 0.6667,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 22,
+        "hardFailures": []
+      },
+      "margin": 0.9,
+      "google": {
+        "placeId": "ChIJY5UIijm7j4ARPkLgY0DXJuI",
+        "name": "Coupa Cafe - Ramona",
+        "address": "538 Ramona St, Palo Alto, CA 94301",
+        "location": {
+          "latitude": 37.444609199999995,
+          "longitude": -122.16152839999998
+        },
+        "rating": 4.3,
+        "ratingCount": 1789,
+        "mapsUri": "https://maps.google.com/?cid=16295948973240238654&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 129
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJY5UIijm7j4ARPkLgY0DXJuI",
+          "name": "Coupa Cafe - Ramona",
+          "address": "538 Ramona St, Palo Alto, CA 94301",
+          "rating": 4.3,
+          "ratingCount": 1789,
+          "match": {
+            "score": 0.9,
+            "nameScore": 0.6667,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 22,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "saint-frank-menlo",
+      "expectedName": "Saint Frank Coffee",
+      "expectedAddress": "1018 Alma St, Menlo Park, CA 94025",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 553,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 4,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJZ0SkJ3Slj4AR_iaT_Q_Da5A",
+        "name": "Saint Frank Coffee",
+        "address": "1018 Alma St, Menlo Park, CA 94025",
+        "location": {
+          "latitude": 37.4547178,
+          "longitude": -122.1815384
+        },
+        "rating": 4.6,
+        "ratingCount": 434,
+        "mapsUri": "https://maps.google.com/?cid=10406625837415868158&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -119
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJZ0SkJ3Slj4AR_iaT_Q_Da5A",
+          "name": "Saint Frank Coffee",
+          "address": "1018 Alma St, Menlo Park, CA 94025",
+          "rating": 4.6,
+          "ratingCount": 434,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 4,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "coffeebar-menlo",
+      "expectedName": "Coffeebar",
+      "expectedAddress": "1149 Chestnut St, Menlo Park, CA 94025",
+      "previous": {
+        "rating": 4.4,
+        "ratingCount": 1038,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 14,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJ2aR2-6-kj4ARCRsRgFybxcc",
+        "name": "Coffeebar",
+        "address": "1149 Chestnut St, Menlo Park, CA 94025",
+        "location": {
+          "latitude": 37.452,
+          "longitude": -122.1855
+        },
+        "rating": 4.4,
+        "ratingCount": 1018,
+        "mapsUri": "https://maps.google.com/?cid=14395082605547559689&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -20
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJ2aR2-6-kj4ARCRsRgFybxcc",
+          "name": "Coffeebar",
+          "address": "1149 Chestnut St, Menlo Park, CA 94025",
+          "rating": 4.4,
+          "ratingCount": 1018,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 14,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "cafe-borrone",
+      "expectedName": "Cafe Borrone",
+      "expectedAddress": "1010 El Camino Real, Menlo Park, CA 94025",
+      "previous": {
+        "rating": 4.4,
+        "ratingCount": 1809,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 17,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJARB2O66kj4ARF-HVDDNeV7c",
+        "name": "Cafe Borrone",
+        "address": "1010 El Camino Real, Menlo Park, CA 94025",
+        "location": {
+          "latitude": 37.4537501,
+          "longitude": -122.18230530000001
+        },
+        "rating": 4.4,
+        "ratingCount": 2263,
+        "mapsUri": "https://maps.google.com/?cid=13211131605266325783&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 454
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJARB2O66kj4ARF-HVDDNeV7c",
+          "name": "Cafe Borrone",
+          "address": "1010 El Camino Real, Menlo Park, CA 94025",
+          "rating": 4.4,
+          "ratingCount": 2263,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 17,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "academic",
+      "expectedName": "Academic Coffee",
+      "expectedAddress": "499 S Second St, San Jose, CA 95113",
+      "previous": {
+        "rating": 4.5,
+        "ratingCount": 777,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 4,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJIVuSKLfMj4ARPWUcbvSK-iM",
+        "name": "Academic Coffee",
+        "address": "499 S Second St, San Jose, CA 95113",
+        "location": {
+          "latitude": 37.3291328,
+          "longitude": -121.8840982
+        },
+        "rating": 4.5,
+        "ratingCount": 889,
+        "mapsUri": "https://maps.google.com/?cid=2592537317929149757&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 112
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJIVuSKLfMj4ARPWUcbvSK-iM",
+          "name": "Academic Coffee",
+          "address": "499 S Second St, San Jose, CA 95113",
+          "rating": 4.5,
+          "ratingCount": 889,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 4,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "voltaire",
+      "expectedName": "Voltaire Coffee Roasters",
+      "expectedAddress": "360 S Market St, San Jose, CA 95113",
+      "previous": {
+        "rating": 4.5,
+        "ratingCount": 796,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 61,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJjSzdg7DMj4AROVyAQ3YwPWw",
+        "name": "Voltaire Coffee Roasters",
+        "address": "360 S Market St Unit 80, San Jose, CA 95113",
+        "location": {
+          "latitude": 37.329889099999995,
+          "longitude": -121.88684810000001
+        },
+        "rating": 4.5,
+        "ratingCount": 631,
+        "mapsUri": "https://maps.google.com/?cid=7799443414172326969&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -165
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJjSzdg7DMj4AROVyAQ3YwPWw",
+          "name": "Voltaire Coffee Roasters",
+          "address": "360 S Market St Unit 80, San Jose, CA 95113",
+          "rating": 4.5,
+          "ratingCount": 631,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 61,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "moonwake",
+      "expectedName": "Moonwake Coffee Roasters",
+      "expectedAddress": "1412 Saratoga Ave, San Jose, CA 95129",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 868,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.96,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 102,
+        "hardFailures": []
+      },
+      "margin": 0.96,
+      "google": {
+        "placeId": "ChIJwzr6IgDLj4AR-t5Kzg2cY50",
+        "name": "Moonwake Coffee Roasters",
+        "address": "1412 Saratoga Ave, San Jose, CA 95129",
+        "location": {
+          "latitude": 37.2980553,
+          "longitude": -121.9835456
+        },
+        "rating": 4.7,
+        "ratingCount": 517,
+        "mapsUri": "https://maps.google.com/?cid=11341079869758562042&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -351
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJwzr6IgDLj4AR-t5Kzg2cY50",
+          "name": "Moonwake Coffee Roasters",
+          "address": "1412 Saratoga Ave, San Jose, CA 95129",
+          "rating": 4.7,
+          "ratingCount": 517,
+          "match": {
+            "score": 0.96,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 102,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "lookout",
+      "expectedName": "Lookout Coffee",
+      "expectedAddress": "2135 S Winchester Blvd Suite 100, Campbell, CA 95008",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 538,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 12,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJKWKj1XE1joARjbfXn0oC3k0",
+        "name": "Lookout Coffee",
+        "address": "2135 S Winchester Blvd Ste 100, Campbell, CA 95008",
+        "location": {
+          "latitude": 37.2847796,
+          "longitude": -121.9500012
+        },
+        "rating": 4.7,
+        "ratingCount": 329,
+        "mapsUri": "https://maps.google.com/?cid=5610924705282766733&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -209
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJKWKj1XE1joARjbfXn0oC3k0",
+          "name": "Lookout Coffee",
+          "address": "2135 S Winchester Blvd Ste 100, Campbell, CA 95008",
+          "rating": 4.7,
+          "ratingCount": 329,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 12,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "coffee-water-lab",
+      "expectedName": "Coffee & Water Lab",
+      "expectedAddress": "603 Saratoga Ave #40, San Jose, CA 95129",
+      "previous": {
+        "rating": 4.5,
+        "ratingCount": 844,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 15,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJZ-HNI57Lj4ARmMJY6Sh26p0",
+        "name": "Coffee & Water Lab",
+        "address": "603 Saratoga Ave #40, San Jose, CA 95129",
+        "location": {
+          "latitude": 37.3155753,
+          "longitude": -121.97655619999999
+        },
+        "rating": 4.5,
+        "ratingCount": 598,
+        "mapsUri": "https://maps.google.com/?cid=11379037326590657176&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -246
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJZ-HNI57Lj4ARmMJY6Sh26p0",
+          "name": "Coffee & Water Lab",
+          "address": "603 Saratoga Ave #40, San Jose, CA 95129",
+          "rating": 4.5,
+          "ratingCount": 598,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 15,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "red-whale",
+      "expectedName": "Red Whale Coffee",
+      "expectedAddress": "169 Paul Dr, San Rafael, CA 94903",
+      "previous": {
+        "rating": 4.5,
+        "ratingCount": 1043,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 12,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJ71RRfCCYhYAR44GTG-HTFrQ",
+        "name": "Red Whale Coffee",
+        "address": "169 Paul Dr., San Rafael, CA 94903",
+        "location": {
+          "latitude": 38.018699999999995,
+          "longitude": -122.53695370000001
+        },
+        "rating": 4.5,
+        "ratingCount": 290,
+        "mapsUri": "https://maps.google.com/?cid=12976792340098417123&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -753
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJ71RRfCCYhYAR44GTG-HTFrQ",
+          "name": "Red Whale Coffee",
+          "address": "169 Paul Dr., San Rafael, CA 94903",
+          "rating": 4.5,
+          "ratingCount": 290,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 12,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "equator-sausalito",
+      "expectedName": "Equator Coffees",
+      "expectedAddress": "1201 Bridgeway, Sausalito, CA 94965",
+      "previous": {
+        "rating": 4.3,
+        "ratingCount": 941,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.9333,
+        "nameScore": 1,
+        "streetScore": 0.6667,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 16,
+        "hardFailures": []
+      },
+      "margin": 0.9333,
+      "google": {
+        "placeId": "ChIJix1ZlBWFhYARYGvaX0v1wHY",
+        "name": "Equator Coffees",
+        "address": "1201 Bridgeway A, Sausalito, CA 94965",
+        "location": {
+          "latitude": 37.859091,
+          "longitude": -122.48534649999999
+        },
+        "rating": 4.3,
+        "ratingCount": 595,
+        "mapsUri": "https://maps.google.com/?cid=8557108996083444576&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -346
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJix1ZlBWFhYARYGvaX0v1wHY",
+          "name": "Equator Coffees",
+          "address": "1201 Bridgeway A, Sausalito, CA 94965",
+          "rating": 4.3,
+          "ratingCount": 595,
+          "match": {
+            "score": 0.9333,
+            "nameScore": 1,
+            "streetScore": 0.6667,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 16,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "blue-bottle-mint",
+      "expectedName": "Blue Bottle Coffee",
+      "expectedAddress": "66 Mint St, San Francisco, CA 94103",
+      "previous": {
+        "rating": 4.4,
+        "ratingCount": 2852,
+        "placeId": null
+      },
+      "status": "needs-review",
+      "reasons": [
+        "street-number-mismatch",
+        "score-below-0.72"
+      ],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.53,
+        "nameScore": 1,
+        "streetScore": 0,
+        "numberMatches": false,
+        "zipMatches": true,
+        "distanceMeters": 632,
+        "hardFailures": [
+          "street-number-mismatch"
+        ]
+      },
+      "margin": 0.08,
+      "google": {
+        "placeId": "ChIJ4xOZTZKBhYARUJEVtLq6msQ",
+        "name": "Blue Bottle Coffee",
+        "address": "705 Market St, San Francisco, CA 94103",
+        "location": {
+          "latitude": 37.787127999999996,
+          "longitude": -122.40364249999999
+        },
+        "rating": 4,
+        "ratingCount": 431,
+        "mapsUri": "https://maps.google.com/?cid=14166840888895312208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": null,
+      "candidates": [
+        {
+          "placeId": "ChIJ4xOZTZKBhYARUJEVtLq6msQ",
+          "name": "Blue Bottle Coffee",
+          "address": "705 Market St, San Francisco, CA 94103",
+          "rating": 4,
+          "ratingCount": 431,
+          "match": {
+            "score": 0.53,
+            "nameScore": 1,
+            "streetScore": 0,
+            "numberMatches": false,
+            "zipMatches": true,
+            "distanceMeters": 632,
+            "hardFailures": [
+              "street-number-mismatch"
+            ]
+          }
+        },
+        {
+          "placeId": "ChIJ1VGyjmCBhYAR_pOL0q5shVs",
+          "name": "Blue Bottle Coffee",
+          "address": "55 S Van Ness Ave, San Francisco, CA 94103",
+          "rating": 3.7,
+          "ratingCount": 93,
+          "match": {
+            "score": 0.45,
+            "nameScore": 1,
+            "streetScore": 0,
+            "numberMatches": false,
+            "zipMatches": true,
+            "distanceMeters": 1347,
+            "hardFailures": [
+              "street-number-mismatch"
+            ]
+          }
+        },
+        {
+          "placeId": "ChIJkTp9BlSBhYARQ4Ac1T2twbk",
+          "name": "Blue Bottle Coffee",
+          "address": "199 Sutter St, San Francisco, CA 94104",
+          "rating": 4.1,
+          "ratingCount": 344,
+          "match": {
+            "score": 0.3,
+            "nameScore": 1,
+            "streetScore": 0,
+            "numberMatches": false,
+            "zipMatches": false,
+            "distanceMeters": 882,
+            "hardFailures": [
+              "street-number-mismatch",
+              "zip-mismatch"
+            ]
+          }
+        },
+        {
+          "placeId": "ChIJSy28upiAhYARkoxpzFnW7b4",
+          "name": "Blue Bottle Coffee",
+          "address": "315 Linden St, San Francisco, CA 94102",
+          "rating": 4.6,
+          "ratingCount": 894,
+          "match": {
+            "score": 0.3,
+            "nameScore": 1,
+            "streetScore": 0,
+            "numberMatches": false,
+            "zipMatches": false,
+            "distanceMeters": 1522,
+            "hardFailures": [
+              "street-number-mismatch",
+              "zip-mismatch",
+              "distance-over-1500m"
+            ]
+          }
+        },
+        {
+          "placeId": "ChIJKyGeO8uBhYARGBl0pZptD8c",
+          "name": "Blue Bottle Coffee",
+          "address": "168 2nd St, San Francisco, CA 94105",
+          "rating": 4.4,
+          "ratingCount": 363,
+          "match": {
+            "score": 0.3,
+            "nameScore": 1,
+            "streetScore": 0,
+            "numberMatches": false,
+            "zipMatches": false,
+            "distanceMeters": 928,
+            "hardFailures": [
+              "street-number-mismatch",
+              "zip-mismatch"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "reveille-north-beach",
+      "expectedName": "Reveille Coffee",
+      "expectedAddress": "200 Columbus Ave, San Francisco, CA 94133",
+      "previous": {
+        "rating": 4.3,
+        "ratingCount": 995,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 70,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJsU3K7vSAhYARv8bNtVUBHYo",
+        "name": "Réveille Coffee Co.",
+        "address": "200 Columbus Ave, San Francisco, CA 94133",
+        "location": {
+          "latitude": 37.797272199999995,
+          "longitude": -122.40557779999999
+        },
+        "rating": 4.3,
+        "ratingCount": 894,
+        "mapsUri": "https://maps.google.com/?cid=9952112219192673983&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -101
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJsU3K7vSAhYARv8bNtVUBHYo",
+          "name": "Réveille Coffee Co.",
+          "address": "200 Columbus Ave, San Francisco, CA 94133",
+          "rating": 4.3,
+          "ratingCount": 894,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 70,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "caffe-trieste",
+      "expectedName": "Caffe Trieste",
+      "expectedAddress": "601 Vallejo St, San Francisco, CA 94133",
+      "previous": {
+        "rating": 4.4,
+        "ratingCount": 1938,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.96,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 93,
+        "hardFailures": []
+      },
+      "margin": 0.96,
+      "google": {
+        "placeId": "ChIJcyHa9fOAhYAR7reGSUvtLe4",
+        "name": "Caffe Trieste",
+        "address": "601 Vallejo St, San Francisco, CA 94133",
+        "location": {
+          "latitude": 37.7986417,
+          "longitude": -122.40731389999999
+        },
+        "rating": 4.4,
+        "ratingCount": 1770,
+        "mapsUri": "https://maps.google.com/?cid=17162634662590724078&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -168
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJcyHa9fOAhYAR7reGSUvtLe4",
+          "name": "Caffe Trieste",
+          "address": "601 Vallejo St, San Francisco, CA 94133",
+          "rating": 4.4,
+          "ratingCount": 1770,
+          "match": {
+            "score": 0.96,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 93,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "mr-espresso",
+      "expectedName": "The Caffè by Mr. Espresso",
+      "expectedAddress": "1120 Broadway, Oakland, CA 94607",
+      "previous": {
+        "rating": 4.8,
+        "ratingCount": 305,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 30,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJg4F97hSBj4ARHciI78IYfIk",
+        "name": "The Caffè by Mr. Espresso",
+        "address": "1120 Broadway, Oakland, CA 94607",
+        "location": {
+          "latitude": 37.8025534,
+          "longitude": -122.2721601
+        },
+        "rating": 4.8,
+        "ratingCount": 214,
+        "mapsUri": "https://maps.google.com/?cid=9906820505829689373&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -91
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJg4F97hSBj4ARHciI78IYfIk",
+          "name": "The Caffè by Mr. Espresso",
+          "address": "1120 Broadway, Oakland, CA 94607",
+          "rating": 4.8,
+          "ratingCount": 214,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 30,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "grand-coffee",
+      "expectedName": "Grand Coffee",
+      "expectedAddress": "2663 Mission St, San Francisco, CA 94110",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 145,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 21,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJC0tDSj9-j4AROcvQfiqe1y8",
+        "name": "Grand Coffee",
+        "address": "2663 Mission St, San Francisco, CA 94110",
+        "location": {
+          "latitude": 37.754472,
+          "longitude": -122.4185021
+        },
+        "rating": 4.6,
+        "ratingCount": 212,
+        "mapsUri": "https://maps.google.com/?cid=3447397945128831801&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 67
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJC0tDSj9-j4AROcvQfiqe1y8",
+          "name": "Grand Coffee",
+          "address": "2663 Mission St, San Francisco, CA 94110",
+          "rating": 4.6,
+          "ratingCount": 212,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 21,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "obsequent-sf",
+      "expectedName": "Obsequent Coffee",
+      "expectedAddress": "2700 16th St, San Francisco, CA 94103",
+      "previous": {
+        "rating": 4.4,
+        "ratingCount": 70,
+        "placeId": null
+      },
+      "status": "needs-review",
+      "reasons": [
+        "name-similarity-too-low",
+        "score-below-0.72"
+      ],
+      "resolution": "text-search",
+      "match": {
+        "score": 0.5,
+        "nameScore": 0,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 1030,
+        "hardFailures": [
+          "name-similarity-too-low"
+        ]
+      },
+      "margin": 0.5,
+      "google": {
+        "placeId": "ChIJQQ8G1W9_j4AR9XzBxTt5smc",
+        "name": "Jolene’s Bar and Restaurant",
+        "address": "2700 16th St, San Francisco, CA 94103",
+        "location": {
+          "latitude": 37.7656245,
+          "longitude": -122.41340319999999
+        },
+        "rating": 4.4,
+        "ratingCount": 237,
+        "mapsUri": "https://maps.google.com/?cid=7472168029388897525&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": null,
+      "candidates": [
+        {
+          "placeId": "ChIJQQ8G1W9_j4AR9XzBxTt5smc",
+          "name": "Jolene’s Bar and Restaurant",
+          "address": "2700 16th St, San Francisco, CA 94103",
+          "rating": 4.4,
+          "ratingCount": 237,
+          "match": {
+            "score": 0.5,
+            "nameScore": 0,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 1030,
+            "hardFailures": [
+              "name-similarity-too-low"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "verve-mission",
+      "expectedName": "Verve Coffee Roasters",
+      "expectedAddress": "2101 Market St, San Francisco, CA 94114",
+      "previous": {
+        "rating": 4.4,
+        "ratingCount": 1097,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 36,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJUVdHex5-j4ARPEs27aq3-tg",
+        "name": "Verve Coffee Roasters",
+        "address": "2101 Market St, San Francisco, CA 94114",
+        "location": {
+          "latitude": 37.7671579,
+          "longitude": -122.42909730000001
+        },
+        "rating": 4.4,
+        "ratingCount": 867,
+        "mapsUri": "https://maps.google.com/?cid=15635011001122179900&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -230
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJUVdHex5-j4ARPEs27aq3-tg",
+          "name": "Verve Coffee Roasters",
+          "address": "2101 Market St, San Francisco, CA 94114",
+          "rating": 4.4,
+          "ratingCount": 867,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 36,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "sf-delah",
+      "expectedName": "Delah Coffee",
+      "expectedAddress": "370 4th St, San Francisco, CA 94107",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 1372,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJL86gDJmBhYARjQPJ6NsYQZQ",
+        "name": "Delah Coffee",
+        "address": "370 4th St, San Francisco, CA 94107",
+        "location": {
+          "latitude": 37.7810165,
+          "longitude": -122.40022440000001
+        },
+        "rating": 4.6,
+        "ratingCount": 1150,
+        "mapsUri": "https://maps.google.com/?cid=10682847123881919373&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -222
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJL86gDJmBhYARjQPJ6NsYQZQ",
+          "name": "Delah Coffee",
+          "address": "370 4th St, San Francisco, CA 94107",
+          "rating": 4.6,
+          "ratingCount": 1150,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "sf-juniper",
+      "expectedName": "Juniper",
+      "expectedAddress": "1401 Polk St, San Francisco, CA 94109",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 983,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJTTq11ZmBhYARmN1Y-YkucFs",
+        "name": "Juniper",
+        "address": "1401 Polk St, San Francisco, CA 94109",
+        "location": {
+          "latitude": 37.789742000000004,
+          "longitude": -122.42075570000002
+        },
+        "rating": 4.7,
+        "ratingCount": 604,
+        "mapsUri": "https://maps.google.com/?cid=6588817424971783576&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -379
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJTTq11ZmBhYARmN1Y-YkucFs",
+          "name": "Juniper",
+          "address": "1401 Polk St, San Francisco, CA 94109",
+          "rating": 4.7,
+          "ratingCount": 604,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "sf-doppio",
+      "expectedName": "Doppio Coffee & Brunch",
+      "expectedAddress": "1551 Mission St, San Francisco, CA 94103",
+      "previous": {
+        "rating": 4.8,
+        "ratingCount": 559,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJy8vmGC2BhYARu919i3bko-Q",
+        "name": "Doppio Coffee & Brunch",
+        "address": "1551 Mission St, San Francisco, CA 94103",
+        "location": {
+          "latitude": 37.7733151,
+          "longitude": -122.41801260000001
+        },
+        "rating": 4.8,
+        "ratingCount": 441,
+        "mapsUri": "https://maps.google.com/?cid=16475263059648961979&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -118
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJy8vmGC2BhYARu919i3bko-Q",
+          "name": "Doppio Coffee & Brunch",
+          "address": "1551 Mission St, San Francisco, CA 94103",
+          "rating": 4.8,
+          "ratingCount": 441,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "sf-hedge",
+      "expectedName": "Hedge Coffee",
+      "expectedAddress": "434 Shotwell St, San Francisco, CA 94110",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 554,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJN6Ruz-2AhYARgtds57VLcVw",
+        "name": "Hedge Coffee",
+        "address": "434 Shotwell St, San Francisco, CA 94110",
+        "location": {
+          "latitude": 37.76129770000001,
+          "longitude": -122.4163533
+        },
+        "rating": 4.6,
+        "ratingCount": 320,
+        "mapsUri": "https://maps.google.com/?cid=6661188568501507970&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -234
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJN6Ruz-2AhYARgtds57VLcVw",
+          "name": "Hedge Coffee",
+          "address": "434 Shotwell St, San Francisco, CA 94110",
+          "rating": 4.6,
+          "ratingCount": 320,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "sf-coffee-berry",
+      "expectedName": "The Coffee Berry SF",
+      "expectedAddress": "1410 Lombard St, San Francisco, CA 94123",
+      "previous": {
+        "rating": 4.9,
+        "ratingCount": 381,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJC2jb8DWBhYARo4AAX78U50c",
+        "name": "The Coffee Berry SF",
+        "address": "1410 Lombard St, San Francisco, CA 94123",
+        "location": {
+          "latitude": 37.8014124,
+          "longitude": -122.4249979
+        },
+        "rating": 4.9,
+        "ratingCount": 616,
+        "mapsUri": "https://maps.google.com/?cid=5181132708478222499&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 235
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJC2jb8DWBhYARo4AAX78U50c",
+          "name": "The Coffee Berry SF",
+          "address": "1410 Lombard St, San Francisco, CA 94123",
+          "rating": 4.9,
+          "ratingCount": 616,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "sf-telescope",
+      "expectedName": "Telescope Coffee",
+      "expectedAddress": "345 6th St, San Francisco, CA 94103",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 347,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJmRBAGYh_j4ARuOFprBGKIxI",
+        "name": "Telescope Coffee",
+        "address": "345 6th St, San Francisco, CA 94103",
+        "location": {
+          "latitude": 37.7780998,
+          "longitude": -122.404845
+        },
+        "rating": 4.6,
+        "ratingCount": 290,
+        "mapsUri": "https://maps.google.com/?cid=1307040125379273144&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -57
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJmRBAGYh_j4ARuOFprBGKIxI",
+          "name": "Telescope Coffee",
+          "address": "345 6th St, San Francisco, CA 94103",
+          "rating": 4.6,
+          "ratingCount": 290,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "sf-golden-goat",
+      "expectedName": "Golden Goat Coffee",
+      "expectedAddress": "599 3rd St #100, San Francisco, CA 94107",
+      "previous": {
+        "rating": 4.8,
+        "ratingCount": 342,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJ20Ta-TmBhYAR0sHU-G-fzs8",
+        "name": "Golden Goat Coffee",
+        "address": "599 3rd St #100, San Francisco, CA 94107",
+        "location": {
+          "latitude": 37.7804645,
+          "longitude": -122.39447539999999
+        },
+        "rating": 4.8,
+        "ratingCount": 429,
+        "mapsUri": "https://maps.google.com/?cid=14974081114318356946&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 87
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJ20Ta-TmBhYAR0sHU-G-fzs8",
+          "name": "Golden Goat Coffee",
+          "address": "599 3rd St #100, San Francisco, CA 94107",
+          "rating": 4.8,
+          "ratingCount": 429,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "sf-abanico",
+      "expectedName": "Abanico Coffee Roasters",
+      "expectedAddress": "2121 Mission St, San Francisco, CA 94110",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 342,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJKddyyZN_j4ARHqb6DZLUjGQ",
+        "name": "Abanico Coffee Roasters",
+        "address": "2121 Mission St, San Francisco, CA 94110",
+        "location": {
+          "latitude": 37.762954199999996,
+          "longitude": -122.4191888
+        },
+        "rating": 4.6,
+        "ratingCount": 275,
+        "mapsUri": "https://maps.google.com/?cid=7245399624297129502&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -67
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJKddyyZN_j4ARHqb6DZLUjGQ",
+          "name": "Abanico Coffee Roasters",
+          "address": "2121 Mission St, San Francisco, CA 94110",
+          "rating": 4.6,
+          "ratingCount": 275,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "east-belmo",
+      "expectedName": "Belmo Café",
+      "expectedAddress": "1160 University Ave, Berkeley, CA 94702",
+      "previous": {
+        "rating": 4.8,
+        "ratingCount": 709,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJOWpkg0R_hYAR3h2OHu0xyUM",
+        "name": "Belmo Café",
+        "address": "1160 University Ave, Berkeley, CA 94702",
+        "location": {
+          "latitude": 37.869090500000006,
+          "longitude": -122.29030969999998
+        },
+        "rating": 4.8,
+        "ratingCount": 497,
+        "mapsUri": "https://maps.google.com/?cid=4884490165349653982&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -212
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJOWpkg0R_hYAR3h2OHu0xyUM",
+          "name": "Belmo Café",
+          "address": "1160 University Ave, Berkeley, CA 94702",
+          "rating": 4.8,
+          "ratingCount": 497,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "east-delah",
+      "expectedName": "Delah Coffee",
+      "expectedAddress": "420 W Grand Ave, Oakland, CA 94612",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 750,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJs-v5NbuBj4ARA2hFj8HkLl0",
+        "name": "Delah Coffee",
+        "address": "420 W Grand Ave, Oakland, CA 94612",
+        "location": {
+          "latitude": 37.811783,
+          "longitude": -122.2671992
+        },
+        "rating": 4.6,
+        "ratingCount": 480,
+        "mapsUri": "https://maps.google.com/?cid=6714555614439499779&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -270
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJs-v5NbuBj4ARA2hFj8HkLl0",
+          "name": "Delah Coffee",
+          "address": "420 W Grand Ave, Oakland, CA 94612",
+          "rating": 4.6,
+          "ratingCount": 480,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "east-sanaa-broadway",
+      "expectedName": "Sana'a Cafe",
+      "expectedAddress": "801 Broadway, Oakland, CA 94607",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 576,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJV1Pk2oGBj4ARmkvbanmG1-U",
+        "name": "Sana'a Cafe",
+        "address": "801 Broadway, Oakland, CA 94607",
+        "location": {
+          "latitude": 37.800413,
+          "longitude": -122.2739177
+        },
+        "rating": 4.7,
+        "ratingCount": 378,
+        "mapsUri": "https://maps.google.com/?cid=16561854010720209818&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -198
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJV1Pk2oGBj4ARmkvbanmG1-U",
+          "name": "Sana'a Cafe",
+          "address": "801 Broadway, Oakland, CA 94607",
+          "rating": 4.7,
+          "ratingCount": 378,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "east-victory-point",
+      "expectedName": "Victory Point Cafe",
+      "expectedAddress": "1797 Shattuck Ave. Ste A, Berkeley, CA 94709",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 471,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJc4U-eZ9-hYAR5ih4d-bZpBI",
+        "name": "Victory Point Cafe",
+        "address": "1797 Shattuck Ave. Ste A, Berkeley, CA 94709",
+        "location": {
+          "latitude": 37.8751742,
+          "longitude": -122.2684613
+        },
+        "rating": 4.7,
+        "ratingCount": 938,
+        "mapsUri": "https://maps.google.com/?cid=1343438172733319398&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 467
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJc4U-eZ9-hYAR5ih4d-bZpBI",
+          "name": "Victory Point Cafe",
+          "address": "1797 Shattuck Ave. Ste A, Berkeley, CA 94709",
+          "rating": 4.7,
+          "ratingCount": 938,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "east-my-coffee",
+      "expectedName": "MY Coffee Roastery",
+      "expectedAddress": "2080 Martin Luther King Jr Way, Berkeley, CA 94704",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 434,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJxapf8PF_hYARPg1Ki7Ws9pE",
+        "name": "MY Coffee Roastery",
+        "address": "2080 Martin Luther King Jr Way, Berkeley, CA 94704",
+        "location": {
+          "latitude": 37.870711899999996,
+          "longitude": -122.2731315
+        },
+        "rating": 4.7,
+        "ratingCount": 413,
+        "mapsUri": "https://maps.google.com/?cid=10517783875496316222&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -21
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJxapf8PF_hYARPg1Ki7Ws9pE",
+          "name": "MY Coffee Roastery",
+          "address": "2080 Martin Luther King Jr Way, Berkeley, CA 94704",
+          "rating": 4.7,
+          "ratingCount": 413,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "east-roast-toast",
+      "expectedName": "Roast & Toast Cafe",
+      "expectedAddress": "1746 Shattuck Ave., Berkeley, CA 94709",
+      "previous": {
+        "rating": 4.8,
+        "ratingCount": 430,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJQZB1_yB_hYARYGKHL3uvmh8",
+        "name": "Roast & Toast Cafe",
+        "address": "1746 Shattuck Ave., Berkeley, CA 94709",
+        "location": {
+          "latitude": 37.8758159,
+          "longitude": -122.2690731
+        },
+        "rating": 4.8,
+        "ratingCount": 211,
+        "mapsUri": "https://maps.google.com/?cid=2277325505202446944&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -219
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJQZB1_yB_hYARYGKHL3uvmh8",
+          "name": "Roast & Toast Cafe",
+          "address": "1746 Shattuck Ave., Berkeley, CA 94709",
+          "rating": 4.8,
+          "ratingCount": 211,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "east-jaffa",
+      "expectedName": "Jaffa Coffee Roasters",
+      "expectedAddress": "1701 University Ave, Berkeley, CA 94703",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 390,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJ3S7tAwB_hYARWSJ9hEM3GTk",
+        "name": "Jaffa Coffee Roasters",
+        "address": "1701 University Ave, Berkeley, CA 94703",
+        "location": {
+          "latitude": 37.8711768,
+          "longitude": -122.27739359999998
+        },
+        "rating": 4.7,
+        "ratingCount": 326,
+        "mapsUri": "https://maps.google.com/?cid=4114380497704788569&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -64
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJ3S7tAwB_hYARWSJ9hEM3GTk",
+          "name": "Jaffa Coffee Roasters",
+          "address": "1701 University Ave, Berkeley, CA 94703",
+          "rating": 4.7,
+          "ratingCount": 326,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "east-mohka",
+      "expectedName": "Mohka House",
+      "expectedAddress": "2139 MacArthur Blvd, Oakland, CA 94602",
+      "previous": {
+        "rating": 4.9,
+        "ratingCount": 370,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJH8vbEwGHj4ARJsV5uYVszrg",
+        "name": "Mohka House",
+        "address": "2139 MacArthur Blvd, Oakland, CA 94602",
+        "location": {
+          "latitude": 37.8003573,
+          "longitude": -122.2165706
+        },
+        "rating": 4.9,
+        "ratingCount": 325,
+        "mapsUri": "https://maps.google.com/?cid=13316700469779350822&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -45
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJH8vbEwGHj4ARJsV5uYVszrg",
+          "name": "Mohka House",
+          "address": "2139 MacArthur Blvd, Oakland, CA 94602",
+          "rating": 4.9,
+          "ratingCount": 325,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "east-heyma",
+      "expectedName": "Heyma Yemeni Coffee",
+      "expectedAddress": "1122 University Ave, Berkeley, CA 94702",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 360,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJ3fC75mB_hYARj7WCQZNIMxk",
+        "name": "Heyma Yemeni Coffee",
+        "address": "1122 University Ave, Berkeley, CA 94702",
+        "location": {
+          "latitude": 37.8690804,
+          "longitude": -122.29088890000001
+        },
+        "rating": 4.7,
+        "ratingCount": 337,
+        "mapsUri": "https://maps.google.com/?cid=1815874872056919439&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -23
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJ3fC75mB_hYARj7WCQZNIMxk",
+          "name": "Heyma Yemeni Coffee",
+          "address": "1122 University Ave, Berkeley, CA 94702",
+          "rating": 4.7,
+          "ratingCount": 337,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "east-aint-normal",
+      "expectedName": "Ain't Normal Cafe",
+      "expectedAddress": "5701 College Ave, Oakland, CA 94618",
+      "previous": {
+        "rating": 4.5,
+        "ratingCount": 333,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJUborLjx_hYARle9InnFaRGA",
+        "name": "Ain't Normal Cafe",
+        "address": "5701 College Ave, Oakland, CA 94618",
+        "location": {
+          "latitude": 37.845345099999996,
+          "longitude": -122.2520176
+        },
+        "rating": 4.5,
+        "ratingCount": 336,
+        "mapsUri": "https://maps.google.com/?cid=6936768770090790805&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 3
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJUborLjx_hYARle9InnFaRGA",
+          "name": "Ain't Normal Cafe",
+          "address": "5701 College Ave, Oakland, CA 94618",
+          "rating": 4.5,
+          "ratingCount": 336,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "peninsula-zombierunner",
+      "expectedName": "ZombieRunner Coffee",
+      "expectedAddress": "344 California Ave, Palo Alto, CA 94306",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 337,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJA_0-8-W6j4ARRLCg6K5oT6k",
+        "name": "ZombieRunner Coffee",
+        "address": "344 California Ave, Palo Alto, CA 94306",
+        "location": {
+          "latitude": 37.4270448,
+          "longitude": -122.14446740000001
+        },
+        "rating": 4.6,
+        "ratingCount": 506,
+        "mapsUri": "https://maps.google.com/?cid=12200085016006406212&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 169
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJA_0-8-W6j4ARRLCg6K5oT6k",
+          "name": "ZombieRunner Coffee",
+          "address": "344 California Ave, Palo Alto, CA 94306",
+          "rating": 4.6,
+          "ratingCount": 506,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "peninsula-one-oz",
+      "expectedName": "1 Oz Coffee",
+      "expectedAddress": "650 Castro St #130, Mountain View, CA 94041",
+      "previous": {
+        "rating": 4.5,
+        "ratingCount": 1114,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJxwQEyDK3j4AR59pi_8IhYN8",
+        "name": "1 Oz Coffee",
+        "address": "650 Castro St #130, Mountain View, CA 94041",
+        "location": {
+          "latitude": 37.387865399999995,
+          "longitude": -122.08295269999999
+        },
+        "rating": 4.5,
+        "ratingCount": 1042,
+        "mapsUri": "https://maps.google.com/?cid=16095902189614193383&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -72
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJxwQEyDK3j4AR59pi_8IhYN8",
+          "name": "1 Oz Coffee",
+          "address": "650 Castro St #130, Mountain View, CA 94041",
+          "rating": 4.5,
+          "ratingCount": 1042,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "peninsula-kaizen",
+      "expectedName": "KAIZEN & COFFEE",
+      "expectedAddress": "2337 S El Camino Real, San Mateo, CA 94403",
+      "previous": {
+        "rating": 4.8,
+        "ratingCount": 683,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJgb-xRfmej4ARck6mLp3MPCg",
+        "name": "KAIZEN & COFFEE",
+        "address": "2337 S El Camino Real, San Mateo, CA 94403",
+        "location": {
+          "latitude": 37.5450158,
+          "longitude": -122.3060171
+        },
+        "rating": 4.8,
+        "ratingCount": 568,
+        "mapsUri": "https://maps.google.com/?cid=2899417235584339570&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -115
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJgb-xRfmej4ARck6mLp3MPCg",
+          "name": "KAIZEN & COFFEE",
+          "address": "2337 S El Camino Real, San Mateo, CA 94403",
+          "rating": 4.8,
+          "ratingCount": 568,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "peninsula-fiero",
+      "expectedName": "Fiero Caffe",
+      "expectedAddress": "106 S El Camino Real, San Mateo, CA 94401",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 610,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJqxxHgnGej4ARtiKkJAXq-3E",
+        "name": "Fiero Caffe",
+        "address": "106 S El Camino Real, San Mateo, CA 94401",
+        "location": {
+          "latitude": 37.563971699999996,
+          "longitude": -122.3273052
+        },
+        "rating": 4.7,
+        "ratingCount": 565,
+        "mapsUri": "https://maps.google.com/?cid=8213415653250704054&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -45
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJqxxHgnGej4ARtiKkJAXq-3E",
+          "name": "Fiero Caffe",
+          "address": "106 S El Camino Real, San Mateo, CA 94401",
+          "rating": 4.7,
+          "ratingCount": 565,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "peninsula-cloud9",
+      "expectedName": "Cloud9 Coffee",
+      "expectedAddress": "1901 Embarcadero Rd #103, Palo Alto, CA 94303",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 473,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJ9YkCOjK7j4ARR6MNfoe2y3w",
+        "name": "Cloud9 Coffee",
+        "address": "1901 Embarcadero Rd #103, Palo Alto, CA 94303",
+        "location": {
+          "latitude": 37.4542924,
+          "longitude": -122.1151711
+        },
+        "rating": 4.7,
+        "ratingCount": 262,
+        "mapsUri": "https://maps.google.com/?cid=8992481774026990407&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -211
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJ9YkCOjK7j4ARR6MNfoe2y3w",
+          "name": "Cloud9 Coffee",
+          "address": "1901 Embarcadero Rd #103, Palo Alto, CA 94303",
+          "rating": 4.7,
+          "ratingCount": 262,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "peninsula-little-late-bird",
+      "expectedName": "Little Late Bird",
+      "expectedAddress": "777 Mariners Island Blvd Ste 170, San Mateo, CA 94404",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 441,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJUbQYn8Sfj4AR4Ewh5cOk788",
+        "name": "Little Late Bird",
+        "address": "777 Mariners Island Blvd Ste 170, San Mateo, CA 94404",
+        "location": {
+          "latitude": 37.5621565,
+          "longitude": -122.28612189999998
+        },
+        "rating": 4.7,
+        "ratingCount": 206,
+        "mapsUri": "https://maps.google.com/?cid=14983375646554672352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -235
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJUbQYn8Sfj4AR4Ewh5cOk788",
+          "name": "Little Late Bird",
+          "address": "777 Mariners Island Blvd Ste 170, San Mateo, CA 94404",
+          "rating": 4.7,
+          "ratingCount": 206,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "peninsula-sanaa",
+      "expectedName": "SANA'A CAFE",
+      "expectedAddress": "2400 Broadway Ste 120, Redwood City, CA 94063",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 442,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJhfX8qg6jj4ARoSRAJ4nQhb0",
+        "name": "SANA'A CAFE",
+        "address": "2400 Broadway Ste 120, Redwood City, CA 94063",
+        "location": {
+          "latitude": 37.4865934,
+          "longitude": -122.23140699999999
+        },
+        "rating": 4.7,
+        "ratingCount": 443,
+        "mapsUri": "https://maps.google.com/?cid=13656550732558509217&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 1
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJhfX8qg6jj4ARoSRAJ4nQhb0",
+          "name": "SANA'A CAFE",
+          "address": "2400 Broadway Ste 120, Redwood City, CA 94063",
+          "rating": 4.7,
+          "ratingCount": 443,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "peninsula-cappucho",
+      "expectedName": "Cappucho Cafe & Coffee Roaster",
+      "expectedAddress": "1180 Main St, Redwood City, CA 94063",
+      "previous": {
+        "rating": 4.9,
+        "ratingCount": 302,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJJ5J2kv-jj4ARJsKuT9kLpiQ",
+        "name": "Cappucho Cafe & Coffee Roaster",
+        "address": "1180 Main St, Redwood City, CA 94063",
+        "location": {
+          "latitude": 37.4814416,
+          "longitude": -122.22590999999998
+        },
+        "rating": 4.9,
+        "ratingCount": 38,
+        "mapsUri": "https://maps.google.com/?cid=2640811259472036390&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -264
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJJ5J2kv-jj4ARJsKuT9kLpiQ",
+          "name": "Cappucho Cafe & Coffee Roaster",
+          "address": "1180 Main St, Redwood City, CA 94063",
+          "rating": 4.9,
+          "ratingCount": 38,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "peninsula-yard",
+      "expectedName": "The Yard Coffee",
+      "expectedAddress": "1018 Main St, Redwood City, CA 94063",
+      "previous": {
+        "rating": 4.8,
+        "ratingCount": 245,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJ3UxGUbOjj4ARJB4UuKcHAvI",
+        "name": "The Yard Coffee",
+        "address": "1018 Main St, Redwood City, CA 94063",
+        "location": {
+          "latitude": 37.4835997,
+          "longitude": -122.22637080000001
+        },
+        "rating": 4.8,
+        "ratingCount": 208,
+        "mapsUri": "https://maps.google.com/?cid=17438509124061240868&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -37
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJ3UxGUbOjj4ARJB4UuKcHAvI",
+          "name": "The Yard Coffee",
+          "address": "1018 Main St, Redwood City, CA 94063",
+          "rating": 4.8,
+          "ratingCount": 208,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "peninsula-brew",
+      "expectedName": "Brew Coffee and Bakery",
+      "expectedAddress": "3176 Middlefield Rd, Redwood City, CA 94063",
+      "previous": {
+        "rating": 4.8,
+        "ratingCount": 240,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJwcATzt-jj4ARbcG4r3uveOE",
+        "name": "Brew Coffee and Bakery",
+        "address": "3176 Middlefield Rd, Redwood City, CA 94063",
+        "location": {
+          "latitude": 37.4722359,
+          "longitude": -122.2050891
+        },
+        "rating": 4.8,
+        "ratingCount": 185,
+        "mapsUri": "https://maps.google.com/?cid=16246928601503023469&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -55
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJwcATzt-jj4ARbcG4r3uveOE",
+          "name": "Brew Coffee and Bakery",
+          "address": "3176 Middlefield Rd, Redwood City, CA 94063",
+          "rating": 4.8,
+          "ratingCount": 185,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "south-jiaren",
+      "expectedName": "Jiaren Cafe: Coffee, Boba & Events",
+      "expectedAddress": "1171 Homestead Rd #140b, Santa Clara, CA 95050",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 3490,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJldD7ClLLj4ARj4GAZwGefcI",
+        "name": "Jiaren Cafe: Coffee, Boba & Events",
+        "address": "1171 Homestead Rd #140b, Santa Clara, CA 95050",
+        "location": {
+          "latitude": 37.3485601,
+          "longitude": -121.94573390000001
+        },
+        "rating": 4.6,
+        "ratingCount": 440,
+        "mapsUri": "https://maps.google.com/?cid=14014531344315482511&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -3050
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJldD7ClLLj4ARj4GAZwGefcI",
+          "name": "Jiaren Cafe: Coffee, Boba & Events",
+          "address": "1171 Homestead Rd #140b, Santa Clara, CA 95050",
+          "rating": 4.6,
+          "ratingCount": 440,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "south-roys",
+      "expectedName": "Roy's Station Coffee & Tea",
+      "expectedAddress": "197 Jackson St, San Jose, CA 95112",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 1108,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJF9mblITMj4ARzz2Pv8MTbOY",
+        "name": "Roy's Station Coffee & Tea",
+        "address": "197 Jackson St, San Jose, CA 95112",
+        "location": {
+          "latitude": 37.3490192,
+          "longitude": -121.8947173
+        },
+        "rating": 4.6,
+        "ratingCount": 1047,
+        "mapsUri": "https://maps.google.com/?cid=16603667657661562319&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -61
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJF9mblITMj4ARzz2Pv8MTbOY",
+          "name": "Roy's Station Coffee & Tea",
+          "address": "197 Jackson St, San Jose, CA 95112",
+          "rating": 4.6,
+          "ratingCount": 1047,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "south-bavetta",
+      "expectedName": "Bavetta Coffee",
+      "expectedAddress": "754 The Alameda #80, San Jose, CA 95126",
+      "previous": {
+        "rating": 4.5,
+        "ratingCount": 849,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJ0wyO1VjLj4ARObqaoRs3Ge4",
+        "name": "Bavetta Coffee",
+        "address": "754 The Alameda #80, San Jose, CA 95126",
+        "location": {
+          "latitude": 37.331550799999995,
+          "longitude": -121.9053621
+        },
+        "rating": 4.5,
+        "ratingCount": 631,
+        "mapsUri": "https://maps.google.com/?cid=17156804847259531833&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -218
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJ0wyO1VjLj4ARObqaoRs3Ge4",
+          "name": "Bavetta Coffee",
+          "address": "754 The Alameda #80, San Jose, CA 95126",
+          "rating": 4.5,
+          "ratingCount": 631,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "south-chromatic",
+      "expectedName": "Chromatic Coffee Co.",
+      "expectedAddress": "460 Lincoln Ave #10, San Jose, CA 95126",
+      "previous": {
+        "rating": 4.5,
+        "ratingCount": 802,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJPcPBm6rLj4ARpj3BqKNmHGY",
+        "name": "Chromatic Coffee Co.",
+        "address": "460 Lincoln Ave #10, San Jose, CA 95126",
+        "location": {
+          "latitude": 37.3207416,
+          "longitude": -121.90806740000001
+        },
+        "rating": 4.5,
+        "ratingCount": 709,
+        "mapsUri": "https://maps.google.com/?cid=7357868744313486758&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -93
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJPcPBm6rLj4ARpj3BqKNmHGY",
+          "name": "Chromatic Coffee Co.",
+          "address": "460 Lincoln Ave #10, San Jose, CA 95126",
+          "rating": 4.5,
+          "ratingCount": 709,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "south-drink",
+      "expectedName": "Dr.ink",
+      "expectedAddress": "77 N Almaden Ave #70, San Jose, CA 95110",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 773,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJD2nt8SvNj4AR_p2NcFCqZnE",
+        "name": "Dr.ink",
+        "address": "77 N Almaden Ave #70, San Jose, CA 95110",
+        "location": {
+          "latitude": 37.3363155,
+          "longitude": -121.89537849999998
+        },
+        "rating": 4.6,
+        "ratingCount": 407,
+        "mapsUri": "https://maps.google.com/?cid=8171405836372778494&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -366
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJD2nt8SvNj4AR_p2NcFCqZnE",
+          "name": "Dr.ink",
+          "address": "77 N Almaden Ave #70, San Jose, CA 95110",
+          "rating": 4.6,
+          "ratingCount": 407,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "south-nabi",
+      "expectedName": "Nabi Cat Cafe",
+      "expectedAddress": "2255 The Alameda, Santa Clara, CA 95050",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 490,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJ8ZCXuhjLj4ARp8Ueh4MKkjM",
+        "name": "Nabi Cat Cafe",
+        "address": "2255 The Alameda, Santa Clara, CA 95050",
+        "location": {
+          "latitude": 37.3445366,
+          "longitude": -121.9332005
+        },
+        "rating": 4.7,
+        "ratingCount": 169,
+        "mapsUri": "https://maps.google.com/?cid=3716044202558014887&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -321
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJ8ZCXuhjLj4ARp8Ueh4MKkjM",
+          "name": "Nabi Cat Cafe",
+          "address": "2255 The Alameda, Santa Clara, CA 95050",
+          "rating": 4.7,
+          "ratingCount": 169,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "south-dumont",
+      "expectedName": "Dumont Creamery & Café",
+      "expectedAddress": "28 N Almaden Ave Ste 40, San Jose, CA 95110",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 459,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJE-eRQrDNj4AR3e4Z95l-Ru8",
+        "name": "Dumont Creamery & Café",
+        "address": "28 N Almaden Ave Ste 40, San Jose, CA 95110",
+        "location": {
+          "latitude": 37.3354049,
+          "longitude": -121.89363409999999
+        },
+        "rating": 4.7,
+        "ratingCount": 277,
+        "mapsUri": "https://maps.google.com/?cid=17241607423175290589&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -182
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJE-eRQrDNj4AR3e4Z95l-Ru8",
+          "name": "Dumont Creamery & Café",
+          "address": "28 N Almaden Ave Ste 40, San Jose, CA 95110",
+          "rating": 4.7,
+          "ratingCount": 277,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "south-moonbeans",
+      "expectedName": "MoonBean's Coffee",
+      "expectedAddress": "6219 Santa Teresa Blvd, San Jose, CA 95119",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 353,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJRTtYXi4ujoARm3YH-EeAs6I",
+        "name": "MoonBean's Coffee",
+        "address": "6219 Santa Teresa Blvd, San Jose, CA 95119",
+        "location": {
+          "latitude": 37.2360519,
+          "longitude": -121.80244119999999
+        },
+        "rating": 4.6,
+        "ratingCount": 516,
+        "mapsUri": "https://maps.google.com/?cid=11723855301567805083&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 163
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJRTtYXi4ujoARm3YH-EeAs6I",
+          "name": "MoonBean's Coffee",
+          "address": "6219 Santa Teresa Blvd, San Jose, CA 95119",
+          "rating": 4.6,
+          "ratingCount": 516,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "south-am-craft",
+      "expectedName": "A.M. Craft",
+      "expectedAddress": "481 E San Carlos St, San Jose, CA 95112",
+      "previous": {
+        "rating": 4.8,
+        "ratingCount": 282,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJpYp4wuzNj4AR8VL1qESAL5I",
+        "name": "A.M. Craft",
+        "address": "481 E San Carlos St, San Jose, CA 95112",
+        "location": {
+          "latitude": 37.336416899999996,
+          "longitude": -121.87701539999999
+        },
+        "rating": 4.8,
+        "ratingCount": 219,
+        "mapsUri": "https://maps.google.com/?cid=10533779085823660785&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -63
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJpYp4wuzNj4AR8VL1qESAL5I",
+          "name": "A.M. Craft",
+          "address": "481 E San Carlos St, San Jose, CA 95112",
+          "rating": 4.8,
+          "ratingCount": 219,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "south-qishr",
+      "expectedName": "Qishr Coffee House",
+      "expectedAddress": "90 Skyport Dr #140, San Jose, CA 95110",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 262,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJrZ8JGADLj4AR_7XHzyHJDpQ",
+        "name": "Qishr Coffee House",
+        "address": "90 Skyport Dr #140, San Jose, CA 95110",
+        "location": {
+          "latitude": 37.3654858,
+          "longitude": -121.91586290000001
+        },
+        "rating": 4.7,
+        "ratingCount": 203,
+        "mapsUri": "https://maps.google.com/?cid=10668685714344359423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -59
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJrZ8JGADLj4AR_7XHzyHJDpQ",
+          "name": "Qishr Coffee House",
+          "address": "90 Skyport Dr #140, San Jose, CA 95110",
+          "rating": 4.7,
+          "ratingCount": 203,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "marin-firehouse",
+      "expectedName": "Firehouse Coffee & Tea",
+      "expectedAddress": "317 Johnson St, Sausalito, CA 94965",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 522,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJF0YLsVGEhYARbbHx6EFwzQA",
+        "name": "Firehouse Coffee & Tea",
+        "address": "317 Johnson St, Sausalito, CA 94965",
+        "location": {
+          "latitude": 37.858581699999995,
+          "longitude": -122.483983
+        },
+        "rating": 4.7,
+        "ratingCount": 591,
+        "mapsUri": "https://maps.google.com/?cid=57825798609023341&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 69
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJF0YLsVGEhYARbbHx6EFwzQA",
+          "name": "Firehouse Coffee & Tea",
+          "address": "317 Johnson St, Sausalito, CA 94965",
+          "rating": 4.7,
+          "ratingCount": 591,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "marin-sanaa",
+      "expectedName": "Sana'a Cafe",
+      "expectedAddress": "1146 4th St, San Rafael, CA 94901",
+      "previous": {
+        "rating": 4.8,
+        "ratingCount": 305,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJc4BnDACZhYAREiA8P8SUrfE",
+        "name": "Sana'a Cafe",
+        "address": "1146 4th St, San Rafael, CA 94901",
+        "location": {
+          "latitude": 37.9733792,
+          "longitude": -122.5293509
+        },
+        "rating": 4.8,
+        "ratingCount": 339,
+        "mapsUri": "https://maps.google.com/?cid=17414738904706981906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 34
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJc4BnDACZhYAREiA8P8SUrfE",
+          "name": "Sana'a Cafe",
+          "address": "1146 4th St, San Rafael, CA 94901",
+          "rating": 4.8,
+          "ratingCount": 339,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "marin-franko",
+      "expectedName": "Franko & Coffee",
+      "expectedAddress": "721 Bridgeway, Sausalito, CA 94965",
+      "previous": {
+        "rating": 4.7,
+        "ratingCount": 314,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJNxeSbgCFhYARfkhTzah74V4",
+        "name": "Franko & Coffee",
+        "address": "721 Bridgeway, Sausalito, CA 94965",
+        "location": {
+          "latitude": 37.856195899999996,
+          "longitude": -122.47987940000002
+        },
+        "rating": 4.7,
+        "ratingCount": 277,
+        "mapsUri": "https://maps.google.com/?cid=6836881674254633086&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -37
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJNxeSbgCFhYARfkhTzah74V4",
+          "name": "Franko & Coffee",
+          "address": "721 Bridgeway, Sausalito, CA 94965",
+          "rating": 4.7,
+          "ratingCount": 277,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "marin-kamson",
+      "expectedName": "Kamson Coffee",
+      "expectedAddress": "819 Francisco Blvd W, San Rafael, CA 94901",
+      "previous": {
+        "rating": 4.8,
+        "ratingCount": 135,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJA25HIsWbhYARgNqsIv_zeVE",
+        "name": "Kamson Coffee",
+        "address": "819 Francisco Blvd W, San Rafael, CA 94901",
+        "location": {
+          "latitude": 37.9607969,
+          "longitude": -122.51046649999999
+        },
+        "rating": 4.8,
+        "ratingCount": 105,
+        "mapsUri": "https://maps.google.com/?cid=5870991866378115712&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": -30
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJA25HIsWbhYARgNqsIv_zeVE",
+          "name": "Kamson Coffee",
+          "address": "819 Francisco Blvd W, San Rafael, CA 94901",
+          "rating": 4.8,
+          "ratingCount": 105,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "marin-coffee-roasters",
+      "expectedName": "Marin Coffee Roasters",
+      "expectedAddress": "466 Ignacio Blvd, Novato, CA 94949",
+      "previous": {
+        "rating": 4.6,
+        "ratingCount": 132,
+        "placeId": null
+      },
+      "status": "matched",
+      "reasons": [],
+      "resolution": "text-search",
+      "match": {
+        "score": 1,
+        "nameScore": 1,
+        "streetScore": 1,
+        "numberMatches": true,
+        "zipMatches": true,
+        "distanceMeters": 0,
+        "hardFailures": []
+      },
+      "margin": 1,
+      "google": {
+        "placeId": "ChIJi4Y9Fy69hYARbddLXQteqSg",
+        "name": "Marin Coffee Roasters",
+        "address": "466 Ignacio Blvd, Novato, CA 94949",
+        "location": {
+          "latitude": 38.0674302,
+          "longitude": -122.542532
+        },
+        "rating": 4.6,
+        "ratingCount": 199,
+        "mapsUri": "https://maps.google.com/?cid=2929976435484120941&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "businessStatus": "OPERATIONAL"
+      },
+      "delta": {
+        "rating": 0,
+        "ratingCount": 67
+      },
+      "candidates": [
+        {
+          "placeId": "ChIJi4Y9Fy69hYARbddLXQteqSg",
+          "name": "Marin Coffee Roasters",
+          "address": "466 Ignacio Blvd, Novato, CA 94949",
+          "rating": 4.6,
+          "ratingCount": 199,
+          "match": {
+            "score": 1,
+            "nameScore": 1,
+            "streetScore": 1,
+            "numberMatches": true,
+            "zipMatches": true,
+            "distanceMeters": 0,
+            "hardFailures": []
+          }
+        }
+      ]
+    }
+  ]
+}

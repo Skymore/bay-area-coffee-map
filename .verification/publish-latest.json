@@ -1,0 +1,37 @@
+{
+  "publishedAt": "2026-07-11T12:04:00Z",
+  "url": "https://room.ruit.me/p/coffee/",
+  "slug": "coffee",
+  "versionId": "20260711T120400Z_281ea73b",
+  "fileCount": 6,
+  "totalBytes": 3637615,
+  "buildCommand": "npm run build:publish",
+  "verificationCommand": "node scripts/check-published-site.mjs https://room.ruit.me/p/coffee .checks/published-gallery-final.png",
+  "verification": {
+    "cards": 100,
+    "ratingCounts": 100,
+    "photoFrames": 296,
+    "atlasFrames": 296,
+    "atlasStatuses": {
+      "cafe-atlas.jpg": 200,
+      "cafe-atlas-2.jpg": 200,
+      "cafe-atlas-3.jpg": 200
+    },
+    "screenshot": ".checks/published-gallery-final.png",
+    "noTrailingSlashEntry": true,
+    "popupScreenshot": ".checks/published-vibes-latest.png",
+    "mapDetailPanels": 0,
+    "popupPanels": 1,
+    "listMapSelectionSynchronized": true,
+    "mapSelectionPreservesListScroll": true,
+    "fractionalRatingStars": true,
+    "ratingCountVisible": true,
+    "photoCarousels": 98,
+    "routePanels": 0,
+    "vibeChips": 16,
+    "specialtyFilterCards": 17,
+    "desktopPopupScrollable": false,
+    "desktopBodyScrollable": false,
+    "blockedCopyTerms": []
+  }
+}

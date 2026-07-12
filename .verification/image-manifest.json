@@ -1,0 +1,458 @@
+[
+  {
+    "id": "andytown",
+    "file": "/images/cafes/andytown.jpg",
+    "source": "https://www.google.com/maps/place/Andytown+Coffee+Roasters/data=!4m7!3m6!1s0x8085879aba03ee79:0xbfb64139d85ba75d!8m2!3d37.7566712!4d-122.5023147!16s%2Fg%2F1pzs9t4cq!19sChIJee4DupqHhYARXadb2DlBtr8?authuser=0&hl=en&rclk=1",
+    "bytes": 27486,
+    "contentType": "image/jpeg",
+    "sha256": "c8abf21164065520d9e974bca985ba63f819046e17c8ad25f81ccd0bf985e4a9"
+  },
+  {
+    "id": "sightglass",
+    "file": "/images/cafes/sightglass.jpg",
+    "source": "https://www.google.com/maps/place/Sightglass+Coffee/data=!4m7!3m6!1s0x80858082387de57f:0xc144ba641bc1c6bb!8m2!3d37.7770356!4d-122.4084543!16s%2Fm%2F09vwwy6!19sChIJf-V9OIKAhYARu8bBG2S6RME?authuser=0&hl=en&rclk=1",
+    "bytes": 34052,
+    "contentType": "image/jpeg",
+    "sha256": "94f094b7ebe95ed17a4ebcbf3a94d31b6d8e4158e9f3cfcabaad7d3489b0dbbc"
+  },
+  {
+    "id": "ritual",
+    "file": "/images/cafes/ritual.jpg",
+    "source": "https://www.google.com/maps/place/Ritual+Coffee+Roasters/data=!4m7!3m6!1s0x808f7e3e89dacb9b:0x6b734213bb326353!8m2!3d37.7564253!4d-122.4214111!16s%2Fm%2F0j4nwdd!19sChIJm8vaiT5-j4ARU2MyuxNCc2s?authuser=0&hl=en&rclk=1",
+    "bytes": 26472,
+    "contentType": "image/jpeg",
+    "sha256": "f67e773bb2997dfa501b40c4413865061b99ed56f3ef6b82af6727fc9ad630ed"
+  },
+  {
+    "id": "saint-frank",
+    "file": "/images/cafes/saint-frank.jpg",
+    "source": "https://www.google.com/maps/place/Saint+Frank+Coffee/data=!4m7!3m6!1s0x808580e84308f899:0x1a6c72e2732c9aab!8m2!3d37.7984797!4d-122.4220775!16s%2Fg%2F1q5bp32vc!19sChIJmfgIQ-iAhYARq5osc-JybBo?authuser=0&hl=en&rclk=1",
+    "bytes": 35650,
+    "contentType": "image/jpeg",
+    "sha256": "3f1148936d8dbbc1e9cbc9f0354abadaca78bd2bf32dcb76a00c87944d26083f"
+  },
+  {
+    "id": "the-crown",
+    "file": "/images/cafes/the-crown.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=The%20Crown%3A%20Royal%20Coffee%20Lab%2C%202523%20Broadway%2C%20Oakland%2C%20CA%2094612",
+    "bytes": 27093,
+    "contentType": "image/jpeg",
+    "sha256": "b1f71856678e56d83be13f5a85495f40ba7e2da45309525ad1bc4dd8824db89f"
+  },
+  {
+    "id": "mother-tongue",
+    "file": "/images/cafes/mother-tongue.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Mother%20Tongue%20Cafe%20%26%20Bar%2C%20308%2041st%20St%2C%20Oakland%2C%20CA%2094609",
+    "bytes": 35380,
+    "contentType": "image/jpeg",
+    "sha256": "94f103ac72f27460aa50e738809d52bd7a34105d44bcd561e30f66cc2289db26"
+  },
+  {
+    "id": "states",
+    "file": "/images/cafes/states.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=States%20Coffee%2C%20419%2040th%20St%2C%20Oakland%2C%20CA%2094609",
+    "bytes": 18455,
+    "contentType": "image/jpeg",
+    "sha256": "f8e9e5f7a41b36272876e043b866eefbd2df3d8af4c66459b2590cc275c974d1"
+  },
+  {
+    "id": "1951",
+    "file": "/images/cafes/1951.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=1951%20Coffee%20Company%2C%202410%20Channing%20Way%2C%20Berkeley%2C%20CA%2094704",
+    "bytes": 29474,
+    "contentType": "image/jpeg",
+    "sha256": "a2e25fc739ed89020b462a3db18f772afd92e9fa0214a8aacce19fd813ce4835"
+  },
+  {
+    "id": "coro",
+    "file": "/images/cafes/coro.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=CoRo%20Coffee%20Room%2C%202324%20Fifth%20St%2C%20Berkeley%2C%20CA%2094710",
+    "bytes": 27035,
+    "contentType": "image/jpeg",
+    "sha256": "9cbaaa95377521e993562bdb8ba64fe468cfdd1869848793b179f15afb0a0521"
+  },
+  {
+    "id": "artis",
+    "file": "/images/cafes/artis.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Artis%20Coffee%2C%201717%204th%20St%20B%2C%20Berkeley%2C%20CA%2094710",
+    "bytes": 39622,
+    "contentType": "image/jpeg",
+    "sha256": "9e9073e2e60060101254a20574136e2e33dc46890b8fd1767fc4e5b5af498e33"
+  },
+  {
+    "id": "equator",
+    "file": "/images/cafes/equator.jpg",
+    "source": "https://www.google.com/maps/place/Equator+Coffees/data=!4m7!3m6!1s0x8085907280790bdd:0x862c5c4a81ac56d6!8m2!3d37.9059487!4d-122.5484386!16s%2Fg%2F11b6hwjywz!19sChIJ3Qt5gHKQhYAR1lasgUpcLIY?authuser=0&hl=en&rclk=1",
+    "bytes": 36250,
+    "contentType": "image/jpeg",
+    "sha256": "df256904f7523de7618bcf26a4b13e6a2dc0a2d8a8438b540f229c8af65103c5"
+  },
+  {
+    "id": "devout",
+    "file": "/images/cafes/devout.jpg",
+    "source": "https://www.google.com/maps/place/Devout+Coffee/data=!4m7!3m6!1s0x808fc06d8d744305:0xf811309993d4989!8m2!3d37.5772214!4d-121.9807194!16s%2Fg%2F1pv0tv6z8!19sChIJBUN0jW3Aj4ARiUk9mQkTgQ8?authuser=0&hl=en&rclk=1",
+    "bytes": 23860,
+    "contentType": "image/jpeg",
+    "sha256": "079be53012a4cd02275cb27a81cc2181ffa132fae006f3d30688fff2742633c4"
+  },
+  {
+    "id": "verve-palo-alto",
+    "file": "/images/cafes/verve-palo-alto.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Verve%20Coffee%20Roasters%2C%20162%20University%20Ave%2C%20Palo%20Alto%2C%20CA%2094301",
+    "bytes": 23146,
+    "contentType": "image/jpeg",
+    "sha256": "c3b7a3f164a209cf2376d0a346e6c397c059a7e1d52746511b7b568697c6ebfa"
+  },
+  {
+    "id": "red-rock",
+    "file": "/images/cafes/red-rock.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Red%20Rock%20Coffee%2C%20201%20Castro%20St%2C%20Mountain%20View%2C%20CA%2094041",
+    "bytes": 35079,
+    "contentType": "image/jpeg",
+    "sha256": "1c177dff40317d0f74f77bfb87745e462ad528c5a510ca8ecd7a721700a67370"
+  },
+  {
+    "id": "voyager",
+    "file": "/images/cafes/voyager.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Voyager%20Craft%20Coffee%2C%20111%20W%20St%20John%20St%20Ste%20100%2C%20San%20Jose%2C%20CA%2095113",
+    "bytes": 20303,
+    "contentType": "image/jpeg",
+    "sha256": "f59f2a8b3d53385e666aaaf895da40512bc88c089c241269bed15e145805853c"
+  },
+  {
+    "id": "nirvana",
+    "file": "/images/cafes/nirvana.jpg",
+    "source": "https://www.google.com/maps/place/Nirvana+Soul+Coffee/data=!4m7!3m6!1s0x808fcdf9b0ce52cf:0xfdeac7a5e235e1b0!8m2!3d37.3311664!4d-121.8870153!16s%2Fg%2F11jdc2xh4w!19sChIJz1LOsPnNj4ARsOE14qXH6v0?authuser=0&hl=en&rclk=1",
+    "bytes": 26428,
+    "contentType": "image/jpeg",
+    "sha256": "7871f4049172728d2fc0e4a3c5c9cbb9898d5060a2be7230800f3f702eb29e4f"
+  },
+  {
+    "id": "barefoot",
+    "file": "/images/cafes/barefoot.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Barefoot%20Coffee%2C%201819%20S%20Bascom%20Ave%2C%20Campbell%2C%20CA%2095008",
+    "bytes": 26181,
+    "contentType": "image/jpeg",
+    "sha256": "624c0bc1e9984b82d8c1bff4e11362b95ba77ab0274fd0cdcdebcddf4b2e7034"
+  },
+  {
+    "id": "big-mug",
+    "file": "/images/cafes/big-mug.jpg",
+    "source": "https://www.google.com/maps/place/Big+Mug+Coffee+Roaster/data=!4m7!3m6!1s0x808fca129ca13001:0xb516fdf2b4c2a30b!8m2!3d37.3515167!4d-121.980882!16s%2Fg%2F11bbrjvhmz!19sChIJATChnBLKj4ARC6PCtPL9FrU?authuser=0&hl=en&rclk=1",
+    "bytes": 20626,
+    "contentType": "image/jpeg",
+    "sha256": "8d8838ecf39ceeb28157398f25685770ea63a6f2cb81ccee86e6e77e114ea95b"
+  },
+  {
+    "id": "coffee-movement-chinatown",
+    "file": "/images/cafes/coffee-movement-chinatown.jpg",
+    "source": "https://www.google.com/maps/place/The+Coffee+Movement/data=!4m7!3m6!1s0x808580f2dc1b33a1:0x1cb0bd8eb71079b1!8m2!3d37.7947671!4d-122.4102942!16s%2Fg%2F11gdvqtpvr!19sChIJoTMb3PKAhYARsXkQt469sBw?authuser=0&hl=en&rclk=1",
+    "bytes": 29363,
+    "contentType": "image/jpeg",
+    "sha256": "ac3a4ba88aad7de5ff2fa9cce0a0aa748df5b9229b888c72099eba8e281f15cf"
+  },
+  {
+    "id": "coffee-movement-richmond",
+    "file": "/images/cafes/coffee-movement-richmond.jpg",
+    "source": "https://www.google.com/maps/place/The+Coffee+Movement/data=!4m7!3m6!1s0x808587fb77f5f64d:0x25d564f177f99946!8m2!3d37.7764721!4d-122.4778225!16s%2Fg%2F11sbx1rx9m!19sChIJTfb1d_uHhYARRpn5d_Fk1SU?authuser=0&hl=en&rclk=1",
+    "bytes": 14113,
+    "contentType": "image/jpeg",
+    "sha256": "53b93b7db4ac60d03c723086940f647721374951431ffd625f28ca1f6b247cf9"
+  },
+  {
+    "id": "wrecking-ball",
+    "file": "/images/cafes/wrecking-ball.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Wrecking%20Ball%20Coffee%20Roasters%2C%202271%20Union%20St%2C%20San%20Francisco%2C%20CA%2094123",
+    "bytes": 16546,
+    "contentType": "image/jpeg",
+    "sha256": "a85c41ff794db88c9224f1d90025361e5247642a469300aa30f32b2527a5a577"
+  },
+  {
+    "id": "linea-potrero",
+    "file": "/images/cafes/linea-potrero.jpg",
+    "source": "https://www.google.com/maps/place/Linea+Coffee+Roasting+%2B+Caffe/data=!4m7!3m6!1s0x808f7f600be6effd:0x79aa880641b9941c!8m2!3d37.7638051!4d-122.3952279!16s%2Fg%2F11fqcbb6wv!19sChIJ_e_mC2B_j4ARHJS5QQaIqnk?authuser=0&hl=en&rclk=1",
+    "bytes": 22320,
+    "contentType": "image/jpeg",
+    "sha256": "f0160e7522e04071f9328c3bef601926960bb4a57b45990a5c1457e4bf4c3bd8"
+  },
+  {
+    "id": "linea-mission",
+    "file": "/images/cafes/linea-mission.jpg",
+    "source": "https://www.google.com/maps/place/Linea+Caffe/data=!4m7!3m6!1s0x808f7e3cbfae4b15:0xcae60c0a91648201!8m2!3d37.7616652!4d-122.419961!16s%2Fg%2F1pp2tysy4!19sChIJFUuuvzx-j4ARAYJkkQoM5so?authuser=0&hl=en&rclk=1",
+    "bytes": 25276,
+    "contentType": "image/jpeg",
+    "sha256": "b20a3501850d5f10366680b77cc3f06873cb015a89641b1f3c3a905b9747e9df"
+  },
+  {
+    "id": "four-barrel",
+    "file": "/images/cafes/four-barrel.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Four%20Barrel%20Coffee%2C%20375%20Valencia%20St%2C%20San%20Francisco%2C%20CA%2094103",
+    "bytes": 37559,
+    "contentType": "image/jpeg",
+    "sha256": "81d8f737270ee61a1aca9cf6c100624aa5e7161ca99d6c63189f538711a8db68"
+  },
+  {
+    "id": "the-mill",
+    "file": "/images/cafes/the-mill.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=The%20Mill%2C%20736%20Divisadero%20St%2C%20San%20Francisco%2C%20CA%2094117",
+    "bytes": 39038,
+    "contentType": "image/jpeg",
+    "sha256": "34863a1ad843072d6f6a3211034c20cf25eead7223714a90e9761d7a2757ace2"
+  },
+  {
+    "id": "home-sunset",
+    "file": "/images/cafes/home-sunset.jpg",
+    "source": "https://www.google.com/maps/place/Home+Coffee+Roasters/data=!4m7!3m6!1s0x808f7d89d87ad0ad:0xa46adaf124f113b1!8m2!3d37.7544545!4d-122.4770135!16s%2Fg%2F11bt_7xvl5!19sChIJrdB62Il9j4ARsRPxJPHaaqQ?authuser=0&hl=en&rclk=1",
+    "bytes": 31687,
+    "contentType": "image/jpeg",
+    "sha256": "ac68f2028b0cc5897f92a6a74d9fea658c0f47674171c2a37295804336bdaea1"
+  },
+  {
+    "id": "sextant-folsom",
+    "file": "/images/cafes/sextant-folsom.jpg",
+    "source": "https://www.google.com/maps/place/Sextant+Coffee+Roasters/data=!4m7!3m6!1s0x808f7e27d93d5b83:0xe4ff4588f86ba24c!8m2!3d37.7724716!4d-122.4129614!16s%2Fg%2F1q64hcss0!19sChIJg1s92Sd-j4ARTKJr-IhF_-Q?authuser=0&hl=en&rclk=1",
+    "bytes": 30072,
+    "contentType": "image/jpeg",
+    "sha256": "af99d24970f71fda071285718b3d0de957a3f8aefbd6987bcaad27c9b47857b3"
+  },
+  {
+    "id": "sextant-valencia",
+    "file": "/images/cafes/sextant-valencia.jpg",
+    "source": "https://www.google.com/maps/place/Sextant+Coffee+Roasters/data=!4m7!3m6!1s0x808f7f001f630621:0xe07d359c69a334b1!8m2!3d37.7643584!4d-122.4216987!16s%2Fg%2F11vt7x7h0c!19sChIJIQZjHwB_j4ARsTSjaZw1feA?authuser=0&hl=en&rclk=1",
+    "bytes": 15474,
+    "contentType": "image/jpeg",
+    "sha256": "4bdb073c3a9cf48e49332bb4a0e76be2676ceb3931fd51feba42970549305975"
+  },
+  {
+    "id": "highwire-rockridge",
+    "file": "/images/cafes/highwire-rockridge.jpg",
+    "source": "https://www.google.com/maps/place/Highwire+Coffee+Roasters/data=!4m7!3m6!1s0x80857dc28d5117f3:0xee21efa8e0094b33!8m2!3d37.8436036!4d-122.2518515!16s%2Fg%2F11b6_0379k!19sChIJ8xdRjcJ9hYARM0sJ4KjvIe4?authuser=0&hl=en&rclk=1",
+    "bytes": 39237,
+    "contentType": "image/jpeg",
+    "sha256": "c070325915fc65a17068cc1c2d32718224164b9e62f47ef13c6450a4bc4f6e5f"
+  },
+  {
+    "id": "highwire-alameda",
+    "file": "/images/cafes/highwire-alameda.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Highwire%20Coffee%20Roasters%2C%201234%20Park%20St%2C%20Alameda%2C%20CA%2094501",
+    "bytes": 21477,
+    "contentType": "image/jpeg",
+    "sha256": "eea4b15b523eb75903ee4e0f7c26bf039dd7fe5c295f227295da0345a3f9f8df"
+  },
+  {
+    "id": "highwire-montclair",
+    "file": "/images/cafes/highwire-montclair.jpg",
+    "source": "https://www.google.com/maps/place/Highwire+Coffee+Roasters/data=!4m7!3m6!1s0x808f877f58d94313:0xd48a4eaa23db575f!8m2!3d37.826439!4d-122.2094856!16s%2Fg%2F11kvsmg25p!19sChIJE0PZWH-Hj4ARX1fbI6pOitQ?authuser=0&hl=en&rclk=1",
+    "bytes": 37453,
+    "contentType": "image/jpeg",
+    "sha256": "badf0286d0cb0d12621678295c9908a90546e2b9dc60a05482edbc1899a56098"
+  },
+  {
+    "id": "timeless-piedmont",
+    "file": "/images/cafes/timeless-piedmont.jpg",
+    "source": "https://www.google.com/maps/place/Timeless+Coffee/data=!4m7!3m6!1s0x80857df6c7e27317:0xf25f018ec0b75f12!8m2!3d37.8282213!4d-122.249794!16s%2Fg%2F1hhl46rb6!19sChIJF3Pix_Z9hYAREl-3wI4BX_I?authuser=0&hl=en&rclk=1",
+    "bytes": 34138,
+    "contentType": "image/jpeg",
+    "sha256": "ab47d37618534432801f9d77a4fc5ba8d358692ba406ffed9893b7a4895bbbbc"
+  },
+  {
+    "id": "timeless-downtown",
+    "file": "/images/cafes/timeless-downtown.jpg",
+    "source": "https://www.google.com/maps/place/Timeless+Coffee/data=!4m7!3m6!1s0x808f81ca4cba39bd:0x6beae6b2d4009e0a!8m2!3d37.805732!4d-122.2671456!16s%2Fg%2F11nxq7tc7k!19sChIJvTm6TMqBj4ARCp4A1LLm6ms?authuser=0&hl=en&rclk=1",
+    "bytes": 21582,
+    "contentType": "image/jpeg",
+    "sha256": "f5a35ec0e036654d86b8480c2097c1514310e9a3fa2d8ccf962bedf89dc47a59"
+  },
+  {
+    "id": "bicycle-coffee",
+    "file": "/images/cafes/bicycle-coffee.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Bicycle%20Coffee%2C%20377%202nd%20St%20%23110%2C%20Oakland%2C%20CA%2094607",
+    "bytes": 36913,
+    "contentType": "image/jpeg",
+    "sha256": "ab8ca783c6f42bbe05348ba5150610540d9b1739ff1890507bb22c671b2399bc"
+  },
+  {
+    "id": "red-bay",
+    "file": "/images/cafes/red-bay.jpg",
+    "source": "https://www.google.com/maps/place/Red+Bay+Coffee+Roastery/data=!4m7!3m6!1s0x808f86f3ac4aca8d:0x765ac04569e29f9e!8m2!3d37.776125!4d-122.2281528!16s%2Fg%2F11cjphgmrj!19sChIJjcpKrPOGj4ARnp_iaUXAWnY?authuser=0&hl=en&rclk=1",
+    "bytes": 32171,
+    "contentType": "image/jpeg",
+    "sha256": "3e365de51d6362a28f9492e181261d68a466b96287ce2f14ca91f42536ff6b53"
+  },
+  {
+    "id": "souvenir",
+    "file": "/images/cafes/souvenir.jpg",
+    "source": "https://www.google.com/maps/place/Souvenir+Coffee+Co./data=!4m7!3m6!1s0x80857dcf335f5c1b:0x32d4ee8f875bc7e!8m2!3d37.8546041!4d-122.2484604!16s%2Fg%2F11gc6c7hsd!19sChIJG1xfM899hYARfrx1-OhOLQM?authuser=0&hl=en&rclk=1",
+    "bytes": 24399,
+    "contentType": "image/jpeg",
+    "sha256": "6236c5bba327dd8474674cc0fdacb37ea207a2def1cc51517a3d67fba20a38b3"
+  },
+  {
+    "id": "bartavelle",
+    "file": "/images/cafes/bartavelle.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Bartavelle%20Cafe%2C%201603%20San%20Pablo%20Ave%2C%20Berkeley%2C%20CA%2094702",
+    "bytes": 38582,
+    "contentType": "image/jpeg",
+    "sha256": "1e6e7283c956417569661ba5d76eda877a473ddfc4e6f5d1d7c692878466a510"
+  },
+  {
+    "id": "backhaus",
+    "file": "/images/cafes/backhaus.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Backhaus%2C%2032%20E%203rd%20Ave%2C%20San%20Mateo%2C%20CA%2094401",
+    "bytes": 26613,
+    "contentType": "image/jpeg",
+    "sha256": "980a3e186c19bdf7675911a8a72cc2bac03dfb084e97680f0fb594dc659cb623"
+  },
+  {
+    "id": "backyard-brew",
+    "file": "/images/cafes/backyard-brew.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Backyard%20Brew%2C%20444%20California%20Ave%2C%20Palo%20Alto%2C%20CA%2094306",
+    "bytes": 32302,
+    "contentType": "image/jpeg",
+    "sha256": "fa26cdd1ffbb04c4d336bbd304373afcf9b05bd7016cd03f8f5a05a938a15437"
+  },
+  {
+    "id": "coupa-ramona",
+    "file": "/images/cafes/coupa-ramona.jpg",
+    "source": "https://www.google.com/maps/place/Coupa+Cafe+-+Ramona/data=!4m7!3m6!1s0x808fbb398a089563:0xe226d74063e0423e!8m2!3d37.4446092!4d-122.1615284!16s%2Fg%2F1tgx27w0!19sChIJY5UIijm7j4ARPkLgY0DXJuI?authuser=0&hl=en&rclk=1",
+    "bytes": 28623,
+    "contentType": "image/jpeg",
+    "sha256": "8dfc5b615917f782e6516773fe40895fe982163922964d20a5f49440522c9dfd"
+  },
+  {
+    "id": "saint-frank-menlo",
+    "file": "/images/cafes/saint-frank-menlo.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Saint%20Frank%20Coffee%2C%201018%20Alma%20St%2C%20Menlo%20Park%2C%20CA%2094025",
+    "bytes": 49824,
+    "contentType": "image/jpeg",
+    "sha256": "134d7393ec8e5c7ad182e243dc838dc5a06695399fc416016543883b870988ac"
+  },
+  {
+    "id": "coffeebar-menlo",
+    "file": "/images/cafes/coffeebar-menlo.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Coffeebar%2C%201149%20Chestnut%20St%2C%20Menlo%20Park%2C%20CA%2094025",
+    "bytes": 25189,
+    "contentType": "image/jpeg",
+    "sha256": "f5ce511ec51b413e70a2d562dc09b8a267bcc2d3b6285fb514e777ce02ef47d0"
+  },
+  {
+    "id": "cafe-borrone",
+    "file": "/images/cafes/cafe-borrone.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Cafe%20Borrone%2C%201010%20El%20Camino%20Real%2C%20Menlo%20Park%2C%20CA%2094025",
+    "bytes": 21603,
+    "contentType": "image/jpeg",
+    "sha256": "956442565e61e85d6e4a7b2ed0b3515662e02f656182abdbc30496b3a3a2364f"
+  },
+  {
+    "id": "academic",
+    "file": "/images/cafes/academic.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Academic%20Coffee%2C%20499%20S%202nd%20St%2C%20San%20Jose%2C%20CA%2095113",
+    "bytes": 28435,
+    "contentType": "image/jpeg",
+    "sha256": "9395f364e62677c165b867abec9a342f19846d5ab81b14d9bdb9ba42ff065e9c"
+  },
+  {
+    "id": "voltaire",
+    "file": "/images/cafes/voltaire.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Voltaire%20Coffee%20Roasters%2C%20360%20S%20Market%20St%2C%20San%20Jose%2C%20CA%2095113",
+    "bytes": 24955,
+    "contentType": "image/jpeg",
+    "sha256": "e1c51733c4ef0962f0a92768af52cc6f4d1539bd17d3d3a2bba27cf8faa426ec"
+  },
+  {
+    "id": "moonwake",
+    "file": "/images/cafes/moonwake.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Moonwake%20Coffee%20Roasters%2C%201412%20Saratoga%20Ave%2C%20San%20Jose%2C%20CA%2095129",
+    "bytes": 31286,
+    "contentType": "image/jpeg",
+    "sha256": "54a7f1b015a0491bd545bb0cd54343a91123225410e54fd1e272107e67608c93"
+  },
+  {
+    "id": "lookout",
+    "file": "/images/cafes/lookout.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Lookout%20Coffee%2C%202135%20S%20Winchester%20Blvd%20Suite%20100%2C%20Campbell%2C%20CA%2095008",
+    "bytes": 22482,
+    "contentType": "image/jpeg",
+    "sha256": "89f2e55d2b899a94d3d1e79545e20a6539883d22f1f804a7bdbcb1f5f6f11861"
+  },
+  {
+    "id": "coffee-water-lab",
+    "file": "/images/cafes/coffee-water-lab.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Coffee%20%26%20Water%20Lab%2C%20603%20Saratoga%20Ave%20%2340%2C%20San%20Jose%2C%20CA%2095129",
+    "bytes": 19884,
+    "contentType": "image/jpeg",
+    "sha256": "5e535812a10bfa7faa7d230edb1ccd622201d41f45f2f61fffaf566b685c1b62"
+  },
+  {
+    "id": "red-whale",
+    "file": "/images/cafes/red-whale.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Red%20Whale%20Coffee%2C%20169%20Paul%20Dr%2C%20San%20Rafael%2C%20CA%2094903",
+    "bytes": 28954,
+    "contentType": "image/jpeg",
+    "sha256": "7e3a0b2066415ad23090601b2414054e65d71a4f67828c8fddfe21efff3b5cf1"
+  },
+  {
+    "id": "equator-sausalito",
+    "file": "/images/cafes/equator-sausalito.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Equator%20Coffees%2C%201201%20Bridgeway%2C%20Sausalito%2C%20CA%2094965",
+    "bytes": 39454,
+    "contentType": "image/jpeg",
+    "sha256": "1f50242579d720430c66aaaf626d284c62a0447ed4ad35f0d93fa7543d6eb275"
+  },
+  {
+    "id": "blue-bottle-mint",
+    "file": "/images/cafes/blue-bottle-mint.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Blue%20Bottle%20Coffee%2C%202%20Mint%20Plaza%2C%20San%20Francisco%2C%20CA%2094103",
+    "bytes": 25609,
+    "contentType": "image/jpeg",
+    "sha256": "f09c68c9a93a1ef98fe3c59ea23284dbc8e3aa6d56c14a4055f9617cbbe68ab6"
+  },
+  {
+    "id": "reveille-north-beach",
+    "file": "/images/cafes/reveille-north-beach.jpg",
+    "source": "https://www.google.com/maps/place/R%C3%A9veille+Coffee+Co./data=!4m7!3m6!1s0x808580f4eeca4db1:0x8a1d0155b5cdc6bf!8m2!3d37.7972722!4d-122.4055778!16s%2Fg%2F11_qpryd_!19sChIJsU3K7vSAhYARv8bNtVUBHYo?authuser=0&hl=en&rclk=1",
+    "bytes": 27451,
+    "contentType": "image/jpeg",
+    "sha256": "bb48cf391294de667e74099226b7a2932f7b1467444e7d9788b997831f197701"
+  },
+  {
+    "id": "caffe-trieste",
+    "file": "/images/cafes/caffe-trieste.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Caffe%20Trieste%2C%20601%20Vallejo%20St%2C%20San%20Francisco%2C%20CA%2094133",
+    "bytes": 37708,
+    "contentType": "image/jpeg",
+    "sha256": "d8f2d7330a304078d2e7714a7109cd978bb660fff390873e9e9f5c922da13dc8"
+  },
+  {
+    "id": "mr-espresso",
+    "file": "/images/cafes/mr-espresso.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=The%20Caff%C3%A8%20by%20Mr.%20Espresso%2C%201120%20Broadway%2C%20Oakland%2C%20CA%2094607",
+    "bytes": 28406,
+    "contentType": "image/jpeg",
+    "sha256": "856a690c94e499fd4b12f15f0a8a4bece373d6e44b6c86234dde7a58f5da6146"
+  },
+  {
+    "id": "grand-coffee",
+    "file": "/images/cafes/grand-coffee.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Grand%20Coffee%2C%202663%20Mission%20St%2C%20San%20Francisco%2C%20CA%2094110",
+    "bytes": 39896,
+    "contentType": "image/jpeg",
+    "sha256": "68bda83d29520ddfccfbddb528189f1b77e4fdb0c342be4e46c1d9a046a55dce"
+  },
+  {
+    "id": "obsequent-sf",
+    "file": "/images/cafes/obsequent-sf.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Obsequent%20Coffee%2C%202700%2016th%20St%2C%20San%20Francisco%2C%20CA%2094103",
+    "bytes": 28798,
+    "contentType": "image/jpeg",
+    "sha256": "d58fd0eb67dd6b928ee59ee0a38f28710fbc3ee47c3065c024ea3a1a896aed8a"
+  },
+  {
+    "id": "verve-mission",
+    "file": "/images/cafes/verve-mission.jpg",
+    "source": "https://www.google.com/maps/search/?api=1&query=Verve%20Coffee%20Roasters%2C%203040%2024th%20St%2C%20San%20Francisco%2C%20CA%2094110",
+    "bytes": 29700,
+    "contentType": "image/jpeg",
+    "sha256": "34f5153c0012224b8fb11d74217117bb2dde8065dc63b96b8d1f58e1b5a71879"
+  }
+]

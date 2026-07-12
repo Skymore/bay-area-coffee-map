@@ -1,0 +1,945 @@
+[
+  {
+    "id": "andytown",
+    "name": "Andytown Coffee Roasters",
+    "website": "https://andytownsf.com/pages/locations",
+    "photos": [
+      {
+        "file": "images/gallery/andytown-2.jpg",
+        "credit": "门店官网",
+        "source": "https://andytownsf.com/blogs/news/the-driving-force-behind-specialty-coffee-in-thailand",
+        "original": "https://andytownsf.com/cdn/shop/articles/Mustefa.jpg?v=1778708953",
+        "alt": "Distinction in Nuance: Two processes by Mustefa Abakeno",
+        "score": 13
+      },
+      {
+        "file": "images/gallery/andytown-3.jpg",
+        "credit": "门店官网",
+        "source": "https://andytownsf.com/blogs/news/the-driving-force-behind-specialty-coffee-in-thailand",
+        "original": "https://andytownsf.com/cdn/shop/articles/IMG_7029.jpg?v=1768514009",
+        "alt": "ACC Por La Paz and Specialty Coffee in Piendamó, Cauca",
+        "score": 13
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "sightglass",
+    "name": "Sightglass Coffee",
+    "website": "https://sightglasscoffee.com/",
+    "photos": [
+      {
+        "file": "images/gallery/sightglass-2.jpg",
+        "credit": "门店官网",
+        "source": "https://sightglasscoffee.com/",
+        "original": "https://sightglasscoffee.com/cdn/shop/files/7th_Street-min.jpg?v=1757985881&width=720",
+        "alt": "Sightglass Coffee's SoMa location in San Francisco main view of the space with the counter downstairs, the roasting machine in the background, and a view on the street,",
+        "score": 14
+      },
+      {
+        "file": "images/gallery/sightglass-3.jpg",
+        "credit": "门店官网",
+        "source": "https://sightglasscoffee.com/",
+        "original": "https://sightglasscoffee.com/cdn/shop/files/Summer-Solstice-Hero-Image-75.jpg?v=1778525889&width=1512",
+        "alt": "",
+        "score": 13
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "ritual",
+    "name": "Ritual Coffee Roasters",
+    "website": "https://ritualcoffee.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "saint-frank",
+    "name": "Saint Frank Coffee",
+    "website": "https://www.saintfrankcoffee.com/pages/our-locations",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://www.saintfrankcoffee.com/pages/our-locations\" is interrupted by another navigation to \"https://ritualcoffee.com/\""
+  },
+  {
+    "id": "the-crown",
+    "name": "The Crown: Royal Coffee Lab",
+    "website": "https://www.visitoakland.com/listing/the-crown%3A-royal-coffee-lab-%26-tasting-room/4893/",
+    "photos": [
+      {
+        "file": "images/gallery/the-crown-2.jpg",
+        "credit": "门店官网",
+        "source": "https://www.visitoakland.com/listing/the-crown%3A-royal-coffee-lab-%26-tasting-room/4893/",
+        "original": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_681,q_50,w_1024/v1/crm/oakland/Terpeluk_TheCrown_01_7B45FD03-FE8B-4C3F-A28F9C279BAD197D_56975964-d00a-4985-b678b4e1d55cf33a.jpg",
+        "alt": "The Crown Tasting Room in Oakland",
+        "score": 16
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "mother-tongue",
+    "name": "Mother Tongue Cafe & Bar",
+    "website": "https://mothertongue.coffee/pages/cafe-bar",
+    "photos": [
+      {
+        "file": "images/gallery/mother-tongue-2.jpg",
+        "credit": "门店官网",
+        "source": "https://mothertongue.coffee/pages/cafe-bar",
+        "original": "https://mothertongue.coffee/cdn/shop/files/Mother_Tongue_Cafe_and_Bar_Banner_0b424641-949e-4679-a3d8-84815d54028b.jpg?v=1685489698",
+        "alt": "",
+        "score": 16
+      },
+      {
+        "file": "images/gallery/mother-tongue-3.jpg",
+        "credit": "门店官网",
+        "source": "https://mothertongue.coffee/pages/cafe-bar",
+        "original": "https://mothertongue.coffee/cdn/shop/files/Daniel_Daiquiri_web_750x.jpg?v=1685663134",
+        "alt": "",
+        "score": 13
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "states",
+    "name": "States Coffee",
+    "website": "https://www.statescoffee.com/",
+    "photos": [
+      {
+        "file": "images/gallery/states-2.jpg",
+        "credit": "门店官网",
+        "source": "https://www.statescoffee.com/",
+        "original": "https://images.squarespace-cdn.com/content/v1/5575c9b4e4b04c25faf02118/1615771596107-4JW9DXEDDLJC9I3IZXEI/states419.jpg?format=750w",
+        "alt": "",
+        "score": 11
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "1951",
+    "name": "1951 Coffee Company",
+    "website": "https://1951coffee.com/",
+    "photos": [
+      {
+        "file": "images/gallery/1951-2.jpg",
+        "credit": "门店官网",
+        "source": "https://1951coffee.com/",
+        "original": "https://1951coffee.com/cdn/shop/files/1951_Coffee_Company__First_Visit_1_of_25.jpg?v=1708559012&width=1920",
+        "alt": "",
+        "score": 16
+      },
+      {
+        "file": "images/gallery/1951-3.jpg",
+        "credit": "门店官网",
+        "source": "https://1951coffee.com/",
+        "original": "https://1951coffee.com/cdn/shop/files/DSC_0681.png?v=1708465759&width=1920",
+        "alt": "",
+        "score": 13
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "coro",
+    "name": "CoRo Coffee Room",
+    "website": "https://www.corocoffeeroom.com/",
+    "photos": [
+      {
+        "file": "images/gallery/coro-2.jpg",
+        "credit": "门店官网",
+        "source": "https://www.corocoffeeroom.com/",
+        "original": "https://images.squarespace-cdn.com/content/v1/5b0c58b385ede1b5cc432d0b/1549484931658-KPX1CO0XDVCVM6RAPGXQ/DSC_0220.jpg?format=2500w",
+        "alt": "DSC_0220.jpg",
+        "score": 16
+      },
+      {
+        "file": "images/gallery/coro-3.jpg",
+        "credit": "门店官网",
+        "source": "https://www.corocoffeeroom.com/",
+        "original": "https://images.squarespace-cdn.com/content/v1/5b0c58b385ede1b5cc432d0b/1565220430532-6AUN41IM2LT4KAEA0BAP/3%2B%25281%2529.jpg?format=1500w",
+        "alt": "3+%281%29.jpg",
+        "score": 16
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "artis",
+    "name": "Artis Coffee",
+    "website": "https://www.artiscoffee.com/pages/contact",
+    "photos": [
+      {
+        "file": "images/gallery/artis-2.jpg",
+        "credit": "门店官网",
+        "source": "https://www.artiscoffee.com/",
+        "original": "https://www.artiscoffee.com/cdn/shop/t/8/assets/slideshow_1.jpg?v=19284402840584884951720573291",
+        "alt": "",
+        "score": 13
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "equator",
+    "name": "Equator Coffees",
+    "website": "https://www.equatorcoffees.com/blogs/cafes/mill-valley",
+    "photos": [],
+    "error": null
+  },
+  {
+    "id": "devout",
+    "name": "Devout Coffee",
+    "website": "https://www.devoutcoffee.com/",
+    "photos": [
+      {
+        "file": "images/gallery/devout-2.jpg",
+        "credit": "门店官网",
+        "source": "https://www.devoutcoffee.com/",
+        "original": "https://images.squarespace-cdn.com/content/v1/50bcfc63e4b052339e82fa8b/cd1431da-f783-43c9-8eed-3ad49b8ee791/AED21812-F3BF-4B8C-B373-D4D485CA7A96.JPG?format=1500w",
+        "alt": "",
+        "score": 13
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "verve-palo-alto",
+    "name": "Verve Coffee Roasters",
+    "website": "https://vervecoffeeroasters.toast.site/order/verve-coffee-roasters-levi-s-stadium-area-162-university-avenue",
+    "photos": [],
+    "error": null
+  },
+  {
+    "id": "red-rock",
+    "name": "Red Rock Coffee",
+    "website": "https://redrockcoffee.com/",
+    "photos": [
+      {
+        "file": "images/gallery/red-rock-2.jpg",
+        "credit": "门店官网",
+        "source": "https://redrockcoffee.com/",
+        "original": "https://static1.squarespace.com/static/5577516fe4b0dbfd4338abc0/t/56f4e9feac962c7992b71088/1458891263229/coffeetastings.jpg",
+        "alt": "",
+        "score": 13
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "voyager",
+    "name": "Voyager Craft Coffee",
+    "website": "https://voyagercraftcoffee.com/",
+    "photos": [
+      {
+        "file": "images/gallery/voyager-2.jpg",
+        "credit": "门店官网",
+        "source": "https://voyagercraftcoffee.com/locations",
+        "original": "https://static.spotapps.co/website_images/ab_websites/205606_website_v1/og_santa_clara.jpg",
+        "alt": "",
+        "score": 19
+      },
+      {
+        "file": "images/gallery/voyager-3.jpg",
+        "credit": "门店官网",
+        "source": "https://voyagercraftcoffee.com/",
+        "original": "https://cdn.spotapps.co/spothopper/image/fetch/f_auto,q_auto:best,c_fit,h_1200/http://static.spotapps.co/spots/eb/1d7779ad4b4e6bbed92f07c61e8c6c/:original",
+        "alt": "slideshow photo number 1",
+        "score": 16
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "nirvana",
+    "name": "Nirvana Soul",
+    "website": "https://www.nirvanasoulcoffee.com/contact",
+    "photos": [
+      {
+        "file": "images/gallery/nirvana-2.jpg",
+        "credit": "门店官网",
+        "source": "https://www.nirvanasoulcoffee.com/contact",
+        "original": "https://images.squarespace-cdn.com/content/v1/5e252c7928d64d4b980759af/1585505486300-776LM9C5G0351NH1S0C3/website-background.jpeg?format=1500w",
+        "alt": "",
+        "score": 13
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "barefoot",
+    "name": "Barefoot Coffee",
+    "website": "https://www.barefootcoffee.com/pages/contact-us",
+    "photos": [],
+    "error": null
+  },
+  {
+    "id": "big-mug",
+    "name": "Big Mug Coffee Roaster",
+    "website": "https://bigmugsc.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "coffee-movement-chinatown",
+    "name": "The Coffee Movement",
+    "website": "https://www.thecoffeemovement.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "coffee-movement-richmond",
+    "name": "The Coffee Movement",
+    "website": "https://www.thecoffeemovement.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "wrecking-ball",
+    "name": "Wrecking Ball Coffee Roasters",
+    "website": "https://www.wreckingballcoffee.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "linea-potrero",
+    "name": "Linea Caffe",
+    "website": "https://lineacaffe.com/",
+    "photos": [
+      {
+        "file": "images/gallery/linea-potrero-2.jpg",
+        "credit": "门店官网",
+        "source": "https://lineacaffe.com/our-mission/",
+        "original": "https://lineacaffe.com/wp-content/uploads/2024/09/Tesfaye-Bekele-Ethiopia-Suke-Quto-hi-res-Photo-1-scaled-2-1536x1024.jpg",
+        "alt": "Tesfay Bekele",
+        "score": 12
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "linea-mission",
+    "name": "Linea Caffe",
+    "website": "https://lineacaffe.com/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://lineacaffe.com/\" is interrupted by another navigation to \"https://www.google.com/\""
+  },
+  {
+    "id": "four-barrel",
+    "name": "Four Barrel Coffee",
+    "website": "https://www.fourbarrelcoffee.com/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://www.fourbarrelcoffee.com/\" is interrupted by another navigation to \"https://lineacaffe.com/\""
+  },
+  {
+    "id": "the-mill",
+    "name": "The Mill",
+    "website": "https://www.themillsf.com/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://www.themillsf.com/\" is interrupted by another navigation to \"https://www.fourbarrelcoffee.com/\""
+  },
+  {
+    "id": "home-sunset",
+    "name": "Home Coffee Roasters",
+    "website": "https://homecoffeesf.com/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://homecoffeesf.com/\" is interrupted by another navigation to \"https://www.themillsf.com/\""
+  },
+  {
+    "id": "sextant-folsom",
+    "name": "Sextant Coffee Roasters",
+    "website": "https://www.sextantcoffee.com/",
+    "photos": [],
+    "error": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.sextantcoffee.com/"
+  },
+  {
+    "id": "sextant-valencia",
+    "name": "Sextant Coffee Roasters",
+    "website": "https://www.sextantcoffee.com/",
+    "photos": [],
+    "error": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.sextantcoffee.com/"
+  },
+  {
+    "id": "highwire-rockridge",
+    "name": "Highwire Coffee Roasters",
+    "website": "https://www.highwirecoffee.com/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://www.highwirecoffee.com/\" is interrupted by another navigation to \"chrome-error://chromewebdata/\""
+  },
+  {
+    "id": "highwire-alameda",
+    "name": "Highwire Coffee Roasters",
+    "website": "https://www.highwirecoffee.com/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://www.highwirecoffee.com/\" is interrupted by another navigation to \"https://www.highwirecoffee.com/\""
+  },
+  {
+    "id": "highwire-montclair",
+    "name": "Highwire Coffee Roasters",
+    "website": "https://www.highwirecoffee.com/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://www.highwirecoffee.com/\" is interrupted by another navigation to \"https://www.highwirecoffee.com/\""
+  },
+  {
+    "id": "timeless-piedmont",
+    "name": "Timeless Coffee",
+    "website": "https://timelesscoffee.com/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://timelesscoffee.com/\" is interrupted by another navigation to \"https://www.highwirecoffee.com/\""
+  },
+  {
+    "id": "timeless-downtown",
+    "name": "Timeless Coffee",
+    "website": "https://timelesscoffee.com/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://timelesscoffee.com/\" is interrupted by another navigation to \"https://timelesscoffee.com/\""
+  },
+  {
+    "id": "bicycle-coffee",
+    "name": "Bicycle Coffee",
+    "website": "https://www.bicyclecoffeeco.com/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://www.bicyclecoffeeco.com/\" is interrupted by another navigation to \"https://timelesscoffee.com/\""
+  },
+  {
+    "id": "red-bay",
+    "name": "Red Bay Coffee",
+    "website": "https://www.redbaycoffee.com/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://www.redbaycoffee.com/\" is interrupted by another navigation to \"https://www.bicyclecoffeeco.com/\""
+  },
+  {
+    "id": "souvenir",
+    "name": "Souvenir Coffee",
+    "website": "https://www.souvenir-coffee.com/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://www.souvenir-coffee.com/\" is interrupted by another navigation to \"https://www.redbaycoffee.com/\""
+  },
+  {
+    "id": "bartavelle",
+    "name": "Bartavelle",
+    "website": "https://bartavellecafe.com/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://bartavellecafe.com/\" is interrupted by another navigation to \"https://www.souvenir-coffee.com/\""
+  },
+  {
+    "id": "backhaus",
+    "name": "Backhaus",
+    "website": "https://www.backhausbread.com/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://www.backhausbread.com/\" is interrupted by another navigation to \"https://bartavellecafe.com/\""
+  },
+  {
+    "id": "backyard-brew",
+    "name": "Backyard Brew",
+    "website": "https://www.backyardbrew.com/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://www.backyardbrew.com/\" is interrupted by another navigation to \"https://www.backhausbread.com/\""
+  },
+  {
+    "id": "coupa-ramona",
+    "name": "Coupa Cafe",
+    "website": "https://www.coupacafe.com/",
+    "photos": [],
+    "error": null
+  },
+  {
+    "id": "saint-frank-menlo",
+    "name": "Saint Frank Coffee",
+    "website": "https://www.saintfrankcoffee.com/pages/our-locations",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://www.saintfrankcoffee.com/pages/our-locations\" is interrupted by another navigation to \"https://www.backyardbrew.com/\""
+  },
+  {
+    "id": "coffeebar-menlo",
+    "name": "Coffeebar",
+    "website": "https://www.coffeebar.com/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://www.coffeebar.com/\" is interrupted by another navigation to \"https://www.saintfrankcoffee.com/pages/our-locations\""
+  },
+  {
+    "id": "cafe-borrone",
+    "name": "Cafe Borrone",
+    "website": "https://www.cafeborrone.com/",
+    "photos": [
+      {
+        "file": "images/gallery/cafe-borrone-2.jpg",
+        "credit": "门店官网",
+        "source": "https://www.cafeborrone.com/",
+        "original": "https://images.squarespace-cdn.com/content/v1/669032696f05fa6d8fa6ec30/5c54efec-836a-4920-81c2-9abc352c76f4/IMG_2728.jpg?format=1500w",
+        "alt": "",
+        "score": 13
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "academic",
+    "name": "Academic Coffee",
+    "website": "https://www.academiccoffee.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "voltaire",
+    "name": "Voltaire Coffee Roasters",
+    "website": "https://voltairecoffeeroasters.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "moonwake",
+    "name": "Moonwake Coffee Roasters",
+    "website": "https://moonwakecoffeeroasters.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "lookout",
+    "name": "Lookout Coffee",
+    "website": "https://www.lookout.coffee/",
+    "photos": [
+      {
+        "file": "images/gallery/lookout-2.jpg",
+        "credit": "门店官网",
+        "source": "https://www.lookout.coffee/",
+        "original": "https://images.squarespace-cdn.com/content/v1/61ef0cb19e1b3527e9f76684/92be884a-9368-4ba2-9820-9cd29c8c7dcd/_MG_0123.jpg",
+        "alt": "_MG_0123.jpg",
+        "score": 13
+      },
+      {
+        "file": "images/gallery/lookout-3.jpg",
+        "credit": "门店官网",
+        "source": "https://www.lookout.coffee/",
+        "original": "https://images.squarespace-cdn.com/content/v1/61ef0cb19e1b3527e9f76684/e0fb104a-47e3-48e9-a7ed-234208c3ac1d/_MG_0158.jpg",
+        "alt": "_MG_0158.jpg",
+        "score": 13
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "coffee-water-lab",
+    "name": "Coffee & Water Lab",
+    "website": "https://www.coffeeandwaterlab.com/",
+    "photos": [
+      {
+        "file": "images/gallery/coffee-water-lab-2.jpg",
+        "credit": "门店官网",
+        "source": "https://www.coffeeandwaterlab.com/",
+        "original": "https://static.wixstatic.com/media/11062b_7e61ffd6dbb040ee8b0e4dc604e8fd4ef000.jpg/v1/fill/w_1440,h_1242,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/11062b_7e61ffd6dbb040ee8b0e4dc604e8fd4ef000.jpg",
+        "alt": "",
+        "score": 12
+      },
+      {
+        "file": "images/gallery/coffee-water-lab-3.jpg",
+        "credit": "门店官网",
+        "source": "https://www.coffeeandwaterlab.com/",
+        "original": "https://static.wixstatic.com/media/97fa8a_1424e52686ae415e8eabe252de2cb647~mv2.jpeg/v1/crop/x_542,y_0,w_1142,h_1484/fill/w_621,h_471,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/water%20stream.jpeg",
+        "alt": "single origin pour overs",
+        "score": 11
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "red-whale",
+    "name": "Red Whale Coffee",
+    "website": "https://redwhalecoffee.com/",
+    "photos": [
+      {
+        "file": "images/gallery/red-whale-2.jpg",
+        "credit": "门店官网",
+        "source": "https://www.redwhalecoffee.com/",
+        "original": "https://cdn.shopify.com/s/files/1/0252/7365/files/Best-of-the-county-sm-min.png",
+        "alt": "",
+        "score": 13
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "equator-sausalito",
+    "name": "Equator Coffees",
+    "website": "https://www.equatorcoffees.com/pages/sausalito-equator",
+    "photos": [
+      {
+        "file": "images/gallery/equator-sausalito-2.jpg",
+        "credit": "门店官网",
+        "source": "https://www.equatorcoffees.com/blogs/cafes/sausalito",
+        "original": "https://cdn.shopify.com/s/files/1/2062/4231/files/Sausalito_pride_ride_group.jpg?v=1740691293",
+        "alt": "Sausalito Pride Ride Group",
+        "score": 13
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "blue-bottle-mint",
+    "name": "Blue Bottle Coffee",
+    "website": "https://bluebottlecoffee.com/us/cafes/mint-plaza",
+    "photos": [],
+    "error": null
+  },
+  {
+    "id": "reveille-north-beach",
+    "name": "Reveille Coffee",
+    "website": "https://www.reveillecoffee.com/",
+    "photos": [
+      {
+        "file": "images/gallery/reveille-north-beach-2.jpg",
+        "credit": "门店官网",
+        "source": "https://www.reveillecoffee.com/",
+        "original": "https://www.reveillecoffee.com/cdn/shop/files/paradise_bb73bfb6-cfc1-4c01-992f-9c1440e77927_1280x.png?v=1778862989",
+        "alt": "",
+        "score": 12
+      },
+      {
+        "file": "images/gallery/reveille-north-beach-3.jpg",
+        "credit": "门店官网",
+        "source": "https://www.reveillecoffee.com/",
+        "original": "https://www.reveillecoffee.com/cdn/shop/files/highlightcoffee_4990bbbd-7847-44a4-9ece-3f00b49839b4_1280x.png?v=1778253082",
+        "alt": "",
+        "score": 12
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "caffe-trieste",
+    "name": "Caffe Trieste",
+    "website": "https://www.caffetrieste.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "mr-espresso",
+    "name": "The Caffè by Mr. Espresso",
+    "website": "https://www.thecaffeoak.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "grand-coffee",
+    "name": "Grand Coffee",
+    "website": "https://www.grandcoffeesf.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "obsequent-sf",
+    "name": "Obsequent Coffee",
+    "website": "https://www.obsequentcoffee.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "verve-mission",
+    "name": "Verve Coffee Roasters",
+    "website": "https://www.vervecoffee.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "sf-delah",
+    "name": "Delah Coffee",
+    "website": "https://delahcoffee.com/order-online/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "sf-juniper",
+    "name": "Juniper",
+    "website": "http://www.juniper.cafe/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "sf-doppio",
+    "name": "Doppio Coffee & Brunch",
+    "website": "https://doppiosf.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "sf-hedge",
+    "name": "Hedge Coffee",
+    "website": "http://hedge.coffee/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "sf-coffee-berry",
+    "name": "The Coffee Berry SF",
+    "website": "http://thecoffeeberrysf.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "sf-telescope",
+    "name": "Telescope Coffee",
+    "website": "http://telescopecoffee.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "sf-golden-goat",
+    "name": "Golden Goat Coffee",
+    "website": "http://goldengoatcoffee.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "sf-abanico",
+    "name": "Abanico Coffee Roasters",
+    "website": "https://www.abanicocoffee.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "east-belmo",
+    "name": "Belmo Café",
+    "website": "https://www.belmocafe.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "east-delah",
+    "name": "Delah Coffee",
+    "website": "http://delahcoffee.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "east-sanaa-broadway",
+    "name": "Sana'a Cafe",
+    "website": "https://thesanaacafe.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "east-victory-point",
+    "name": "Victory Point Cafe",
+    "website": "http://victorypointcafe.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "east-my-coffee",
+    "name": "MY Coffee Roastery",
+    "website": "http://mycoffeeroastery.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "east-roast-toast",
+    "name": "Roast & Toast Cafe",
+    "website": "https://order.online/business/roasttoast-cafe-13884177",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "east-jaffa",
+    "name": "Jaffa Coffee Roasters",
+    "website": "https://www.jaffacoffee.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "east-mohka",
+    "name": "Mohka House",
+    "website": "https://www.google.com/maps/search/?api=1&query=Mohka%20House%2C%202139%20MacArthur%20Blvd%2C%20Oakland%2C%20CA%2094602",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "east-heyma",
+    "name": "Heyma Yemeni Coffee",
+    "website": "https://www.heymacoffeeca.com/Home",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "east-aint-normal",
+    "name": "Ain't Normal Cafe",
+    "website": "https://aintnormalcafe.com/about-aint-normal/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "peninsula-zombierunner",
+    "name": "ZombieRunner Coffee",
+    "website": "http://www.zombierunner.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "peninsula-one-oz",
+    "name": "1 Oz Coffee",
+    "website": "http://1ozcoffee.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "peninsula-kaizen",
+    "name": "KAIZEN & COFFEE",
+    "website": "http://www.kaizenandcoffee.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "peninsula-fiero",
+    "name": "Fiero Caffe",
+    "website": "http://fierocaffe.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "peninsula-cloud9",
+    "name": "Cloud9 Coffee",
+    "website": "https://cloud9coffee.net/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "peninsula-little-late-bird",
+    "name": "Little Late Bird",
+    "website": "http://littlelatebird.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "peninsula-sanaa",
+    "name": "SANA'A CAFE",
+    "website": "https://thesanaacafe.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "peninsula-cappucho",
+    "name": "Cappucho Cafe & Coffee Roaster",
+    "website": "https://www.cappucho.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "peninsula-yard",
+    "name": "The Yard Coffee",
+    "website": "https://theyard.coffee/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "peninsula-brew",
+    "name": "Brew Coffee and Bakery",
+    "website": "https://brewcoffeeca.com/?utm_source=google",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "south-jiaren",
+    "name": "Jiaren Cafe: Coffee, Boba & Events",
+    "website": "http://jiarencafe.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "south-roys",
+    "name": "Roy's Station Coffee & Tea",
+    "website": "http://roys-station.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "south-bavetta",
+    "name": "Bavetta Coffee",
+    "website": "http://bavettacoffee.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "south-chromatic",
+    "name": "Chromatic Coffee Co.",
+    "website": "https://www.chromaticcoffee.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "south-drink",
+    "name": "Dr.ink",
+    "website": "http://www.dr-ink.space/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "south-nabi",
+    "name": "Nabi Cat Cafe",
+    "website": "https://www.nabicatcafe.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "south-dumont",
+    "name": "Dumont Creamery & Café",
+    "website": "https://dumont.us/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://dumont.us/\" is interrupted by another navigation to \"https://www.dr-ink.space/\""
+  },
+  {
+    "id": "south-moonbeans",
+    "name": "MoonBean's Coffee",
+    "website": "https://m.facebook.com/MoonBeans.SJ/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "south-am-craft",
+    "name": "A.M. Craft",
+    "website": "http://am-craft.mailchimpsites.com/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"http://am-craft.mailchimpsites.com/\" is interrupted by another navigation to \"https://dumont.us/\""
+  },
+  {
+    "id": "south-qishr",
+    "name": "Qishr Coffee House",
+    "website": "http://www.qishrcoffeehouse.co/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"http://www.qishrcoffeehouse.co/\" is interrupted by another navigation to \"https://mailchimp.com/features/\""
+  },
+  {
+    "id": "marin-firehouse",
+    "name": "Firehouse Coffee & Tea",
+    "website": "https://www.firehousecoffeetea.com/",
+    "photos": [],
+    "error": "page.goto: Timeout 12000ms exceeded."
+  },
+  {
+    "id": "marin-sanaa",
+    "name": "Sana'a Cafe",
+    "website": "https://sanaahousecafe.com/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://sanaahousecafe.com/\" is interrupted by another navigation to \"https://qishrcoffeehouse.co/\""
+  },
+  {
+    "id": "marin-franko",
+    "name": "Franko & Coffee",
+    "website": "https://www.instagram.com/franko.and.co?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr",
+    "photos": [],
+    "error": "page.goto: Navigation to \"https://www.instagram.com/franko.and.co?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr\" is interrupted by another navigation to \"https://thesanaacafe.com/\""
+  },
+  {
+    "id": "marin-kamson",
+    "name": "Kamson Coffee",
+    "website": "http://www.kamsoncoffee.com/",
+    "photos": [],
+    "error": "page.goto: Navigation to \"http://www.kamsoncoffee.com/\" is interrupted by another navigation to \"https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ffranko.and.co%3Figsh%3DNTc4MTIwNjQ2YQ%253D%253D%26utm_source%3Dqr&is_from_rle\""
+  },
+  {
+    "id": "marin-coffee-roasters",
+    "name": "Marin Coffee Roasters",
+    "website": "http://marincoffeeroasters.co/",
+    "photos": [],
+    "error": null
+  }
+]

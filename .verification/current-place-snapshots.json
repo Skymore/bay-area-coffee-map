@@ -1,0 +1,812 @@
+[
+  {
+    "id": "andytown",
+    "name": "Andytown Coffee Roasters",
+    "address": "3655 Lawton St, San Francisco, CA 94122",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.6,
+    "ratingCount": null,
+    "googleName": "Andytown Coffee Roasters",
+    "googleMapsUrl": "https://www.google.com/maps/place/Andytown+Coffee+Roasters/data=!4m7!3m6!1s0x8085879aba03ee79:0xbfb64139d85ba75d!8m2!3d37.7566712!4d-122.5023147!16s%2Fg%2F1pzs9t4cq!19sChIJee4DupqHhYARXadb2DlBtr8?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkW7TQDhKuCKQ_ICp07RLWLGiiTncOVJ2CkHG5v0tbZINP3dO_irYS0f0dghiDra914uTCNh2fAhBJ-HzyrGsG7rGFA9DOrplUTk_r3iKOrdf7AsbTvQVUMHKSmmSGN0pEqKYC1BT1FwuY=w426-h240-k-no",
+    "coords": [
+      37.7566712,
+      -122.5023147
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "sightglass",
+    "name": "Sightglass Coffee",
+    "address": "270 7th St, San Francisco, CA 94103",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.4,
+    "ratingCount": null,
+    "googleName": "Sightglass Coffee",
+    "googleMapsUrl": "https://www.google.com/maps/place/Sightglass+Coffee/data=!4m7!3m6!1s0x80858082387de57f:0xc144ba641bc1c6bb!8m2!3d37.7770356!4d-122.4084543!16s%2Fm%2F09vwwy6!19sChIJf-V9OIKAhYARu8bBG2S6RME?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn1P-g26ilptS_qGMRsTH-Hx4Xlj5OPPvXu1cm6eBAk9S7KNvARYVmt5KWEOK4u7CIqSo3zI-PFHS7H6VfMKM2mfCw7CGsIaktfb1xeuJV_pSpB-kwSNUXDpBZxkBkwXWZ5VLD62nxfxJ_F=w408-h270-k-no",
+    "coords": [
+      37.7770356,
+      -122.4084543
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "ritual",
+    "name": "Ritual Coffee Roasters",
+    "address": "1026 Valencia St, San Francisco, CA 94110",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.3,
+    "ratingCount": null,
+    "googleName": "Ritual Coffee Roasters",
+    "googleMapsUrl": "https://www.google.com/maps/place/Ritual+Coffee+Roasters/data=!4m7!3m6!1s0x808f7e3e89dacb9b:0x6b734213bb326353!8m2!3d37.7564253!4d-122.4214111!16s%2Fm%2F0j4nwdd!19sChIJm8vaiT5-j4ARU2MyuxNCc2s?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlNB5iv3kZ3eaBIxDn0l5xEmZ5WjKOkLzCZ5Wq2xfFZdMDTDeyC7Mp1FiPdxXO-v41RTU-1c1UBXfqIDTSx9lgvyvkmbpj3LEXh8ovAs0cw8THnKhEJmVuI4UKoUSYJ9bGFxoZFnQ=w408-h273-k-no",
+    "coords": [
+      37.7564253,
+      -122.4214111
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "saint-frank",
+    "name": "Saint Frank Coffee",
+    "address": "2340 Polk St, San Francisco, CA 94109",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.5,
+    "ratingCount": null,
+    "googleName": "Saint Frank Coffee",
+    "googleMapsUrl": "https://www.google.com/maps/place/Saint+Frank+Coffee/data=!4m7!3m6!1s0x808580e84308f899:0x1a6c72e2732c9aab!8m2!3d37.7984797!4d-122.4220775!16s%2Fg%2F1q5bp32vc!19sChIJmfgIQ-iAhYARq5osc-JybBo?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnS8XMPt32K8PWDmiX5CJkFKltRVWp3bKAuinnVDIc_fB-2Z4AhrCzzkEFKZfAbqaYTea4DAEHNuEwZ3dVpJX44fD2pYdvZ_z3-vSjjShHMhiVeiHsur4C4UR80nB3snGG-299D=w408-h307-k-no",
+    "coords": [
+      37.7984797,
+      -122.4220775
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "the-crown",
+    "name": "The Crown: Royal Coffee Lab",
+    "address": "2523 Broadway, Oakland, CA 94612",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.6,
+    "ratingCount": null,
+    "googleName": "The Crown: Royal Coffee Lab & Tasting Room",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Crown%3A%20Royal%20Coffee%20Lab%2C%202523%20Broadway%2C%20Oakland%2C%20CA%2094612",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlEKXUuAkQVOukG0tpzVBm3OVublSX0sqEh1TlwgPZqQrvG_P8Sp-ngJ_eOWZf533hYXPlQerotwwVEoyO-Nnz7m5_PAG_9Aq6weL86Fjnwr_6jKW-UrjKIphgi0f7rzmnm5Yf1=w408-h272-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "mother-tongue",
+    "name": "Mother Tongue Cafe & Bar",
+    "address": "308 41st St, Oakland, CA 94609",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.6,
+    "ratingCount": null,
+    "googleName": "Mother Tongue Cafe & Bar",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mother%20Tongue%20Cafe%20%26%20Bar%2C%20308%2041st%20St%2C%20Oakland%2C%20CA%2094609",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmAxQMAqekegWaH1zWukrqCBuyjSpFQNkKjxiptb6JzzH_JMphilWtLv_fe5_AUSpILMjsLXa0x8XEq3SfFjW3n5_l0Jq3xkIxSKJ51FTToLbbm7CRJFfi7RxubjrDzXHdfvTk=w408-h271-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "states",
+    "name": "States Coffee",
+    "address": "419 40th St, Oakland, CA 94609",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.6,
+    "ratingCount": null,
+    "googleName": "States Coffee",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=States%20Coffee%2C%20419%2040th%20St%2C%20Oakland%2C%20CA%2094609",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlE7EFq-aZN19i474UnJmVx9udPzuanzO68FmrXS3bTpGNzq9Pxp0Druk0VAPwt999HwtlxNxmLcNciD7N4218_HvcHVkTpXRFZP86Pxm70jYk4mH6o9_cMl8zP1SeUDHTLR26h=w408-h544-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "1951",
+    "name": "1951 Coffee Company",
+    "address": "2410 Channing Way, Berkeley, CA 94704",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.6,
+    "ratingCount": null,
+    "googleName": "1951 Coffee Company",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=1951%20Coffee%20Company%2C%202410%20Channing%20Way%2C%20Berkeley%2C%20CA%2094704",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmc1X6C9BbS17unyrTKzjIDi9GBOQulpvfAvy5Y4C0g6gHjp9lqkmQNk8hTMZdsvDB3fmX3EwYxV87HoGvuwX2lDrDlrz1QzrUdlgeP97Uqsd9O4lmblwLcL9JxrFS2RJ1b1zA=w426-h240-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "coro",
+    "name": "CoRo Coffee Room",
+    "address": "2324 Fifth St, Berkeley, CA 94710",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.6,
+    "ratingCount": null,
+    "googleName": "CoRo Coffee Room",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=CoRo%20Coffee%20Room%2C%202324%20Fifth%20St%2C%20Berkeley%2C%20CA%2094710",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl38i5zLFM2diHJXI4Wxi43MBatS7ib7-naiHZ4KxWFC7g-pZwXGk8GfEzKaHGtVgyH06jMndbaJqGoFBLMM7JHx4mMR8lliNP89YuQ2m9f9frnanwvg3gQkEU0ImwgcGWDiSNGvzXK-sgQ=w408-h544-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "artis",
+    "name": "Artis Coffee",
+    "address": "1717 Fourth St B, Berkeley, CA 94710",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.4,
+    "ratingCount": null,
+    "googleName": "Artís Coffee",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Artis%20Coffee%2C%201717%204th%20St%20B%2C%20Berkeley%2C%20CA%2094710",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHWdDuIZ_k9hFlD1ZozuxKZRzUvXoRySBANuu59tCMlpoURtl-o0DgL8ben76SW2ShvkV6DnpL_Izzgj_vy137p7hE9Q0O7kyTWcLY9JL0IywAvCVzmvIEMawyfw-RVfe67-G8v=w408-h285-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "equator",
+    "name": "Equator Coffees",
+    "address": "2 Miller Ave, Mill Valley, CA 94941",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.5,
+    "ratingCount": null,
+    "googleName": "Equator Coffees",
+    "googleMapsUrl": "https://www.google.com/maps/place/Equator+Coffees/data=!4m7!3m6!1s0x8085907280790bdd:0x862c5c4a81ac56d6!8m2!3d37.9059487!4d-122.5484386!16s%2Fg%2F11b6hwjywz!19sChIJ3Qt5gHKQhYAR1lasgUpcLIY?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlfFlB77maKgKnTY9ObLAs53eTtRgCvl_VVvVZT5-hVtRton0AjaA7MPix4rfWkgcbHd_fAjQWG-OJ1iW4xQJSecDjjQs0VduFmvkJOTGU5NClEqk7waD767vWqcp6wN6aAXCed=w408-h271-k-no",
+    "coords": [
+      37.9059487,
+      -122.5484386
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "devout",
+    "name": "Devout Coffee",
+    "address": "37323 Niles Blvd, Fremont, CA 94536",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.5,
+    "ratingCount": null,
+    "googleName": "Devout Coffee",
+    "googleMapsUrl": "https://www.google.com/maps/place/Devout+Coffee/data=!4m7!3m6!1s0x808fc06d8d744305:0xf811309993d4989!8m2!3d37.5772214!4d-121.9807194!16s%2Fg%2F1pv0tv6z8!19sChIJBUN0jW3Aj4ARiUk9mQkTgQ8?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk5XIXLjpDEZst9tq7OZHknfGT--O_jS8CXX-xCqSE9HyIE1dFVYKj-l722zavZ1sA_D_dG2PFoYmhGAuxiLzAxdm0nt-qXUyJt9dF8RbokIpAjofuvdHmMFPNAOct1WWCvLTk6v3SFl_HT=w408-h543-k-no",
+    "coords": [
+      37.5772214,
+      -121.9807194
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "verve-palo-alto",
+    "name": "Verve Coffee Roasters",
+    "address": "162 University Ave, Palo Alto, CA 94301",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.4,
+    "ratingCount": null,
+    "googleName": "Verve Coffee Roasters",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Verve%20Coffee%20Roasters%2C%20162%20University%20Ave%2C%20Palo%20Alto%2C%20CA%2094301",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlRqU4VIlFbGpZMpJhDDqR_4NSIkA9xDSzOh1hhpzbR14COfI9AGpwiRAuzgk4YLnx-EAg5qw7BVNqWhQwTIZPNmiLzSC-Ys8RpwDoqZIuVSM6zIpJkOZ3Fbk88nsLxSkEiJ-U_=w408-h272-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "red-rock",
+    "name": "Red Rock Coffee",
+    "address": "201 Castro St, Mountain View, CA 94041",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.4,
+    "ratingCount": null,
+    "googleName": "Red Rock Coffee",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Red%20Rock%20Coffee%2C%20201%20Castro%20St%2C%20Mountain%20View%2C%20CA%2094041",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk0D8q92P687M64SOSqE20P9Ctz895ixirK-LST9dJwgz_HCNpeXYfLhLT_tQVblg4qsLRAgaKU5V-Bx4ropN2msdpfmaxlex2Anv9Zowm-RTZ8VY0rXogibd6CX31ckr9N1EfDHA=w408-h306-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "voyager",
+    "name": "Voyager Craft Coffee",
+    "address": "111 W St John St Ste 100, San Jose, CA 95113",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.7,
+    "ratingCount": null,
+    "googleName": "Voyager Craft Coffee",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Voyager%20Craft%20Coffee%2C%20111%20W%20St%20John%20St%20Ste%20100%2C%20San%20Jose%2C%20CA%2095113",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHRBjYfcXS1tTTVsdsxN_nyzPqWCrXynHdH1fL6k7QWm_NoJ-VOQy_h3pQI2KQ3Sasid-qZ5GpIrI4_y83B6otye7mjmd4nBraqLdvyLm1vDwMX8zHv5XmsE9mM_pHp0FDVZjmyTIWjtAiC=w408-h544-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "nirvana",
+    "name": "Nirvana Soul",
+    "address": "315 S 1st St, San Jose, CA 95113",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.7,
+    "ratingCount": null,
+    "googleName": "Nirvana Soul Coffee",
+    "googleMapsUrl": "https://www.google.com/maps/place/Nirvana+Soul+Coffee/data=!4m7!3m6!1s0x808fcdf9b0ce52cf:0xfdeac7a5e235e1b0!8m2!3d37.3311664!4d-121.8870153!16s%2Fg%2F11jdc2xh4w!19sChIJz1LOsPnNj4ARsOE14qXH6v0?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG8rVC_wb3AjmKViqapmVspAWiTrp9VGWk9lF9ZJ2j61c5RSNNMzhbyQjBY_Gk2upoNBbcvWAStI_BJO8fzPTzVh-PsoopLu-_PXZr1hSAbiZG69LJcDYAZXsssEYVtyulKqV9Ku4L1mlwh=w408-h544-k-no",
+    "coords": [
+      37.3311664,
+      -121.8870153
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "barefoot",
+    "name": "Barefoot Coffee",
+    "address": "1819 S Bascom Ave, Campbell, CA 95008",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.5,
+    "ratingCount": null,
+    "googleName": "Barefoot Coffee",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Barefoot%20Coffee%2C%201819%20S%20Bascom%20Ave%2C%20Campbell%2C%20CA%2095008",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnuO1xHYo2jLINDj8pvZLsGjeKXNcAiR74H1FW2FNk5ITuQbHsldu9bLfYLTpDFV156hvoHEjJwiNsBuk_OcNJzhS34TZcU8uU5KuR9ktqYuTfBxD3dlcGX9AhT93Ts1g9rLVrXPyYvv6MO=w408-h544-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "big-mug",
+    "name": "Big Mug Coffee Roaster",
+    "address": "3014 El Camino Real, Santa Clara, CA 95051",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.2,
+    "ratingCount": null,
+    "googleName": "Big Mug Coffee Roaster",
+    "googleMapsUrl": "https://www.google.com/maps/place/Big+Mug+Coffee+Roaster/data=!4m7!3m6!1s0x808fca129ca13001:0xb516fdf2b4c2a30b!8m2!3d37.3515167!4d-121.980882!16s%2Fg%2F11bbrjvhmz!19sChIJATChnBLKj4ARC6PCtPL9FrU?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkVjhg4Ym9yPBH3fjxkJKaQugfLS_OGw4SIdeY8YGLxx5uKy1LyxattpBT-eiAGb-_4OMrqb4V4z4dm0xNudqFRMz0kFvWnsQ9re0oqOWmBo4bHLnHQqSAY0YdQFHRwuDE4pWwv=w408-h304-k-no",
+    "coords": [
+      37.3515167,
+      -121.980882
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "coffee-movement-chinatown",
+    "name": "The Coffee Movement",
+    "address": "1030 Washington St, San Francisco, CA 94108",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.7,
+    "ratingCount": null,
+    "googleName": "The Coffee Movement",
+    "googleMapsUrl": "https://www.google.com/maps/place/The+Coffee+Movement/data=!4m7!3m6!1s0x808580f2dc1b33a1:0x1cb0bd8eb71079b1!8m2!3d37.7947671!4d-122.4102942!16s%2Fg%2F11gdvqtpvr!19sChIJoTMb3PKAhYARsXkQt469sBw?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE1zyiy6EWgZTd5rUYHZN5KlXmcbmceR_E9qeAhPvKlnnFPZVTsNziReMYEHXuvbwGNMKthIKsP67cNgNWx1RwEl18gaSx8JQRajAArbs9kognhWCnyfOEw49dbaqyrj1DejidTtA=w408-h306-k-no",
+    "coords": [
+      37.7947671,
+      -122.4102942
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "coffee-movement-richmond",
+    "name": "The Coffee Movement",
+    "address": "1737 Balboa St, San Francisco, CA 94121",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.8,
+    "ratingCount": null,
+    "googleName": "The Coffee Movement",
+    "googleMapsUrl": "https://www.google.com/maps/place/The+Coffee+Movement/data=!4m7!3m6!1s0x808587fb77f5f64d:0x25d564f177f99946!8m2!3d37.7764721!4d-122.4778225!16s%2Fg%2F11sbx1rx9m!19sChIJTfb1d_uHhYARRpn5d_Fk1SU?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmoSOmkCOYl5hImUT982llKo2WQKDuy9E-0smWdRKDaLdFrRq2kmHobOCilXXTxBujVBbFX9R-yJedeV928KUA3MxaQ9nroQsi3D36E2BFQ_oRcQ87usE5577WGJQPWVQfhazX_Og0C7r0=w408-h544-k-no",
+    "coords": [
+      37.7764721,
+      -122.4778225
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "wrecking-ball",
+    "name": "Wrecking Ball Coffee Roasters",
+    "address": "2271 Union St, San Francisco, CA 94123",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.4,
+    "ratingCount": null,
+    "googleName": "Wrecking Ball Coffee Roasters",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Wrecking%20Ball%20Coffee%20Roasters%2C%202271%20Union%20St%2C%20San%20Francisco%2C%20CA%2094123",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEjV4n_IL0unqbG1IUMpmZgQTSnqcxeHlLYYFLqYHEXkV5sIH-zm14mUc0M-YiZaHVZUw4zkVLo4twxe-3tKCNx9bG0reUKSWB4e-x9G1eZEGW_Gm0j_XOiexl_KBNhEEzi7xeg=w408-h272-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "linea-potrero",
+    "name": "Linea Caffe",
+    "address": "1125 Mariposa St, San Francisco, CA 94107",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.4,
+    "ratingCount": null,
+    "googleName": "Linea Coffee Roasting + Caffe",
+    "googleMapsUrl": "https://www.google.com/maps/place/Linea+Coffee+Roasting+%2B+Caffe/data=!4m7!3m6!1s0x808f7f600be6effd:0x79aa880641b9941c!8m2!3d37.7638051!4d-122.3952279!16s%2Fg%2F11fqcbb6wv!19sChIJ_e_mC2B_j4ARHJS5QQaIqnk?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnQxE3ElKkB8XsONB9vnJBXxH6SALcDXVGk2uZ9CGx7M60-FvyV5QhpRxfYGtjJC52_m-pwqhuWgvYedADeUNMy8hddmWelu5sujQuMnJkiiTRsHLd2b_GVJyyCxUMqm-IQ6ejT=w408-h306-k-no",
+    "coords": [
+      37.7638051,
+      -122.3952279
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "linea-mission",
+    "name": "Linea Caffe",
+    "address": "3417 18th St, San Francisco, CA 94110",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.5,
+    "ratingCount": null,
+    "googleName": "Linea Caffe",
+    "googleMapsUrl": "https://www.google.com/maps/place/Linea+Caffe/data=!4m7!3m6!1s0x808f7e3cbfae4b15:0xcae60c0a91648201!8m2!3d37.7616652!4d-122.419961!16s%2Fg%2F1pp2tysy4!19sChIJFUuuvzx-j4ARAYJkkQoM5so?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkAtqXCLqWGQHH9gv9fpOTLZ9oAfbZ4FIq340KrzySyXnPtxb2Kf7GnCkl6CdTaxptyB_uA25TLoOSDCfAbSwfVq8XJZSfw8KfGACCRwuHMqrvIhBdTHC4JpSNUbfpcBg3sNjja=w408-h305-k-no",
+    "coords": [
+      37.7616652,
+      -122.419961
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "four-barrel",
+    "name": "Four Barrel Coffee",
+    "address": "375 Valencia St, San Francisco, CA 94103",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.5,
+    "ratingCount": null,
+    "googleName": "Four Barrel Coffee",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Four%20Barrel%20Coffee%2C%20375%20Valencia%20St%2C%20San%20Francisco%2C%20CA%2094103",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkrfaCqU8nj8O3_Y_s-EdS-llv5KiwieB-41_yFR1-KYoZgfL-D80_k_TT-fcrQhYfTl4Kr50_XCsSKYUH_FSUrX8r-UkBfn494PkRAS2FJ5xaAHtZcl5J3jsMXiG9H3ZgZTLNuOpvzUSjs=w408-h306-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "the-mill",
+    "name": "The Mill",
+    "address": "736 Divisadero St, San Francisco, CA 94117",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.5,
+    "ratingCount": null,
+    "googleName": "The Mill",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Mill%2C%20736%20Divisadero%20St%2C%20San%20Francisco%2C%20CA%2094117",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnF0ZjVEixo1wHNp60f3EDX7gEEvKxFqh5MSalmrFWGucrPCA5r8jzv00REHJQ_L3DTqcHciTKIPkONc9bCbbQcLo5BEFUDVYBX7ci59AZeauNy6wyotoi7P_t2QNZUyKF2LvEBYR_eBjEK=w408-h305-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "home-sunset",
+    "name": "Home Coffee Roasters",
+    "address": "1222 Noriega St, San Francisco, CA 94122",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.6,
+    "ratingCount": null,
+    "googleName": "Home Coffee Roasters",
+    "googleMapsUrl": "https://www.google.com/maps/place/Home+Coffee+Roasters/data=!4m7!3m6!1s0x808f7d89d87ad0ad:0xa46adaf124f113b1!8m2!3d37.7544545!4d-122.4770135!16s%2Fg%2F11bt_7xvl5!19sChIJrdB62Il9j4ARsRPxJPHaaqQ?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmWpF-U19Ab0zb4gi94pLML1coHpinnbwUmYjAiu4ZO0c_EWFlMCSvHFGQ5lcUbfwY9sk1OZuazK9sec0hjwy3-UQ0epd2LjU32QY92v97-qD_I59ZdwZhVmIgGG7lcn0vQIuvjuQ=w408-h306-k-no",
+    "coords": [
+      37.7544545,
+      -122.4770135
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "sextant-folsom",
+    "name": "Sextant Coffee Roasters",
+    "address": "1415 Folsom St, San Francisco, CA 94103",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.4,
+    "ratingCount": null,
+    "googleName": "Sextant Coffee Roasters",
+    "googleMapsUrl": "https://www.google.com/maps/place/Sextant+Coffee+Roasters/data=!4m7!3m6!1s0x808f7e27d93d5b83:0xe4ff4588f86ba24c!8m2!3d37.7724716!4d-122.4129614!16s%2Fg%2F1q64hcss0!19sChIJg1s92Sd-j4ARTKJr-IhF_-Q?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmSOydRE-Y0xgfCWRA96Fg5AUDhjG6lsvYeU0c4tHW3xbKVw3XQg8uO1BSbt4d9jM8obS6EJBTyqVDIPWmN38ZOWxQC7RH5nVM99pEaa-wR30a4GqOB_9GrXMO9-zkw9iATLoD2sQ=w114-h86-k-no",
+    "coords": [
+      37.7724716,
+      -122.4129614
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "sextant-valencia",
+    "name": "Sextant Coffee Roasters",
+    "address": "539 Valencia St, San Francisco, CA 94110",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.1,
+    "ratingCount": null,
+    "googleName": "Sextant Coffee Roasters",
+    "googleMapsUrl": "https://www.google.com/maps/place/Sextant+Coffee+Roasters/data=!4m7!3m6!1s0x808f7f001f630621:0xe07d359c69a334b1!8m2!3d37.7643584!4d-122.4216987!16s%2Fg%2F11vt7x7h0c!19sChIJIQZjHwB_j4ARsTSjaZw1feA?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnOoho8x70esDFp7u2zCgyCFqmA_KhKqyAGJvEVmvdjyBipau652m--7NEKqu_u5e13BepKMxx1LO-hHAkR6VBXIv-HV4MjeWrSwtJiFknazUs-ICFZo9EZ1gcAC8uAxjCTIMeOaRpLM7M=w86-h114-k-no",
+    "coords": [
+      37.7643584,
+      -122.4216987
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "highwire-rockridge",
+    "name": "Highwire Coffee Roasters",
+    "address": "5615 College Ave, Oakland, CA 94618",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.6,
+    "ratingCount": null,
+    "googleName": "Highwire Coffee Roasters",
+    "googleMapsUrl": "https://www.google.com/maps/place/Highwire+Coffee+Roasters/data=!4m7!3m6!1s0x80857dc28d5117f3:0xee21efa8e0094b33!8m2!3d37.8436036!4d-122.2518515!16s%2Fg%2F11b6_0379k!19sChIJ8xdRjcJ9hYARM0sJ4KjvIe4?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWncSYhv6eAPHcGe8qS1paYBcxHjun_GS5sY_EX4slsiybHyfD6-EbUHWhEVX9buxnmXmM8k0gprDZUzwOgNcNnYY4tCY2x0J9g1vZGWJ9sPSYIVeqSsWXC1cqM5IwqgweB35a-A=w408-h306-k-no",
+    "coords": [
+      37.8436036,
+      -122.2518515
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "highwire-alameda",
+    "name": "Highwire Coffee Roasters",
+    "address": "1234 Park St, Alameda, CA 94501",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.7,
+    "ratingCount": null,
+    "googleName": "Highwire Coffee Roasters",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Highwire%20Coffee%20Roasters%2C%201234%20Park%20St%2C%20Alameda%2C%20CA%2094501",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWme5Xj3wuephEjiEQA8vc9CW7py_BvQY-fO_loO4o1kMtEd_Q5N6hMSOdxh2vDSl2kVqzIyyU0X8JGVV_z2WlGwvWUgjX7qP17Gvg8N8XtfiGDDgrABFL3p84ygdZXQCXCXSmedtW8bSHbF=w576-h240-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "highwire-montclair",
+    "name": "Highwire Coffee Roasters",
+    "address": "2059 Mountain Blvd, Oakland, CA 94611",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.5,
+    "ratingCount": null,
+    "googleName": "Highwire Coffee Roasters",
+    "googleMapsUrl": "https://www.google.com/maps/place/Highwire+Coffee+Roasters/data=!4m7!3m6!1s0x808f877f58d94313:0xd48a4eaa23db575f!8m2!3d37.826439!4d-122.2094856!16s%2Fg%2F11kvsmg25p!19sChIJE0PZWH-Hj4ARX1fbI6pOitQ?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlz9e4ZBSqg0nmTIeUHpILQLxsCHfZv1Zb_W1ppnPKKtmAgS5WQenziDf07dZvMv3PO2gaeFvhKT_sOZPrJzarOfML0H1Ty-_VAsNaT-Hvyw9ND0GVtyRtYUbb2tL8KjdQHRQbZbw=w408-h272-k-no",
+    "coords": [
+      37.826439,
+      -122.2094856
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "timeless-piedmont",
+    "name": "Timeless Coffee",
+    "address": "4252 Piedmont Ave, Oakland, CA 94611",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.5,
+    "ratingCount": null,
+    "googleName": "Timeless Coffee",
+    "googleMapsUrl": "https://www.google.com/maps/place/Timeless+Coffee/data=!4m7!3m6!1s0x80857df6c7e27317:0xf25f018ec0b75f12!8m2!3d37.8282213!4d-122.249794!16s%2Fg%2F1hhl46rb6!19sChIJF3Pix_Z9hYAREl-3wI4BX_I?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl4_9JuzftQNbRVxX2UaAkWptkJ1t2P7RxL3M2rycv6KY9gHb30-LfM1Txb3Yk4evGFctaP8h6NbWTDCEFBkgpecnx59gvKu9-HIDd6rLF1iwtbvHA_04RWoyHxE28g8uJV-WQuaw=w408-h544-k-no",
+    "coords": [
+      37.8282213,
+      -122.249794
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "timeless-downtown",
+    "name": "Timeless Coffee",
+    "address": "1700 Webster St, Oakland, CA 94612",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.4,
+    "ratingCount": null,
+    "googleName": "Timeless Coffee",
+    "googleMapsUrl": "https://www.google.com/maps/place/Timeless+Coffee/data=!4m7!3m6!1s0x808f81ca4cba39bd:0x6beae6b2d4009e0a!8m2!3d37.805732!4d-122.2671456!16s%2Fg%2F11nxq7tc7k!19sChIJvTm6TMqBj4ARCp4A1LLm6ms?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkBq-X08vdW7jue4IzlyJ6FUtYbIthoNiOMxPkQ5O-sZuQXCbt5VioEX2dz1D8rBrsN6rYS_fWsrh_KASlvHjOV3WGJwcQhFXy8FWuv0jN2-ynEuaNTJTlyIXd_erKgasti7sDywQ=w408-h544-k-no",
+    "coords": [
+      37.805732,
+      -122.2671456
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "bicycle-coffee",
+    "name": "Bicycle Coffee",
+    "address": "377 2nd St #110, Oakland, CA 94607",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.6,
+    "ratingCount": null,
+    "googleName": "Bicycle Coffee",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bicycle%20Coffee%2C%20377%202nd%20St%20%23110%2C%20Oakland%2C%20CA%2094607",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnsycba5YT68-iI3ky6OzGY9WbgSl5k0O9sk37XAsSu9NZ_MQTIefsLSGj72VYEGaye8lBVeVIR18BbEorSMmARuflaJvgz2lu1550zhpq0IR0oxuDUy6uYazpya8GF7EkZXji8=w408-h306-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "red-bay",
+    "name": "Red Bay Coffee",
+    "address": "3098 E 10th St, Oakland, CA 94601",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.7,
+    "ratingCount": null,
+    "googleName": "Red Bay Coffee Roastery",
+    "googleMapsUrl": "https://www.google.com/maps/place/Red+Bay+Coffee+Roastery/data=!4m7!3m6!1s0x808f86f3ac4aca8d:0x765ac04569e29f9e!8m2!3d37.776125!4d-122.2281528!16s%2Fg%2F11cjphgmrj!19sChIJjcpKrPOGj4ARnp_iaUXAWnY?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmonJrpkjXpN-vvZeNLak6TajPrKKXxweroJ44WQGiF664sgtqi_BYgEe8KoO_AbzSq_Ypo7x5lBgVuf2O0KOagNCmt7WEhM2NnJf-aJE2HuAcMAfVLKvv1NIdDHogj-IARnfk=w408-h306-k-no",
+    "coords": [
+      37.776125,
+      -122.2281528
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "souvenir",
+    "name": "Souvenir Coffee",
+    "address": "3084 Claremont Ave, Berkeley, CA 94705",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.5,
+    "ratingCount": null,
+    "googleName": "Souvenir Coffee Co.",
+    "googleMapsUrl": "https://www.google.com/maps/place/Souvenir+Coffee+Co./data=!4m7!3m6!1s0x80857dcf335f5c1b:0x32d4ee8f875bc7e!8m2!3d37.8546041!4d-122.2484604!16s%2Fg%2F11gc6c7hsd!19sChIJG1xfM899hYARfrx1-OhOLQM?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHWrJMQy2ltt5Aw7vUSEHh1z--7Tug0JG45HKojlB1cVV0m16UtlJ9bScvy3TjzaXcRA6EaExWLEEkI4YlcC8xavzfMM4BulFvx-Ml5fyhJiR-K95oOlLX13W7in2PBgeoSaAGr=w408-h543-k-no",
+    "coords": [
+      37.8546041,
+      -122.2484604
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "bartavelle",
+    "name": "Bartavelle",
+    "address": "1621 San Pablo Ave, Berkeley, CA 94702",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.6,
+    "ratingCount": null,
+    "googleName": "Bartavelle",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bartavelle%20Cafe%2C%201603%20San%20Pablo%20Ave%2C%20Berkeley%2C%20CA%2094702",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnhhKDJneqSyiprj-w2-C_4xh9hus-q-sUyfmmx7s6M7OTWCYxIlChyK6p3UWzdrPXyZudSFEGzQt-OhRyd8v3mAUR34d_WnXObgSQQ55kgdxJg6NSDVkIU-VRWyRrHzC3gVO4vVrLasXh8=w408-h307-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "backhaus",
+    "name": "Backhaus",
+    "address": "32 E 3rd Ave, San Mateo, CA 94401",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.7,
+    "ratingCount": null,
+    "googleName": "Backhaus | San Mateo",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Backhaus%2C%2032%20E%203rd%20Ave%2C%20San%20Mateo%2C%20CA%2094401",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEERMwCqhWdy9Isasnr-Z4pvWecHHOY4JsVJaHZv7HTmucuhQ9tR0m85AmiWkik2Y19kO9EkE0wCH1xTu0e-cSEqPdmrfNJotbkrkUrsKZpYolqv7ybIAsIeaBeJPA-b7_mUbE=w408-h271-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "backyard-brew",
+    "name": "Backyard Brew",
+    "address": "444 California Ave, Palo Alto, CA 94306",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.7,
+    "ratingCount": null,
+    "googleName": "Backyard Brew",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Backyard%20Brew%2C%20444%20California%20Ave%2C%20Palo%20Alto%2C%20CA%2094306",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkaK6ZdtokNhSeus0Zfoi92VQYoIDHFjq05z9ky-b9FmzDuuLqF_MhWFa4TbuttUEZsD2EQV5GZtEnp7O8OlxP1iZA1qkWqz23jzEs51sell5TA-XWxFhnbGW5Sgva7njLM-lo=w408-h306-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "coupa-ramona",
+    "name": "Coupa Cafe",
+    "address": "538 Ramona St, Palo Alto, CA 94301",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.3,
+    "ratingCount": null,
+    "googleName": "Coupa Cafe - Ramona",
+    "googleMapsUrl": "https://www.google.com/maps/place/Coupa+Cafe+-+Ramona/data=!4m7!3m6!1s0x808fbb398a089563:0xe226d74063e0423e!8m2!3d37.4446092!4d-122.1615284!16s%2Fg%2F1tgx27w0!19sChIJY5UIijm7j4ARPkLgY0DXJuI?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkqfWMiWYQ013YCn5GL3RlpLzUuA-e9LCuFaVXNxouQ72JJUpBN5jXjfW1FllytS1iQ71Ph4diQs-ue59iYSz41dcMrO852Tw2dz8lzRBI4r_Q1lcul-W-7szGcQMrRLEDKemBW=w464-h240-k-no",
+    "coords": [
+      37.4446092,
+      -122.1615284
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "saint-frank-menlo",
+    "name": "Saint Frank Coffee",
+    "address": "1018 Alma St, Menlo Park, CA 94025",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.6,
+    "ratingCount": null,
+    "googleName": "Saint Frank Coffee",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Saint%20Frank%20Coffee%2C%201018%20Alma%20St%2C%20Menlo%20Park%2C%20CA%2094025",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlaGNqVUfmNcRYaRTYHxuRKMri6GbBoBdjOskm6g7H-OCcaFVKp7xPK6AGX2ne8ubXDXf1_rZ_rvVwDsI-A8PxWJAtQN0pTcfSQ8UMTiZI_L3rDnCocrDO6v43WDJRdPNtEYYa8=w408-h306-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "coffeebar-menlo",
+    "name": "Coffeebar",
+    "address": "1149 Chestnut St, Menlo Park, CA 94025",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.4,
+    "ratingCount": null,
+    "googleName": "Coffeebar",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Coffeebar%2C%201149%20Chestnut%20St%2C%20Menlo%20Park%2C%20CA%2094025",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmHcnyZUUqnpJ-DdMrzgoGMEcw3v6UkRfT-uwy66VmfSbSyjX5ghgHow6qZd-uW9XArlWQ0nz4AEglPNWH40uY7pz-c2tg2j8bAAlsMkCjlTQuVW1BQ60U4coSWJP2C5WxVHl6rDg=w426-h240-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "cafe-borrone",
+    "name": "Cafe Borrone",
+    "address": "1010 El Camino Real, Menlo Park, CA 94025",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.4,
+    "ratingCount": null,
+    "googleName": "Cafe Borrone",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cafe%20Borrone%2C%201010%20El%20Camino%20Real%2C%20Menlo%20Park%2C%20CA%2094025",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkaOUIpHeNR3SWxtZ4ijFNg86EArneUTtcNf5MHiIv9CqAXhYLAG63wb5cK1ohhC2WfgcQG-_Y3FVlzonLXz4nFOkRwndW5OCeyjssMwKigIDBNE8hbZkj1zwYXuDuDhaE0Ut54=w679-h240-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "academic",
+    "name": "Academic Coffee",
+    "address": "499 S Second St, San Jose, CA 95113",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.5,
+    "ratingCount": null,
+    "googleName": "Academic Coffee",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Academic%20Coffee%2C%20499%20S%202nd%20St%2C%20San%20Jose%2C%20CA%2095113",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkso6GXOVHG7ZsqWEhMVTGQ4vJ5eZpgy51V5PDGc2G6NO3tRmMxt9bgi299SPl7eJuZSjCoTcYi_JDwUVRpKCYZNnHsd5ZHX-JtkrAcqBm5jctXty1tya_vzpqmbnvTd8KB_8Y=w408-h306-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "voltaire",
+    "name": "Voltaire Coffee Roasters",
+    "address": "360 S Market St, San Jose, CA 95113",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.5,
+    "ratingCount": null,
+    "googleName": "Voltaire Coffee Roasters",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Voltaire%20Coffee%20Roasters%2C%20360%20S%20Market%20St%2C%20San%20Jose%2C%20CA%2095113",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGIWPTy7x3iXCoUzjHbTRCJPwxNFJgrgHL3f9IRi_03TGE3ulXXSBsxCJNOmnXXvhZLKvzpnzP7MUjBdaA4rsG2qLnMW0_Tx_8oMgNeKgG7HVMKaNaZXIKIgilBqr2ReRYzZBxj=w426-h240-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "moonwake",
+    "name": "Moonwake Coffee Roasters",
+    "address": "1412 Saratoga Ave, San Jose, CA 95129",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.7,
+    "ratingCount": null,
+    "googleName": "Moonwake Coffee Roasters",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Moonwake%20Coffee%20Roasters%2C%201412%20Saratoga%20Ave%2C%20San%20Jose%2C%20CA%2095129",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmd6OT6u66url4WjDkUr-0G_q4zTq2DmIQ4y3sLAmlrzLUw-vNJuaIUCv_d4XXzAzSCEoG_2khHyCksE7XW4mc4YedKmWdQ5mbkyvVljwiWr7S4OQvB85_pxSbzi6ACRHztP8mrGTKpGUiJ=w408-h306-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "lookout",
+    "name": "Lookout Coffee",
+    "address": "2135 S Winchester Blvd Suite 100, Campbell, CA 95008",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.7,
+    "ratingCount": null,
+    "googleName": "Lookout Coffee",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lookout%20Coffee%2C%202135%20S%20Winchester%20Blvd%20Suite%20100%2C%20Campbell%2C%20CA%2095008",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHpMBMhRePuZdm4HpnxTo-1YU8M_RCAckE6ttytVCL_XELuHvdN9yWKZvM-dxgxg5SYyr--Rok7ASS62vzVHwg1DVETb18faXx4P8J1in6uvhfT40496JiZw0xxlZmw9hMxsK_a=w408-h544-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "coffee-water-lab",
+    "name": "Coffee & Water Lab",
+    "address": "603 Saratoga Ave #40, San Jose, CA 95129",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.5,
+    "ratingCount": null,
+    "googleName": "Coffee & Water Lab",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Coffee%20%26%20Water%20Lab%2C%20603%20Saratoga%20Ave%20%2340%2C%20San%20Jose%2C%20CA%2095129",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH8lTcGApSeP0-BXFpkJfHAQr1cwTFljb8TUEUkA7Bbmt4BBOBJu1bns_R5lNLExgDMWvFvNsV_FqYHeREzsTq2FRWtRvcQvNNsBanS0aTZUCpsJlU6HKcMJj8D4j7qDcEtL18OgSkOrHfh=w408-h612-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "red-whale",
+    "name": "Red Whale Coffee",
+    "address": "169 Paul Dr, San Rafael, CA 94903",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.5,
+    "ratingCount": null,
+    "googleName": "Red Whale Coffee",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Red%20Whale%20Coffee%2C%20169%20Paul%20Dr%2C%20San%20Rafael%2C%20CA%2094903",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk_b6xOa-8Fc5BP2mFelSAMyHc0uInz4MQZ__c6hPT9txWBAxRTf_sxLZJUtXTLL6AlppQBPhWJSn_1YOGhpGcN5qi-OLEXf_w9kJnMuWn3b_dvF4NnJIO4QQrP-wrvem209W2s=w408-h306-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "equator-sausalito",
+    "name": "Equator Coffees",
+    "address": "1201 Bridgeway, Sausalito, CA 94965",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.3,
+    "ratingCount": null,
+    "googleName": "Equator Coffees",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Equator%20Coffees%2C%201201%20Bridgeway%2C%20Sausalito%2C%20CA%2094965",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFnuv458grfnXcXrIA78LptLMxaFp3iXKtFJcQXDUymJYo8DAlAHdBfgiLzNlLtUj28xLdpazn0XaZpuzaCVSnoTJWrWLNjJko9W2fEF2lH5ifW3biDRTSl6BXWpLGZvfHQN2-5HA=w408-h272-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "blue-bottle-mint",
+    "name": "Blue Bottle Coffee",
+    "address": "66 Mint St, San Francisco, CA 94103",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.4,
+    "ratingCount": null,
+    "googleName": "Blue Bottle Coffee",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Blue%20Bottle%20Coffee%2C%202%20Mint%20Plaza%2C%20San%20Francisco%2C%20CA%2094103",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkc7ZccKLw_EiFGTwneuk8jCOmmbuXVvOg93QTuvH1g1yO6cDkrobW1oD-pKPusH074wI-5JLLA5_Xb_n6YPYcz4CiRL0eEmcSrQpAoFBdVvaI26PId36_7asNOdWko6ex4zAhlvA=w408-h270-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "reveille-north-beach",
+    "name": "Reveille Coffee",
+    "address": "200 Columbus Ave, San Francisco, CA 94133",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.3,
+    "ratingCount": null,
+    "googleName": "Réveille Coffee Co.",
+    "googleMapsUrl": "https://www.google.com/maps/place/R%C3%A9veille+Coffee+Co./data=!4m7!3m6!1s0x808580f4eeca4db1:0x8a1d0155b5cdc6bf!8m2!3d37.7972722!4d-122.4055778!16s%2Fg%2F11_qpryd_!19sChIJsU3K7vSAhYARv8bNtVUBHYo?authuser=0&hl=en&rclk=1",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGouCe4FgHKngsyBgCnxu03hAPysr2ypZ4DpfvsvvZaZgBPsFuD5tSnwucOjy9yE_Q-LiQwe2beoTLVgsyJvSonmLJ0P42klG0D8NpzQ1DSCFGF0mSjJZRzz_OXmXQ3N4widSiubg=w114-h86-k-no",
+    "coords": [
+      37.7972722,
+      -122.4055778
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "caffe-trieste",
+    "name": "Caffe Trieste",
+    "address": "601 Vallejo St, San Francisco, CA 94133",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.4,
+    "ratingCount": null,
+    "googleName": "Caffe Trieste",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Caffe%20Trieste%2C%20601%20Vallejo%20St%2C%20San%20Francisco%2C%20CA%2094133",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmlI4Nnw_QlQzlF4FULXLfYvM97g2uaFQwpj4rsv0w8qmbGZldSTKST320MnoSgSMtEJCbB-lDpd-eLY_OdSZXSccXcX15rY9H7j4sMUAawrrW0Pw6n1pX13IsAkkL52rUA_yV-leDZ7tE=w408-h306-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "mr-espresso",
+    "name": "The Caffè by Mr. Espresso",
+    "address": "1120 Broadway, Oakland, CA 94607",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.8,
+    "ratingCount": null,
+    "googleName": "The Caffè by Mr. Espresso",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Caff%C3%A8%20by%20Mr.%20Espresso%2C%201120%20Broadway%2C%20Oakland%2C%20CA%2094607",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWktOwSxYwImK0397upDC30Bt5gWfaHSlZfP89EzMsnI9hTwxGuoq--6vBaPzCT-ZiNJ0uMFUR0hePaUy6U_7iQJBlvyvgL4Hfwe7r9Zan7bblAtKYqbh41LeaI4PyRxC3H65NvCmg=w408-h272-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "grand-coffee",
+    "name": "Grand Coffee",
+    "address": "2663 Mission St, San Francisco, CA 94110",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.6,
+    "ratingCount": null,
+    "googleName": "Grand Coffee",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Grand%20Coffee%2C%202663%20Mission%20St%2C%20San%20Francisco%2C%20CA%2094110",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkUN-ocejKbUx2UfjY5x_R1rBbl34aFa2doo7SRJo6MmLyoBSO0PilQroezgupz91vBn03IrmWENIYNcm4Ak6qLl6QyDqMbgvo8cEosxZXsinNE4V2V0O8ubFL_2xCH_ZlecPnDew=w408-h306-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "obsequent-sf",
+    "name": "Obsequent Coffee",
+    "address": "2700 16th St, San Francisco, CA 94103",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.4,
+    "ratingCount": null,
+    "googleName": "Jolene’s Bar and Restaurant",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Obsequent%20Coffee%2C%202700%2016th%20St%2C%20San%20Francisco%2C%20CA%2094103",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHTSZdmGPK3vB3TM5QRQpM4QEdBt4KZxTj1WSKIvQ57WhDca7TWp2Vw0sdm6Zm2IWTC-hAR6XzNTzM2ZBtki5I-znVFa5tkASkhrOD1gd-c4-ltl5RFBfykXTDqAaeyKPUCSskLTw=w408-h306-k-no",
+    "coords": null,
+    "status": "verified"
+  },
+  {
+    "id": "verve-mission",
+    "name": "Verve Coffee Roasters",
+    "address": "2101 Market St, San Francisco, CA 94114",
+    "verifiedAt": "2026-07-10",
+    "rating": 4.4,
+    "ratingCount": null,
+    "googleName": "Verve Coffee Roasters",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Verve%20Coffee%20Roasters%2C%203040%2024th%20St%2C%20San%20Francisco%2C%20CA%2094110",
+    "photoUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGf7KujMr19SM53MsicRie9DiHPCsF7RsDRPQwR9Vc798Al3R30Xa57gjcBtrwLy-HNj9RhPPYc0salOhFlKarOzVsJ6vDAa28STZAZeeMaRfKHEhLoDnHRetaT6B6hen382n0=w426-h240-k-no",
+    "coords": null,
+    "status": "verified"
+  }
+]

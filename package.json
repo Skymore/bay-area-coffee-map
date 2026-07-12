@@ -1,0 +1,27 @@
+{
+  "name": "bay-area-coffee-map",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "build:publish": "node scripts/build-cafe-atlas.mjs && vite build && node scripts/prune-publish-dist.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "ratings:check": "node --env-file-if-exists=.env scripts/sync-google-ratings.mjs",
+    "ratings:apply": "node --env-file-if-exists=.env scripts/sync-google-ratings.mjs --apply",
+    "test:ratings": "node --test scripts/google-place-matcher.test.mjs"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.468.0",
+    "playwright": "^1.61.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "sharp": "^0.35.3",
+    "vite": "^6.0.7"
+  }
+}

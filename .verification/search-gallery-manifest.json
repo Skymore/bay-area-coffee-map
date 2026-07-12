@@ -1,0 +1,467 @@
+[
+  {
+    "id": "andytown",
+    "added": []
+  },
+  {
+    "id": "sightglass",
+    "added": []
+  },
+  {
+    "id": "ritual",
+    "added": []
+  },
+  {
+    "id": "saint-frank",
+    "added": []
+  },
+  {
+    "id": "the-crown",
+    "added": []
+  },
+  {
+    "id": "mother-tongue",
+    "added": []
+  },
+  {
+    "id": "states",
+    "query": "\"States Coffee\" \"419 40th St\" Oakland interior exterior cafe",
+    "candidateCount": 2,
+    "added": []
+  },
+  {
+    "id": "1951",
+    "added": []
+  },
+  {
+    "id": "coro",
+    "added": []
+  },
+  {
+    "id": "artis",
+    "added": []
+  },
+  {
+    "id": "equator",
+    "added": []
+  },
+  {
+    "id": "devout",
+    "added": []
+  },
+  {
+    "id": "verve-palo-alto",
+    "added": []
+  },
+  {
+    "id": "red-rock",
+    "added": []
+  },
+  {
+    "id": "voyager",
+    "added": []
+  },
+  {
+    "id": "nirvana",
+    "added": []
+  },
+  {
+    "id": "barefoot",
+    "added": []
+  },
+  {
+    "id": "big-mug",
+    "query": "\"Big Mug Coffee Roaster\" \"3014 El Camino Real\" Santa Clara interior exterior cafe",
+    "candidateCount": 0,
+    "added": []
+  },
+  {
+    "id": "coffee-movement-chinatown",
+    "added": []
+  },
+  {
+    "id": "coffee-movement-richmond",
+    "added": []
+  },
+  {
+    "id": "wrecking-ball",
+    "added": []
+  },
+  {
+    "id": "linea-potrero",
+    "added": []
+  },
+  {
+    "id": "linea-mission",
+    "added": []
+  },
+  {
+    "id": "four-barrel",
+    "added": []
+  },
+  {
+    "id": "the-mill",
+    "added": []
+  },
+  {
+    "id": "home-sunset",
+    "added": []
+  },
+  {
+    "id": "sextant-folsom",
+    "added": []
+  },
+  {
+    "id": "sextant-valencia",
+    "added": []
+  },
+  {
+    "id": "highwire-rockridge",
+    "added": []
+  },
+  {
+    "id": "highwire-alameda",
+    "added": []
+  },
+  {
+    "id": "highwire-montclair",
+    "added": []
+  },
+  {
+    "id": "timeless-piedmont",
+    "added": []
+  },
+  {
+    "id": "timeless-downtown",
+    "added": []
+  },
+  {
+    "id": "bicycle-coffee",
+    "added": []
+  },
+  {
+    "id": "red-bay",
+    "added": []
+  },
+  {
+    "id": "souvenir",
+    "added": []
+  },
+  {
+    "id": "bartavelle",
+    "added": []
+  },
+  {
+    "id": "backhaus",
+    "added": []
+  },
+  {
+    "id": "backyard-brew",
+    "added": []
+  },
+  {
+    "id": "coupa-ramona",
+    "added": []
+  },
+  {
+    "id": "saint-frank-menlo",
+    "added": []
+  },
+  {
+    "id": "coffeebar-menlo",
+    "added": []
+  },
+  {
+    "id": "cafe-borrone",
+    "added": []
+  },
+  {
+    "id": "academic",
+    "added": []
+  },
+  {
+    "id": "voltaire",
+    "added": []
+  },
+  {
+    "id": "moonwake",
+    "added": []
+  },
+  {
+    "id": "lookout",
+    "added": []
+  },
+  {
+    "id": "coffee-water-lab",
+    "added": []
+  },
+  {
+    "id": "red-whale",
+    "added": []
+  },
+  {
+    "id": "equator-sausalito",
+    "added": []
+  },
+  {
+    "id": "blue-bottle-mint",
+    "added": []
+  },
+  {
+    "id": "reveille-north-beach",
+    "added": []
+  },
+  {
+    "id": "caffe-trieste",
+    "added": []
+  },
+  {
+    "id": "mr-espresso",
+    "added": []
+  },
+  {
+    "id": "grand-coffee",
+    "added": []
+  },
+  {
+    "id": "obsequent-sf",
+    "query": "\"Obsequent Coffee\" \"2700 16th St\" San Francisco interior exterior cafe",
+    "candidateCount": 0,
+    "added": []
+  },
+  {
+    "id": "verve-mission",
+    "added": []
+  },
+  {
+    "id": "sf-delah",
+    "added": []
+  },
+  {
+    "id": "sf-juniper",
+    "added": []
+  },
+  {
+    "id": "sf-doppio",
+    "added": []
+  },
+  {
+    "id": "sf-hedge",
+    "added": []
+  },
+  {
+    "id": "sf-coffee-berry",
+    "added": []
+  },
+  {
+    "id": "sf-telescope",
+    "added": []
+  },
+  {
+    "id": "sf-golden-goat",
+    "added": []
+  },
+  {
+    "id": "sf-abanico",
+    "added": []
+  },
+  {
+    "id": "east-belmo",
+    "added": []
+  },
+  {
+    "id": "east-delah",
+    "added": []
+  },
+  {
+    "id": "east-sanaa-broadway",
+    "added": []
+  },
+  {
+    "id": "east-victory-point",
+    "added": []
+  },
+  {
+    "id": "east-my-coffee",
+    "query": "\"MY Coffee Roastery\" \"2080 Martin Luther King Jr Way\" Berkeley interior exterior cafe",
+    "candidateCount": 6,
+    "added": [
+      {
+        "file": "images/gallery/east-my-coffee-search-3.jpg",
+        "credit": "brooksysociety.com",
+        "source": "https://brooksysociety.com/top-10-coffee-shops-in-berkeley/",
+        "original": "https://brooksysociety.com/wp-content/uploads/2022/01/my-coffee-roastery-1024x1024.jpg",
+        "title": "Top 10 Coffee Shops in Berkeley - Brooksy"
+      }
+    ]
+  },
+  {
+    "id": "east-roast-toast",
+    "added": []
+  },
+  {
+    "id": "east-jaffa",
+    "added": []
+  },
+  {
+    "id": "east-mohka",
+    "added": []
+  },
+  {
+    "id": "east-heyma",
+    "added": []
+  },
+  {
+    "id": "east-aint-normal",
+    "added": []
+  },
+  {
+    "id": "peninsula-zombierunner",
+    "added": []
+  },
+  {
+    "id": "peninsula-one-oz",
+    "query": "\"1 Oz Coffee\" \"650 Castro St #130\" Mountain View interior exterior cafe",
+    "candidateCount": 38,
+    "added": [
+      {
+        "file": "images/gallery/peninsula-one-oz-search-2.jpg",
+        "credit": "joe.coffee",
+        "source": "https://joe.coffee/locations/ca/mountain-view/1-oz-coffee-mountain-view-aa1c78e9-1808-4b4a-ae30-d0e1c509583c/",
+        "original": "https://pub-ba1a74be17d7442a9f2541946eb9510e.r2.dev/shops/aa1c78e9-1808-4b4a-ae30-d0e1c509583c/0.jpg",
+        "title": "1 Oz Coffee - Mountain View, CA | joe coffee"
+      },
+      {
+        "file": "images/gallery/peninsula-one-oz-search-4.jpg",
+        "credit": "joe.coffee",
+        "source": "https://joe.coffee/locations/ca/mountain-view/1-oz-coffee-mountain-view-aa1c78e9-1808-4b4a-ae30-d0e1c509583c/",
+        "original": "https://pub-ba1a74be17d7442a9f2541946eb9510e.r2.dev/shops/aa1c78e9-1808-4b4a-ae30-d0e1c509583c/2.jpg",
+        "title": "1 Oz Coffee - Mountain View, CA | joe coffee"
+      }
+    ]
+  },
+  {
+    "id": "peninsula-kaizen",
+    "added": []
+  },
+  {
+    "id": "peninsula-fiero",
+    "added": []
+  },
+  {
+    "id": "peninsula-cloud9",
+    "added": []
+  },
+  {
+    "id": "peninsula-little-late-bird",
+    "query": "\"Little Late Bird\" \"777 Mariners Island Blvd Ste 170\" San Mateo interior exterior cafe",
+    "candidateCount": 2,
+    "added": [
+      {
+        "file": "images/gallery/peninsula-little-late-bird-search-3.jpg",
+        "credit": "Yelp 门店页",
+        "source": "https://www.yelp.com/biz/little-late-bird-san-mateo",
+        "original": "https://s3-media0.fl.yelpcdn.com/bphoto/QUDYj3dhtb_VH8YL43Xdqg/o.jpg",
+        "title": "LITTLE LATE BIRD - Updated June 2026 - 218 Photos & 93 Reviews - 777 Mariners Island Blvd, San ..."
+      }
+    ]
+  },
+  {
+    "id": "peninsula-sanaa",
+    "added": []
+  },
+  {
+    "id": "peninsula-cappucho",
+    "query": "\"Cappucho Cafe & Coffee Roaster\" \"1180 Main St\" Redwood City interior exterior cafe",
+    "candidateCount": 3,
+    "added": [
+      {
+        "file": "images/gallery/peninsula-cappucho-search-3.jpg",
+        "credit": "joe.coffee",
+        "source": "https://joe.coffee/locations/ca/redwood-city/cappucho-cafe-and-coffee-roaster-redwood-city-b1c9c3e2-6584-462a-a7d0-aca5ce7d3165/",
+        "original": "https://pub-ba1a74be17d7442a9f2541946eb9510e.r2.dev/shops/b1c9c3e2-6584-462a-a7d0-aca5ce7d3165/0.jpg",
+        "title": "Cappucho Cafe & Coffee Roaster - Redwood City, CA | joe coffee"
+      }
+    ]
+  },
+  {
+    "id": "peninsula-yard",
+    "added": []
+  },
+  {
+    "id": "peninsula-brew",
+    "added": []
+  },
+  {
+    "id": "south-jiaren",
+    "added": []
+  },
+  {
+    "id": "south-roys",
+    "added": []
+  },
+  {
+    "id": "south-bavetta",
+    "query": "\"Bavetta Coffee\" \"754 The Alameda #80\" San Jose interior exterior cafe",
+    "candidateCount": 1,
+    "added": []
+  },
+  {
+    "id": "south-chromatic",
+    "added": []
+  },
+  {
+    "id": "south-drink",
+    "added": []
+  },
+  {
+    "id": "south-nabi",
+    "added": []
+  },
+  {
+    "id": "south-dumont",
+    "added": []
+  },
+  {
+    "id": "south-moonbeans",
+    "query": "\"MoonBean's Coffee\" \"6219 Santa Teresa Blvd\" San Jose interior exterior cafe",
+    "candidateCount": 6,
+    "added": [
+      {
+        "file": "images/gallery/south-moonbeans-search-2.jpg",
+        "credit": "moonbeancoffee.com",
+        "source": "https://moonbeancoffee.com/blogs/news/patio-season-has-come",
+        "original": "http://moonbeancoffee.com/cdn/shop/articles/Untitled_design_ab70e03b-de60-453a-9b57-32fea0f53687_1200x1200.png?v=1616373959",
+        "title": "PATIO SEASON HAS COME! - Moonbean Coffee Company"
+      }
+    ]
+  },
+  {
+    "id": "south-am-craft",
+    "added": []
+  },
+  {
+    "id": "south-qishr",
+    "added": []
+  },
+  {
+    "id": "marin-firehouse",
+    "added": []
+  },
+  {
+    "id": "marin-sanaa",
+    "added": []
+  },
+  {
+    "id": "marin-franko",
+    "added": []
+  },
+  {
+    "id": "marin-kamson",
+    "added": []
+  },
+  {
+    "id": "marin-coffee-roasters",
+    "added": []
+  }
+]

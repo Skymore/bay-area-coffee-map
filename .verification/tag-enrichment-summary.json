@@ -1,0 +1,29 @@
+{
+  "enrichedAt": "2026-07-11T09:51:56.356Z",
+  "cafes": 100,
+  "tagOptions": 15,
+  "tagCounts": {
+    "serious": 68,
+    "roaster": 50,
+    "work": 22,
+    "quiet": 14,
+    "lively": 25,
+    "neighborhood": 100,
+    "pastry": 46,
+    "brunch": 17,
+    "outdoor": 27,
+    "scenic": 22,
+    "quick": 38,
+    "late": 14,
+    "date": 26,
+    "specialty": 17,
+    "heritage": 5
+  },
+  "evidenceRecords": 385,
+  "sourceFiles": [
+    ".verification/current-google-details.json",
+    ".verification/selected-43-google-maps.json",
+    ".verification/google-maps-candidate-pool.json",
+    "src/data.js website/ratingSource fields"
+  ]
+}
