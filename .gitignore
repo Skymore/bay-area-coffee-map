@@ -6,6 +6,7 @@ dist/
 .env
 # Raw/generated provider payloads can contain opaque URLs that trigger secret scanners.
 .verification/google-api-usage.json
+.verification/google-place-context-latest.json
 .verification/current-place-snapshots.json
 .verification/google-maps-candidate-pool.json
 .verification/google-maps-raw.json

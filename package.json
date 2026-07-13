@@ -10,6 +10,9 @@
     "preview": "vite preview --host 0.0.0.0",
     "ratings:check": "node --env-file-if-exists=.env scripts/sync-google-ratings.mjs",
     "ratings:apply": "node --env-file-if-exists=.env scripts/sync-google-ratings.mjs --apply",
+    "context:check": "node --env-file-if-exists=.env scripts/sync-google-place-context.mjs",
+    "context:apply": "node --env-file-if-exists=.env scripts/sync-google-place-context.mjs --apply",
+    "data:prune-closed": "node scripts/prune-permanently-closed.mjs",
     "test:ratings": "node --test scripts/google-place-matcher.test.mjs"
   },
   "dependencies": {

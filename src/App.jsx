@@ -205,6 +205,10 @@ function distanceInMiles(origin, cafe) {
 }
 
 function cafeSearchText(cafe) {
+  const nearbyNames = [
+    ...(cafe.nearbyPlaces?.groceries ?? []),
+    ...(cafe.nearbyPlaces?.transit ?? [])
+  ].map(place => place.name);
   return [
     cafe.name,
     cafe.city,
@@ -214,7 +218,8 @@ function cafeSearchText(cafe) {
     cafe.note,
     cafe.vibe,
     regionLabels[cafe.region],
-    ...cafe.tags.map(tag => tagLabels[tag] || tag)
+    ...cafe.tags.map(tag => tagLabels[tag] || tag),
+    ...nearbyNames
   ]
     .join(" ")
     .toLowerCase();
@@ -222,6 +227,79 @@ function cafeSearchText(cafe) {
 
 function cafeIntro(cafe) {
   return cafe.vibe;
+}
+
+function formatNearbyDistance(meters) {
+  if (!Number.isFinite(meters)) return "";
+  if (meters < 1000) return `${meters} m`;
+  return `${(meters / 1000).toFixed(1)} km`;
+}
+
+function businessStatusLabel(status) {
+  if (status === "CLOSED_TEMPORARILY") return "暂时停业";
+  if (status === "CLOSED_PERMANENTLY") return "永久停业";
+  return null;
+}
+
+function OpeningHours({ cafe }) {
+  const status = businessStatusLabel(cafe.placeBusinessStatus);
+  const descriptions = cafe.regularOpeningHours?.weekdayDescriptions ?? [];
+  if (!status && !descriptions.length) return null;
+
+  return (
+    <details className="detail-context detail-hours">
+      <summary>
+        <Icon name="clock" />
+        <span>营业时间</span>
+        {status ? <strong className="context-status">{status}</strong> : null}
+      </summary>
+      {descriptions.length ? (
+        <ul className="hours-list">
+          {descriptions.map(description => <li key={description}>{description}</li>)}
+        </ul>
+      ) : (
+        <p className="context-empty">Google 暂无常规营业时间</p>
+      )}
+    </details>
+  );
+}
+
+function NearbyGroup({ icon, label, places }) {
+  if (!places.length) return null;
+  return (
+    <div className="nearby-group">
+      <h4><Icon name={icon} />{label}</h4>
+      <ul>
+        {places.map(place => (
+          <li key={place.id}>
+            <a href={place.mapsUri} target="_blank" rel="noopener noreferrer">
+              <span>{place.name}</span>
+              <small>{formatNearbyDistance(place.distanceMeters)}</small>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+function NearbyPlaces({ cafe }) {
+  const groceries = cafe.nearbyPlaces?.groceries ?? [];
+  const transit = cafe.nearbyPlaces?.transit ?? [];
+  if (!groceries.length && !transit.length) return null;
+  return (
+    <details className="detail-context detail-nearby">
+      <summary>
+        <Icon name="map-pin" />
+        <span>附近地点</span>
+        <strong>{groceries.length + transit.length}</strong>
+      </summary>
+      <div className="nearby-groups">
+        <NearbyGroup icon="map-pin" label="超市与杂货" places={groceries} />
+        <NearbyGroup icon="train-front" label="公交与轨道" places={transit} />
+      </div>
+    </details>
+  );
 }
 
 function StarRating({ rating, ratingCount }) {
@@ -266,6 +344,17 @@ function markerIcon(cafe, isActive) {
     iconSize: [34, 42],
     iconAnchor: [17, 39],
     popupAnchor: [0, -38]
+  });
+}
+
+function nearbyMarkerIcon(category) {
+  const label = category === "grocery" ? "购" : "站";
+  return L.divIcon({
+    className: "",
+    html: `<div class="nearby-marker is-${category}"><span>${label}</span></div>`,
+    iconSize: [28, 28],
+    iconAnchor: [14, 14],
+    popupAnchor: [0, -14]
   });
 }
 
@@ -498,6 +587,8 @@ function DetailPanelContent({ cafe, userLatLng, eagerPhoto = true }) {
         </p>
       ) : null}
       <p className="detail-vibe">{cafeIntro(cafe)}</p>
+      <OpeningHours cafe={cafe} />
+      <NearbyPlaces cafe={cafe} />
       <div className="card-meta detail-tags">{tags}</div>
       <div className="detail-actions">
         <a className="card-button primary" href={directionsUrl(cafe)} target="_blank" rel="noopener noreferrer">
@@ -517,6 +608,17 @@ function popupHtml(cafe, userLatLng) {
   return renderToStaticMarkup(
     <article className="detail-panel popup-detail-panel" aria-label={`${cafe.name} 详情`}>
       <DetailPanelContent cafe={cafe} userLatLng={userLatLng} eagerPhoto={false} />
+    </article>
+  );
+}
+
+function nearbyPopupHtml(place) {
+  return renderToStaticMarkup(
+    <article className="nearby-popup">
+      <strong>{place.name}</strong>
+      {place.address ? <span>{place.address}</span> : null}
+      <small>{place.category === "grocery" ? "超市 / 杂货" : "公交 / 轨道"} · {formatNearbyDistance(place.distanceMeters)}</small>
+      <a href={place.mapsUri} target="_blank" rel="noopener noreferrer">Google Maps</a>
     </article>
   );
 }
@@ -542,6 +644,24 @@ function fitCafesOnMap(map, cafeList) {
   });
 }
 
+function fitCafeContext(map, cafe) {
+  if (!map || !cafe) return;
+  map.stop();
+  const nearbyCoords = [
+    ...(cafe.nearbyPlaces?.groceries ?? []),
+    ...(cafe.nearbyPlaces?.transit ?? [])
+  ].map(place => place.coords);
+  if (nearbyCoords.length) {
+    map.fitBounds(L.latLngBounds([cafe.coords, ...nearbyCoords]).pad(0.22), {
+      animate: false,
+      maxZoom: 14,
+      padding: [28, 28]
+    });
+  } else {
+    map.setView(cafe.coords, Math.max(map.getZoom(), 14), { animate: false });
+  }
+}
+
 export default function App() {
   const [regions, setRegions] = useState([]);
   const [selectedPreferences, setSelectedPreferences] = useState([]);
@@ -560,6 +680,7 @@ export default function App() {
   const mapContainerRef = useRef(null);
   const mapRef = useRef(null);
   const markerLayerRef = useRef(null);
+  const nearbyLayerRef = useRef(null);
   const markersRef = useRef(new Map());
   const popupRequestRef = useRef(0);
   const userMarkerRef = useRef(null);
@@ -603,7 +724,12 @@ export default function App() {
   const selectedCafe = selectedId ? cafeById.get(selectedId) : null;
 
   const mapStatus = selectedCafe
-    ? { icon: "map-pin", text: `${selectedCafe.neighborhood} · ${selectedCafe.city}` }
+    ? {
+        icon: "map-pin",
+        text: `${selectedCafe.neighborhood} · 附近 ${
+          (selectedCafe.nearbyPlaces?.groceries.length ?? 0) + (selectedCafe.nearbyPlaces?.transit.length ?? 0)
+        } 个地点`
+      }
     : { icon: "map-pin", text: "湾区视图" };
 
   useEffect(() => {
@@ -648,16 +774,11 @@ export default function App() {
           markersRef.current.get(id)?.openPopup();
         };
 
-        if (map && pan) {
-          map.once("moveend", openSelectedPopup);
-          window.setTimeout(openSelectedPopup, 850);
-        } else {
-          window.setTimeout(openSelectedPopup, 0);
-        }
+        window.setTimeout(openSelectedPopup, map && pan ? 120 : 0);
       }
 
       if (map && pan) {
-        map.flyTo(cafe.coords, Math.max(map.getZoom(), 13), { duration: 0.7 });
+        fitCafeContext(map, cafe);
       }
     },
     [cafeById]
@@ -675,6 +796,7 @@ export default function App() {
 
     mapRef.current = map;
     markerLayerRef.current = L.layerGroup().addTo(map);
+    nearbyLayerRef.current = L.layerGroup().addTo(map);
 
     L.tileLayer(mapTileConfig.url, mapTileConfig.options).addTo(map);
 
@@ -739,6 +861,7 @@ export default function App() {
       markersRef.current.clear();
       userMarkerRef.current = null;
       markerLayerRef.current = null;
+      nearbyLayerRef.current = null;
       mapRef.current = null;
       mapNode.removeEventListener("click", handlePopupPhotoNav);
       map.remove();
@@ -764,21 +887,18 @@ export default function App() {
         icon: markerIcon(cafe, false),
         title: cafe.name
       }).bindPopup(popupHtml(cafe, userLatLng), {
-        autoPan: true,
+        autoPan: false,
         autoPanPaddingTopLeft: L.point(22, 96),
         autoPanPaddingBottomRight: L.point(22, 22),
-        keepInView: true,
+        keepInView: false,
         maxWidth: 300
       });
 
-      marker.on("click", () => {
-        setSelectedId(cafe.id);
-        window.setTimeout(() => markersRef.current.get(cafe.id)?.openPopup(), 0);
-      });
+      marker.on("click", () => selectCafe(cafe.id, { pan: true, openPopup: true }));
       markersRef.current.set(cafe.id, marker);
       layer.addLayer(marker);
     });
-  }, [filteredCafes, mapReady, userLatLng]);
+  }, [filteredCafes, mapReady, selectCafe, userLatLng]);
 
   useEffect(() => {
     markersRef.current.forEach((marker, id) => {
@@ -788,9 +908,48 @@ export default function App() {
   }, [cafeById, selectedId]);
 
   useEffect(() => {
-    if (!mapReady) return;
+    const layer = nearbyLayerRef.current;
+    if (!mapReady || !layer) return;
+    layer.clearLayers();
+    if (!selectedCafe) return;
+
+    const groceries = selectedCafe.nearbyPlaces?.groceries ?? [];
+    const transit = selectedCafe.nearbyPlaces?.transit ?? [];
+    const nearby = [...groceries, ...transit];
+    if (!nearby.length) return;
+
+    L.circle(selectedCafe.coords, {
+      radius: selectedCafe.nearbyPlaces?.radiusMeters ?? 1200,
+      color: "#c56f3d",
+      fillColor: "#e6b88b",
+      fillOpacity: 0.08,
+      opacity: 0.55,
+      weight: 1.5,
+      dashArray: "5 7",
+      interactive: false
+    }).addTo(layer);
+
+    nearby.forEach(place => {
+      L.marker(place.coords, {
+        icon: nearbyMarkerIcon(place.category),
+        title: `${place.name} · ${formatNearbyDistance(place.distanceMeters)}`,
+        zIndexOffset: 700
+      })
+        .bindTooltip(`${place.name} · ${formatNearbyDistance(place.distanceMeters)}`, {
+          direction: "top",
+          offset: L.point(0, -10)
+        })
+        .bindPopup(nearbyPopupHtml(place), { maxWidth: 240 })
+        .addTo(layer);
+    });
+    const focusTimer = window.setTimeout(() => fitCafeContext(mapRef.current, selectedCafe), 80);
+    return () => window.clearTimeout(focusTimer);
+  }, [mapReady, selectedCafe]);
+
+  useEffect(() => {
+    if (!mapReady || selectedId) return;
     fitCafesOnMap(mapRef.current, filteredCafesRef.current);
-  }, [fitNonce, mapReady]);
+  }, [fitNonce, mapReady, selectedId]);
 
   useEffect(() => {
     const syncFullscreen = () => {

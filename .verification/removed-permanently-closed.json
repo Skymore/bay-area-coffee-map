@@ -1,0 +1,21 @@
+{
+  "removedAt": "2026-07-12T23:43:49.544Z",
+  "removed": [
+    {
+      "id": "bartavelle",
+      "name": "Bartavelle",
+      "status": "CLOSED_PERMANENTLY"
+    },
+    {
+      "id": "blue-bottle-mint",
+      "name": "Blue Bottle Coffee",
+      "status": "CLOSED_PERMANENTLY"
+    },
+    {
+      "id": "obsequent-sf",
+      "name": "Obsequent Coffee",
+      "status": "CLOSED_PERMANENTLY"
+    }
+  ],
+  "remaining": 111
+}

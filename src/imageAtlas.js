@@ -198,394 +198,379 @@ export const imageAtlas = {
       "x": 3600,
       "y": 1215
     },
-    "bartavelle": {
-      "page": 0,
-      "x": 4320,
-      "y": 1215
-    },
     "backhaus": {
       "page": 0,
-      "x": 5040,
+      "x": 4320,
       "y": 1215
     },
     "backyard-brew": {
       "page": 0,
-      "x": 5760,
+      "x": 5040,
       "y": 1215
     },
     "coupa-ramona": {
       "page": 0,
-      "x": 6480,
+      "x": 5760,
       "y": 1215
     },
     "saint-frank-menlo": {
       "page": 0,
-      "x": 0,
-      "y": 1620
+      "x": 6480,
+      "y": 1215
     },
     "coffeebar-menlo": {
       "page": 0,
-      "x": 720,
+      "x": 0,
       "y": 1620
     },
     "cafe-borrone": {
       "page": 0,
-      "x": 1440,
+      "x": 720,
       "y": 1620
     },
     "academic": {
       "page": 0,
-      "x": 2160,
+      "x": 1440,
       "y": 1620
     },
     "voltaire": {
       "page": 0,
-      "x": 2880,
+      "x": 2160,
       "y": 1620
     },
     "moonwake": {
       "page": 0,
-      "x": 3600,
+      "x": 2880,
       "y": 1620
     },
     "lookout": {
       "page": 0,
-      "x": 4320,
+      "x": 3600,
       "y": 1620
     },
     "coffee-water-lab": {
       "page": 0,
-      "x": 5040,
+      "x": 4320,
       "y": 1620
     },
     "red-whale": {
       "page": 0,
-      "x": 5760,
+      "x": 5040,
       "y": 1620
     },
     "equator-sausalito": {
       "page": 0,
-      "x": 6480,
+      "x": 5760,
       "y": 1620
-    },
-    "blue-bottle-mint": {
-      "page": 0,
-      "x": 0,
-      "y": 2025
     },
     "reveille-north-beach": {
       "page": 0,
-      "x": 720,
-      "y": 2025
+      "x": 6480,
+      "y": 1620
     },
     "caffe-trieste": {
       "page": 0,
-      "x": 1440,
+      "x": 0,
       "y": 2025
     },
     "mr-espresso": {
       "page": 0,
-      "x": 2160,
+      "x": 720,
       "y": 2025
     },
     "grand-coffee": {
       "page": 0,
-      "x": 2880,
-      "y": 2025
-    },
-    "obsequent-sf": {
-      "page": 0,
-      "x": 3600,
+      "x": 1440,
       "y": 2025
     },
     "verve-mission": {
       "page": 0,
-      "x": 4320,
+      "x": 2160,
       "y": 2025
     },
     "sf-delah": {
       "page": 0,
-      "x": 5040,
+      "x": 2880,
       "y": 2025
     },
     "sf-juniper": {
       "page": 0,
-      "x": 5760,
+      "x": 3600,
       "y": 2025
     },
     "sf-doppio": {
       "page": 0,
-      "x": 6480,
+      "x": 4320,
       "y": 2025
     },
     "sf-hedge": {
-      "page": 1,
-      "x": 0,
-      "y": 0
+      "page": 0,
+      "x": 5040,
+      "y": 2025
     },
     "sf-coffee-berry": {
-      "page": 1,
-      "x": 720,
-      "y": 0
+      "page": 0,
+      "x": 5760,
+      "y": 2025
     },
     "sf-telescope": {
-      "page": 1,
-      "x": 1440,
-      "y": 0
+      "page": 0,
+      "x": 6480,
+      "y": 2025
     },
     "sf-golden-goat": {
       "page": 1,
-      "x": 2160,
+      "x": 0,
       "y": 0
     },
     "sf-abanico": {
       "page": 1,
-      "x": 2880,
+      "x": 720,
       "y": 0
     },
     "east-belmo": {
       "page": 1,
-      "x": 3600,
+      "x": 1440,
       "y": 0
     },
     "east-delah": {
       "page": 1,
-      "x": 4320,
+      "x": 2160,
       "y": 0
     },
     "east-sanaa-broadway": {
       "page": 1,
-      "x": 5040,
+      "x": 2880,
       "y": 0
     },
     "east-victory-point": {
       "page": 1,
-      "x": 5760,
+      "x": 3600,
       "y": 0
     },
     "east-my-coffee": {
       "page": 1,
-      "x": 6480,
+      "x": 4320,
       "y": 0
     },
     "east-roast-toast": {
       "page": 1,
-      "x": 0,
-      "y": 405
+      "x": 5040,
+      "y": 0
     },
     "east-jaffa": {
       "page": 1,
-      "x": 720,
-      "y": 405
+      "x": 5760,
+      "y": 0
     },
     "east-mohka": {
       "page": 1,
-      "x": 1440,
-      "y": 405
+      "x": 6480,
+      "y": 0
     },
     "east-heyma": {
       "page": 1,
-      "x": 2160,
+      "x": 0,
       "y": 405
     },
     "east-aint-normal": {
       "page": 1,
-      "x": 2880,
+      "x": 720,
       "y": 405
     },
     "peninsula-zombierunner": {
       "page": 1,
-      "x": 3600,
+      "x": 1440,
       "y": 405
     },
     "peninsula-one-oz": {
       "page": 1,
-      "x": 4320,
+      "x": 2160,
       "y": 405
     },
     "peninsula-kaizen": {
       "page": 1,
-      "x": 5040,
+      "x": 2880,
       "y": 405
     },
     "peninsula-fiero": {
       "page": 1,
-      "x": 5760,
+      "x": 3600,
       "y": 405
     },
     "peninsula-cloud9": {
       "page": 1,
-      "x": 6480,
+      "x": 4320,
       "y": 405
     },
     "peninsula-little-late-bird": {
       "page": 1,
-      "x": 0,
-      "y": 810
+      "x": 5040,
+      "y": 405
     },
     "peninsula-sanaa": {
       "page": 1,
-      "x": 720,
-      "y": 810
+      "x": 5760,
+      "y": 405
     },
     "peninsula-cappucho": {
       "page": 1,
-      "x": 1440,
-      "y": 810
+      "x": 6480,
+      "y": 405
     },
     "peninsula-yard": {
       "page": 1,
-      "x": 2160,
+      "x": 0,
       "y": 810
     },
     "peninsula-brew": {
       "page": 1,
-      "x": 2880,
+      "x": 720,
       "y": 810
     },
     "south-jiaren": {
       "page": 1,
-      "x": 3600,
+      "x": 1440,
       "y": 810
     },
     "south-roys": {
       "page": 1,
-      "x": 4320,
+      "x": 2160,
       "y": 810
     },
     "south-bavetta": {
       "page": 1,
-      "x": 5040,
+      "x": 2880,
       "y": 810
     },
     "south-chromatic": {
       "page": 1,
-      "x": 5760,
+      "x": 3600,
       "y": 810
     },
     "south-drink": {
       "page": 1,
-      "x": 6480,
+      "x": 4320,
       "y": 810
     },
     "south-nabi": {
       "page": 1,
-      "x": 0,
-      "y": 1215
+      "x": 5040,
+      "y": 810
     },
     "south-dumont": {
       "page": 1,
-      "x": 720,
-      "y": 1215
+      "x": 5760,
+      "y": 810
     },
     "south-moonbeans": {
       "page": 1,
-      "x": 1440,
-      "y": 1215
+      "x": 6480,
+      "y": 810
     },
     "south-am-craft": {
       "page": 1,
-      "x": 2160,
+      "x": 0,
       "y": 1215
     },
     "south-qishr": {
       "page": 1,
-      "x": 2880,
+      "x": 720,
       "y": 1215
     },
     "marin-firehouse": {
       "page": 1,
-      "x": 3600,
+      "x": 1440,
       "y": 1215
     },
     "marin-sanaa": {
       "page": 1,
-      "x": 4320,
+      "x": 2160,
       "y": 1215
     },
     "marin-franko": {
       "page": 1,
-      "x": 5040,
+      "x": 2880,
       "y": 1215
     },
     "marin-kamson": {
       "page": 1,
-      "x": 5760,
+      "x": 3600,
       "y": 1215
     },
     "marin-coffee-roasters": {
       "page": 1,
-      "x": 6480,
+      "x": 4320,
       "y": 1215
     },
     "coast-soul-grind": {
       "page": 1,
-      "x": 0,
-      "y": 1620
+      "x": 5040,
+      "y": 1215
     },
     "coast-chit-chat-manor": {
       "page": 1,
-      "x": 720,
-      "y": 1620
+      "x": 5760,
+      "y": 1215
     },
     "coast-cafe-society": {
       "page": 1,
-      "x": 1440,
-      "y": 1620
+      "x": 6480,
+      "y": 1215
     },
     "coast-downtown-local": {
       "page": 1,
-      "x": 2160,
+      "x": 0,
       "y": 1620
     },
     "coast-whale-city": {
       "page": 1,
-      "x": 2880,
+      "x": 720,
       "y": 1620
     },
     "coast-cat-cloud-swift": {
       "page": 1,
-      "x": 3600,
+      "x": 1440,
       "y": 1620
     },
     "coast-verve-seabright": {
       "page": 1,
-      "x": 4320,
+      "x": 2160,
       "y": 1620
     },
     "coast-power-plant": {
       "page": 1,
-      "x": 5040,
+      "x": 2880,
       "y": 1620
     },
     "coast-steamer-lane-supply": {
       "page": 1,
-      "x": 5760,
+      "x": 3600,
       "y": 1620
     },
     "coast-mr-toots": {
       "page": 1,
-      "x": 6480,
+      "x": 4320,
       "y": 1620
     },
     "coast-cliffside-coffee": {
       "page": 1,
-      "x": 0,
-      "y": 2025
+      "x": 5040,
+      "y": 1620
     },
     "coast-tidal-monterey": {
       "page": 1,
-      "x": 720,
-      "y": 2025
+      "x": 5760,
+      "y": 1620
     },
     "coast-crema-lovers-point": {
       "page": 1,
-      "x": 1440,
-      "y": 2025
+      "x": 6480,
+      "y": 1620
     },
     "coast-cafe-aquatica": {
       "page": 1,
-      "x": 2160,
+      "x": 0,
       "y": 2025
     }
   }

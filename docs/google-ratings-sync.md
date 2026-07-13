@@ -50,3 +50,25 @@ npm run ratings:apply
 - `--output=PATH`：指定审计报告路径。
 
 评分和评价数是 Places API 的计费字段。批量运行前请检查 Google Cloud 配额与账单设置。
+
+## 营业时间与周边设施
+
+`scripts/sync-google-place-context.mjs` 为每家门店请求完整的
+`regularOpeningHours`，并以门店坐标为中心执行一次 Nearby Search（默认半径
+1200 米）。一次 Nearby Search 同时覆盖超市、杂货店、便利店、公交站和轨道站，
+最多保存最近的 5 个购物点与 6 个交通点；结果包含坐标、距离和 Google Maps 链接，
+供详情清单与地图高亮使用。
+
+```sh
+# 只生成审计报告
+npm run context:check
+
+# 写入 src/data.js
+npm run context:apply
+
+# 删除 Google 标记为永久停业的门店及其图片、路线引用
+npm run data:prune-closed
+```
+
+同步脚本使用明确的 Field Mask，不会把 API Key 写入前端或审计报告。调用数累计记录在
+被 Git 忽略的 `.verification/google-api-usage.json`。

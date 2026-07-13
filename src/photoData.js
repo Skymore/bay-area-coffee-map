@@ -611,23 +611,6 @@ export const photoData = {
       "source": "https://www.yelp.com/biz/souvenir-coffee-berkeley"
     }
   ],
-  "bartavelle": [
-    {
-      "file": "images/cafes/bartavelle.jpg",
-      "credit": "Google Maps 门店页",
-      "source": "https://www.google.com/maps/search/?api=1&query=Bartavelle%2C%201621%20San%20Pablo%20Ave%2C%20Berkeley%2C%20CA%2094702"
-    },
-    {
-      "file": "images/gallery/bartavelle-search-2.jpg",
-      "credit": "postcard.inc",
-      "source": "https://www.postcard.inc/places/bartavelle-cafe"
-    },
-    {
-      "file": "images/gallery/bartavelle-search-4.jpg",
-      "credit": "Eater",
-      "source": "https://sf.eater.com/2023/7/14/23795186/bartavelle-bar-sardine-wine-bar-berkeley"
-    }
-  ],
   "backhaus": [
     {
       "file": "images/cafes/backhaus.jpg",
@@ -849,23 +832,6 @@ export const photoData = {
       "source": "https://order.toasttab.com/online/sausalito-equator"
     }
   ],
-  "blue-bottle-mint": [
-    {
-      "file": "images/cafes/blue-bottle-mint.jpg",
-      "credit": "Google Maps 门店页",
-      "source": "https://www.google.com/maps/search/?api=1&query=Blue%20Bottle%20Coffee%2C%2066%20Mint%20St%2C%20San%20Francisco%2C%20CA%2094103"
-    },
-    {
-      "file": "images/gallery/blue-bottle-mint-search-2.jpg",
-      "credit": "wallpaper.com",
-      "source": "https://www.wallpaper.com/travel/usa/san-francisco/restaurants/blue-bottle-coffee"
-    },
-    {
-      "file": "images/gallery/blue-bottle-mint-search-4.jpg",
-      "credit": "foodgressing.com",
-      "source": "https://foodgressing.com/blue-bottle-coffee-mint-street-san-francisco/"
-    }
-  ],
   "reveille-north-beach": [
     {
       "file": "images/cafes/reveille-north-beach.jpg",
@@ -932,13 +898,6 @@ export const photoData = {
       "file": "images/gallery/grand-coffee-search-4.jpg",
       "credit": "amazingarchitecture.com",
       "source": "https://amazingarchitecture.com/coffee-shop/grand-coffee-too-at-el-taller-designed-by-studio-vara-with-brereton-in-san-francisco-california"
-    }
-  ],
-  "obsequent-sf": [
-    {
-      "file": "images/cafes/obsequent-sf.jpg",
-      "credit": "Google Maps 门店页",
-      "source": "https://www.google.com/maps/search/?api=1&query=Obsequent%20Coffee%2C%202700%2016th%20St%2C%20San%20Francisco%2C%20CA%2094103"
     }
   ],
   "verve-mission": [
