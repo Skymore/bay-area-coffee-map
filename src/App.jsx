@@ -305,32 +305,164 @@ function compactHoursText(description = "") {
   return description.replace(/^[^:：]+[:：]\s*/, "");
 }
 
+function mergeOpeningSegments(segments = []) {
+  return [...segments]
+    .sort((a, b) => a.start - b.start)
+    .reduce((merged, segment) => {
+      const current = {
+        start: Math.max(0, segment.start),
+        end: Math.min(1440, segment.end)
+      };
+      const previous = merged.at(-1);
+      if (!previous || current.start > previous.end) return [...merged, current];
+      previous.end = Math.max(previous.end, current.end);
+      return merged;
+    }, []);
+}
+
+function formatOpenDuration(minutes) {
+  const hours = minutes / 60;
+  return Number.isInteger(hours) ? `${hours}h` : `${hours.toFixed(1)}h`;
+}
+
+function cafeLocalClock(cafe) {
+  try {
+    const parts = Object.fromEntries(
+      new Intl.DateTimeFormat("en-US", {
+        timeZone: "America/Los_Angeles",
+        weekday: "short",
+        hour: "2-digit",
+        minute: "2-digit",
+        hourCycle: "h23"
+      }).formatToParts(new Date()).map(part => [part.type, part.value])
+    );
+    const day = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].indexOf(parts.weekday);
+    if (day >= 0) return { day, minute: Number(parts.hour) * 60 + Number(parts.minute) };
+  } catch {
+    // Fall back to the place offset if the browser lacks IANA time-zone support.
+  }
+
+  const fallbackDate = new Date(Date.now() + (cafe.utcOffsetMinutes ?? 0) * 60_000);
+  return {
+    day: fallbackDate.getUTCDay(),
+    minute: fallbackDate.getUTCHours() * 60 + fallbackDate.getUTCMinutes()
+  };
+}
+
+function HoursClock({ segments, currentMinute, isOpen, label }) {
+  const radius = 44;
+  const markerAngle = (currentMinute / 1440) * Math.PI * 2 - Math.PI / 2;
+  const markerX = 60 + Math.cos(markerAngle) * radius;
+  const markerY = 60 + Math.sin(markerAngle) * radius;
+
+  return (
+    <div className={`hours-clock-wrap${isOpen ? " is-open" : ""}`} role="img" aria-label={label}>
+      <svg className="hours-clock" viewBox="0 0 120 120" aria-hidden="true">
+        <circle className="hours-clock-track" cx="60" cy="60" r={radius} pathLength="1440" />
+        {[0, 6, 12, 18].map(hour => {
+          const angle = (hour / 24) * Math.PI * 2 - Math.PI / 2;
+          const inner = 50;
+          const outer = 54;
+          return (
+            <line
+              className="hours-clock-tick"
+              key={hour}
+              x1={60 + Math.cos(angle) * inner}
+              y1={60 + Math.sin(angle) * inner}
+              x2={60 + Math.cos(angle) * outer}
+              y2={60 + Math.sin(angle) * outer}
+            />
+          );
+        })}
+        {segments.map((segment, index) => (
+          <circle
+            className="hours-clock-open"
+            cx="60"
+            cy="60"
+            r={radius}
+            pathLength="1440"
+            strokeDasharray={`${segment.end - segment.start} ${1440 - (segment.end - segment.start)}`}
+            strokeDashoffset={-segment.start}
+            key={`${segment.start}-${segment.end}-${index}`}
+          />
+        ))}
+        <circle className="hours-clock-now" cx={markerX} cy={markerY} r="3.6" />
+      </svg>
+      <span className="hours-clock-label">
+        <small>常规时段</small>
+        <strong>{isOpen ? "营业中" : "已打烊"}</strong>
+      </span>
+    </div>
+  );
+}
+
 function OpeningHours({ cafe }) {
   const status = businessStatusLabel(cafe.placeBusinessStatus);
   const descriptions = cafe.regularOpeningHours?.weekdayDescriptions ?? [];
-  const segments = openingSegmentsByDay(cafe.regularOpeningHours?.periods);
+  const segments = openingSegmentsByDay(cafe.regularOpeningHours?.periods).map(mergeOpeningSegments);
   if (!status && !descriptions.length) return null;
+
+  const localClock = cafeLocalClock(cafe);
+  const todaySegments = segments[localClock.day];
+  const isOpen = !status && todaySegments.some(segment =>
+    localClock.minute >= segment.start && localClock.minute < segment.end
+  );
+  const todayIndex = weekDays.findIndex(weekday => weekday.day === localClock.day);
+  const todayHours = compactHoursText(descriptions[todayIndex] ?? "") || "休息";
+  const weeklyMinutes = segments.flat().reduce((total, segment) => total + segment.end - segment.start, 0);
 
   return (
     <details className="detail-context detail-hours">
       <summary>
         <Icon name="clock" />
         <span>营业时间</span>
-        {status ? <strong className="context-status">{status}</strong> : null}
+        {status ? (
+          <strong className="context-status">{status}</strong>
+        ) : descriptions.length ? (
+          <strong className={`hours-summary-status${isOpen ? " is-open" : ""}`}>
+            {isOpen ? "营业中" : "已打烊"}
+          </strong>
+        ) : null}
       </summary>
       {descriptions.length ? (
         <div className="hours-chart" aria-label="一周营业时间图">
+          <div className="hours-overview">
+            <HoursClock
+              segments={todaySegments}
+              currentMinute={localClock.minute}
+              isOpen={isOpen}
+              label={`今天${todayHours}，${isOpen ? "常规时段内营业中" : "常规时段内已打烊"}`}
+            />
+            <div className="hours-overview-copy">
+              <span className="hours-eyebrow">TODAY · 星期{weekDays[todayIndex]?.label}</span>
+              <strong>{todayHours}</strong>
+              <p>{status || (isOpen ? "现在处于常规营业时段" : "今天的常规营业时段")}</p>
+              <span className="hours-week-total">
+                <small>一周合计</small>
+                <b>{formatOpenDuration(weeklyMinutes)}</b>
+              </span>
+            </div>
+          </div>
+          <div className="hours-section-title">
+            <span>一周节奏</span>
+            <small><i /> 营业时段</small>
+          </div>
           <div className="hours-axis" aria-hidden="true">
             <span>0</span><span>6</span><span>12</span><span>18</span><span>24</span>
           </div>
           {weekDays.map((weekday, index) => {
             const description = descriptions[index] ?? "";
+            const isToday = weekday.day === localClock.day;
             return (
-              <div className="hours-row" key={weekday.day} title={description}>
-                <b>{weekday.label}</b>
+              <div className={`hours-row${isToday ? " is-today" : ""}`} key={weekday.day} title={description}>
+                <span className="hours-day">
+                  <b>{weekday.label}</b>
+                  {isToday ? <em>今</em> : null}
+                </span>
                 <div className="hours-track">
                   {segments[weekday.day].map((segment, segmentIndex) => (
-                    <i
+                    <span
+                      aria-hidden="true"
                       key={`${segment.start}-${segment.end}-${segmentIndex}`}
                       style={{
                         left: `${(segment.start / 1440) * 100}%`,
@@ -338,11 +470,19 @@ function OpeningHours({ cafe }) {
                       }}
                     />
                   ))}
+                  {isToday ? (
+                    <i
+                      className="hours-now-line"
+                      aria-hidden="true"
+                      style={{ left: `${(localClock.minute / 1440) * 100}%` }}
+                    />
+                  ) : null}
                 </div>
                 <small>{compactHoursText(description) || "休息"}</small>
               </div>
             );
           })}
+          <p className="hours-note">以门店常规营业时间为准；节假日可能调整</p>
         </div>
       ) : (
         <p className="context-empty">Google 暂无常规营业时间</p>
