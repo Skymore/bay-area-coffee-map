@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import { chromium } from "playwright";
+import { cafes } from "../src/data.js";
 import { photoData } from "../src/photoData.js";
 
 const url = process.argv[2] ?? "https://room.ruit.me/p/coffee/";
@@ -10,6 +11,7 @@ const errors = [];
 const failed = [];
 const atlasStatuses = {};
 const expectedPhotos = Object.values(photoData).reduce((sum, photos) => sum + photos.length, 0);
+const expectedCafes = cafes.length;
 
 page.on("pageerror", (error) => errors.push(error.message));
 page.on("console", (message) => {
@@ -60,16 +62,16 @@ if (errors.length || failed.length) {
   throw new Error(JSON.stringify({ errors, failed }, null, 2));
 }
 
-if (result.cards !== 100) {
-  throw new Error(`expected 100 cards, got ${result.cards}`);
+if (result.cards !== expectedCafes) {
+  throw new Error(`expected ${expectedCafes} cards, got ${result.cards}`);
 }
 
-if (result.ratingCounts !== 100) {
-  throw new Error(`expected 100 rating links, got ${result.ratingCounts}`);
+if (result.ratingCounts !== expectedCafes) {
+  throw new Error(`expected ${expectedCafes} rating links, got ${result.ratingCounts}`);
 }
 
-if (result.parkingBadges !== 100 || result.parkingLevels.length !== 3) {
-  throw new Error(`expected 100 parking badges across three levels, got ${result.parkingBadges} / ${result.parkingLevels}`);
+if (result.parkingBadges !== expectedCafes || result.parkingLevels.length !== 3) {
+  throw new Error(`expected ${expectedCafes} parking badges across three levels, got ${result.parkingBadges} / ${result.parkingLevels}`);
 }
 
 if (result.photoFrames !== expectedPhotos || result.atlasFrames !== expectedPhotos) {

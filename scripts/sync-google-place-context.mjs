@@ -13,6 +13,7 @@ const option = (name, fallback = null) => {
 if (flag("help")) {
   console.log(`Usage: GOOGLE_PLACES_API_KEY=... node scripts/sync-google-place-context.mjs [options]\n\n` +
     `  --apply              Update src/data.js (default: report only)\n` +
+    `  --nearby-only        Reuse saved opening hours and only refresh nearby places\n` +
     `  --id=CAFE_ID         Process one cafe; may be repeated\n` +
     `  --limit=N            Process at most N cafes\n` +
     `  --radius=1200        Nearby Search radius in meters\n` +
@@ -37,6 +38,7 @@ if (!Number.isFinite(radiusMeters) || radiusMeters <= 0 || radiusMeters > 50_000
 const limit = Number(option("limit", "0"));
 const requestedIds = args.filter(value => value.startsWith("--id=")).map(value => value.slice(5));
 const apply = flag("apply");
+const nearbyOnly = flag("nearby-only");
 const dataModule = await import(`${pathToFileURL(dataPath).href}?t=${Date.now()}`);
 let selectedCafes = requestedIds.length ? dataModule.cafes.filter(cafe => requestedIds.includes(cafe.id)) : dataModule.cafes;
 if (requestedIds.length && selectedCafes.length !== new Set(requestedIds).size) {
@@ -90,7 +92,6 @@ const detailFields = [
   "displayName",
   "formattedAddress",
   "location",
-  "googleMapsUri",
   "businessStatus",
   "regularOpeningHours",
   "utcOffsetMinutes"
@@ -112,7 +113,7 @@ async function resolvePlace(cafe) {
     return { id: null, businessStatus: "CLOSED_PERMANENTLY" };
   }
 
-  const searchFields = "id,displayName,formattedAddress,location,googleMapsUri,businessStatus";
+  const searchFields = "id,displayName,formattedAddress,location,businessStatus";
   const payload = await googleRequest("https://places.googleapis.com/v1/places:searchText", {
     method: "POST",
     headers: { "X-Goog-FieldMask": searchFields.split(",").map(field => `places.${field}`).join(",") },
@@ -149,7 +150,27 @@ const transitTypes = new Set([
   "transit_station",
   "transit_stop"
 ]);
-const nearbyTypes = [...groceryTypes, ...transitTypes];
+const gasTypes = new Set(["gas_station"]);
+const schoolTypes = new Set(["school", "primary_school", "secondary_school", "university"]);
+const attractionTypes = new Set(["tourist_attraction", "museum", "park"]);
+const categoryRules = [
+  ["gas", gasTypes],
+  ["school", schoolTypes],
+  ["attraction", attractionTypes],
+  ["grocery", groceryTypes],
+  ["transit", transitTypes]
+];
+const nearbyTypes = [...new Set(categoryRules.flatMap(([, types]) => [...types]))];
+
+function standardMapsUrl(place) {
+  const params = new URLSearchParams({
+    api: "1",
+    query: [place.displayName?.text, place.shortFormattedAddress].filter(Boolean).join(", ") ||
+      `${place.location.latitude},${place.location.longitude}`
+  });
+  if (place.id) params.set("query_place_id", place.id);
+  return `https://www.google.com/maps/search/?${params.toString()}`;
+}
 
 function distanceMeters(origin, destination) {
   const toRad = value => (value * Math.PI) / 180;
@@ -173,7 +194,6 @@ async function searchNearby(cafe) {
         "places.types",
         "places.shortFormattedAddress",
         "places.location",
-        "places.googleMapsUri",
         "places.businessStatus"
       ].join(",")
     },
@@ -197,8 +217,8 @@ async function searchNearby(cafe) {
     .filter(place => place.businessStatus !== "CLOSED_PERMANENTLY" && place.location)
     .map(place => {
       const types = place.types ?? [];
-      const category = types.some(type => groceryTypes.has(type)) ? "grocery" :
-        types.some(type => transitTypes.has(type)) ? "transit" : null;
+      const category = categoryRules.find(([, categoryTypes]) => categoryTypes.has(place.primaryType))?.[0] ??
+        categoryRules.find(([, categoryTypes]) => types.some(type => categoryTypes.has(type)))?.[0] ?? null;
       return {
         id: place.id,
         name: place.displayName?.text ?? "附近地点",
@@ -207,7 +227,7 @@ async function searchNearby(cafe) {
         address: place.shortFormattedAddress ?? null,
         coords: [place.location.latitude, place.location.longitude],
         distanceMeters: distanceMeters(origin, place.location),
-        mapsUri: place.googleMapsUri ?? null
+        mapsUri: standardMapsUrl(place)
       };
     })
     .filter(place => place.category)
@@ -234,7 +254,12 @@ for (const [index, cafe] of selectedCafes.entries()) {
   let nearby = [];
   const errors = [];
   try {
-    details = await resolvePlace(cafe);
+    details = nearbyOnly ? {
+      id: cafe.googlePlaceId,
+      businessStatus: cafe.placeBusinessStatus,
+      regularOpeningHours: cafe.regularOpeningHours,
+      utcOffsetMinutes: cafe.utcOffsetMinutes
+    } : await resolvePlace(cafe);
   } catch (error) {
     errors.push(`details: ${error.message}`);
   }
@@ -246,6 +271,9 @@ for (const [index, cafe] of selectedCafes.entries()) {
 
   const groceries = dedupeNearby(nearby.filter(place => place.category === "grocery"), 5);
   const transit = dedupeNearby(nearby.filter(place => place.category === "transit"), 6);
+  const gasStations = dedupeNearby(nearby.filter(place => place.category === "gas"), 3);
+  const schools = dedupeNearby(nearby.filter(place => place.category === "school"), 3);
+  const attractions = dedupeNearby(nearby.filter(place => place.category === "attraction"), 5);
   const result = {
     id: cafe.id,
     placeId: details?.id ?? cafe.googlePlaceId ?? null,
@@ -256,13 +284,17 @@ for (const [index, cafe] of selectedCafes.entries()) {
       radiusMeters,
       verifiedAt: runDate,
       groceries,
-      transit
+      transit,
+      gasStations,
+      schools,
+      attractions
     },
     errors
   };
   results.push(result);
   console.log(`${index + 1}/${selectedCafes.length} ${cafe.id}: hours=${result.regularOpeningHours ? "yes" : "no"}` +
-    ` grocery=${result.nearbyPlaces.groceries.length} transit=${result.nearbyPlaces.transit.length}` +
+    ` grocery=${groceries.length} transit=${transit.length} gas=${gasStations.length}` +
+    ` school=${schools.length} attraction=${attractions.length}` +
     (errors.length ? ` errors=${errors.join(" | ")}` : ""));
 }
 
@@ -278,6 +310,9 @@ await fs.writeFile(reportPath, `${JSON.stringify({
     withHours: results.filter(item => item.regularOpeningHours).length,
     withGroceries: results.filter(item => item.nearbyPlaces.groceries.length).length,
     withTransit: results.filter(item => item.nearbyPlaces.transit.length).length,
+    withGasStations: results.filter(item => item.nearbyPlaces.gasStations.length).length,
+    withSchools: results.filter(item => item.nearbyPlaces.schools.length).length,
+    withAttractions: results.filter(item => item.nearbyPlaces.attractions.length).length,
     errors: results.filter(item => item.errors.length).length
   },
   results
@@ -313,6 +348,9 @@ const summary = {
   withHours: results.filter(item => item.regularOpeningHours).length,
   withGroceries: results.filter(item => item.nearbyPlaces.groceries.length).length,
   withTransit: results.filter(item => item.nearbyPlaces.transit.length).length,
+  withGasStations: results.filter(item => item.nearbyPlaces.gasStations.length).length,
+  withSchools: results.filter(item => item.nearbyPlaces.schools.length).length,
+  withAttractions: results.filter(item => item.nearbyPlaces.attractions.length).length,
   errors: results.filter(item => item.errors.length).length
 };
 console.log(JSON.stringify(summary, null, 2));

@@ -11,14 +11,15 @@ function compactNearby(place) {
   return compact;
 }
 
+const nearbyKeys = ["groceries", "transit", "gasStations", "schools", "attractions"];
+
 const remainingCafes = cafes
   .filter(cafe => !removedIds.has(cafe.id))
   .map(cafe => ({
     ...cafe,
     nearbyPlaces: cafe.nearbyPlaces ? {
       ...cafe.nearbyPlaces,
-      groceries: cafe.nearbyPlaces.groceries.map(compactNearby),
-      transit: cafe.nearbyPlaces.transit.map(compactNearby)
+      ...Object.fromEntries(nearbyKeys.map(key => [key, (cafe.nearbyPlaces[key] ?? []).map(compactNearby)]))
     } : cafe.nearbyPlaces
   }));
 const remainingRoutes = routes.map(route => ({

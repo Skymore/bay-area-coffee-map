@@ -12,6 +12,9 @@ import {
   ExternalLink,
   Factory,
   Flame,
+  Fuel,
+  GraduationCap,
+  Landmark,
   Laptop,
   LocateFixed,
   Map as MapIcon,
@@ -100,6 +103,22 @@ const parkingOptions = Object.entries(parkingLevels).map(([id, value]) => ({
   icon: "car-front"
 }));
 
+const nearbyCategoryConfig = [
+  { key: "groceries", category: "grocery", label: "超市与杂货", shortLabel: "超市 / 杂货", icon: "map-pin", marker: "购" },
+  { key: "transit", category: "transit", label: "公交与轨道", shortLabel: "公交 / 轨道", icon: "train-front", marker: "站" },
+  { key: "gasStations", category: "gas", label: "加油站", shortLabel: "加油站", icon: "fuel", marker: "油" },
+  { key: "schools", category: "school", label: "学校", shortLabel: "学校", icon: "graduation-cap", marker: "学" },
+  { key: "attractions", category: "attraction", label: "景点与公园", shortLabel: "景点 / 公园", icon: "landmark", marker: "景" }
+];
+
+function allNearbyPlaces(cafe) {
+  return nearbyCategoryConfig.flatMap(config => cafe.nearbyPlaces?.[config.key] ?? []);
+}
+
+function nearbyConfigFor(place) {
+  return nearbyCategoryConfig.find(config => config.category === place.category) ?? nearbyCategoryConfig[0];
+}
+
 function toggleArrayValue(setter, value) {
   setter(current => current.includes(value)
     ? current.filter(item => item !== value)
@@ -157,6 +176,9 @@ const iconMap = {
   "external-link": ExternalLink,
   factory: Factory,
   flame: Flame,
+  fuel: Fuel,
+  "graduation-cap": GraduationCap,
+  landmark: Landmark,
   laptop: Laptop,
   "locate-fixed": LocateFixed,
   map: MapIcon,
@@ -187,6 +209,15 @@ function directionsUrl(cafe) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(cafe.address)}`;
 }
 
+function nearbyMapsUrl(place) {
+  const params = new URLSearchParams({
+    api: "1",
+    query: [place.name, place.address].filter(Boolean).join(", ") || place.coords.join(",")
+  });
+  if (place.id) params.set("query_place_id", place.id);
+  return `https://www.google.com/maps/search/?${params.toString()}`;
+}
+
 function distanceInMiles(origin, cafe) {
   if (!origin) return Number.POSITIVE_INFINITY;
 
@@ -205,10 +236,7 @@ function distanceInMiles(origin, cafe) {
 }
 
 function cafeSearchText(cafe) {
-  const nearbyNames = [
-    ...(cafe.nearbyPlaces?.groceries ?? []),
-    ...(cafe.nearbyPlaces?.transit ?? [])
-  ].map(place => place.name);
+  const nearbyNames = allNearbyPlaces(cafe).map(place => place.name);
   return [
     cafe.name,
     cafe.city,
@@ -241,9 +269,46 @@ function businessStatusLabel(status) {
   return null;
 }
 
+const weekDays = [
+  { day: 1, label: "一" },
+  { day: 2, label: "二" },
+  { day: 3, label: "三" },
+  { day: 4, label: "四" },
+  { day: 5, label: "五" },
+  { day: 6, label: "六" },
+  { day: 0, label: "日" }
+];
+
+function openingSegmentsByDay(periods = []) {
+  const segments = Array.from({ length: 7 }, () => []);
+  for (const period of periods) {
+    if (!period.open) continue;
+    const start = period.open.day * 1440 + period.open.hour * 60 + (period.open.minute ?? 0);
+    let end;
+    if (!period.close) {
+      end = start + 7 * 1440;
+    } else {
+      end = period.close.day * 1440 + period.close.hour * 60 + (period.close.minute ?? 0);
+      if (end <= start) end += 7 * 1440;
+    }
+    for (let absoluteDay = Math.floor(start / 1440); absoluteDay <= Math.floor((end - 1) / 1440); absoluteDay += 1) {
+      const dayStart = absoluteDay * 1440;
+      const segmentStart = Math.max(start, dayStart) - dayStart;
+      const segmentEnd = Math.min(end, dayStart + 1440) - dayStart;
+      segments[((absoluteDay % 7) + 7) % 7].push({ start: segmentStart, end: segmentEnd });
+    }
+  }
+  return segments;
+}
+
+function compactHoursText(description = "") {
+  return description.replace(/^[^:：]+[:：]\s*/, "");
+}
+
 function OpeningHours({ cafe }) {
   const status = businessStatusLabel(cafe.placeBusinessStatus);
   const descriptions = cafe.regularOpeningHours?.weekdayDescriptions ?? [];
+  const segments = openingSegmentsByDay(cafe.regularOpeningHours?.periods);
   if (!status && !descriptions.length) return null;
 
   return (
@@ -254,9 +319,31 @@ function OpeningHours({ cafe }) {
         {status ? <strong className="context-status">{status}</strong> : null}
       </summary>
       {descriptions.length ? (
-        <ul className="hours-list">
-          {descriptions.map(description => <li key={description}>{description}</li>)}
-        </ul>
+        <div className="hours-chart" aria-label="一周营业时间图">
+          <div className="hours-axis" aria-hidden="true">
+            <span>0</span><span>6</span><span>12</span><span>18</span><span>24</span>
+          </div>
+          {weekDays.map((weekday, index) => {
+            const description = descriptions[index] ?? "";
+            return (
+              <div className="hours-row" key={weekday.day} title={description}>
+                <b>{weekday.label}</b>
+                <div className="hours-track">
+                  {segments[weekday.day].map((segment, segmentIndex) => (
+                    <i
+                      key={`${segment.start}-${segment.end}-${segmentIndex}`}
+                      style={{
+                        left: `${(segment.start / 1440) * 100}%`,
+                        width: `${((segment.end - segment.start) / 1440) * 100}%`
+                      }}
+                    />
+                  ))}
+                </div>
+                <small>{compactHoursText(description) || "休息"}</small>
+              </div>
+            );
+          })}
+        </div>
       ) : (
         <p className="context-empty">Google 暂无常规营业时间</p>
       )}
@@ -272,7 +359,7 @@ function NearbyGroup({ icon, label, places }) {
       <ul>
         {places.map(place => (
           <li key={place.id}>
-            <a href={place.mapsUri} target="_blank" rel="noopener noreferrer">
+            <a href={nearbyMapsUrl(place)} target="_blank" rel="noopener noreferrer">
               <span>{place.name}</span>
               <small>{formatNearbyDistance(place.distanceMeters)}</small>
             </a>
@@ -284,19 +371,24 @@ function NearbyGroup({ icon, label, places }) {
 }
 
 function NearbyPlaces({ cafe }) {
-  const groceries = cafe.nearbyPlaces?.groceries ?? [];
-  const transit = cafe.nearbyPlaces?.transit ?? [];
-  if (!groceries.length && !transit.length) return null;
+  const nearby = allNearbyPlaces(cafe);
+  if (!nearby.length) return null;
   return (
     <details className="detail-context detail-nearby">
       <summary>
         <Icon name="map-pin" />
         <span>附近地点</span>
-        <strong>{groceries.length + transit.length}</strong>
+        <strong>{nearby.length}</strong>
       </summary>
       <div className="nearby-groups">
-        <NearbyGroup icon="map-pin" label="超市与杂货" places={groceries} />
-        <NearbyGroup icon="train-front" label="公交与轨道" places={transit} />
+        {nearbyCategoryConfig.map(config => (
+          <NearbyGroup
+            key={config.key}
+            icon={config.icon}
+            label={config.label}
+            places={cafe.nearbyPlaces?.[config.key] ?? []}
+          />
+        ))}
       </div>
     </details>
   );
@@ -348,7 +440,7 @@ function markerIcon(cafe, isActive) {
 }
 
 function nearbyMarkerIcon(category) {
-  const label = category === "grocery" ? "购" : "站";
+  const label = nearbyConfigFor({ category }).marker;
   return L.divIcon({
     className: "",
     html: `<div class="nearby-marker is-${category}"><span>${label}</span></div>`,
@@ -613,12 +705,13 @@ function popupHtml(cafe, userLatLng) {
 }
 
 function nearbyPopupHtml(place) {
+  const config = nearbyConfigFor(place);
   return renderToStaticMarkup(
     <article className="nearby-popup">
       <strong>{place.name}</strong>
       {place.address ? <span>{place.address}</span> : null}
-      <small>{place.category === "grocery" ? "超市 / 杂货" : "公交 / 轨道"} · {formatNearbyDistance(place.distanceMeters)}</small>
-      <a href={place.mapsUri} target="_blank" rel="noopener noreferrer">Google Maps</a>
+      <small>{config.shortLabel} · {formatNearbyDistance(place.distanceMeters)}</small>
+      <a href={nearbyMapsUrl(place)} target="_blank" rel="noopener noreferrer">Google Maps</a>
     </article>
   );
 }
@@ -647,10 +740,7 @@ function fitCafesOnMap(map, cafeList) {
 function fitCafeContext(map, cafe) {
   if (!map || !cafe) return;
   map.stop();
-  const nearbyCoords = [
-    ...(cafe.nearbyPlaces?.groceries ?? []),
-    ...(cafe.nearbyPlaces?.transit ?? [])
-  ].map(place => place.coords);
+  const nearbyCoords = allNearbyPlaces(cafe).map(place => place.coords);
   if (nearbyCoords.length) {
     map.fitBounds(L.latLngBounds([cafe.coords, ...nearbyCoords]).pad(0.22), {
       animate: false,
@@ -726,9 +816,7 @@ export default function App() {
   const mapStatus = selectedCafe
     ? {
         icon: "map-pin",
-        text: `${selectedCafe.neighborhood} · 附近 ${
-          (selectedCafe.nearbyPlaces?.groceries.length ?? 0) + (selectedCafe.nearbyPlaces?.transit.length ?? 0)
-        } 个地点`
+        text: `${selectedCafe.neighborhood} · 附近 ${allNearbyPlaces(selectedCafe).length} 个地点`
       }
     : { icon: "map-pin", text: "湾区视图" };
 
@@ -913,9 +1001,7 @@ export default function App() {
     layer.clearLayers();
     if (!selectedCafe) return;
 
-    const groceries = selectedCafe.nearbyPlaces?.groceries ?? [];
-    const transit = selectedCafe.nearbyPlaces?.transit ?? [];
-    const nearby = [...groceries, ...transit];
+    const nearby = allNearbyPlaces(selectedCafe);
     if (!nearby.length) return;
 
     L.circle(selectedCafe.coords, {

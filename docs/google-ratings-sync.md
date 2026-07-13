@@ -55,8 +55,9 @@ npm run ratings:apply
 
 `scripts/sync-google-place-context.mjs` 为每家门店请求完整的
 `regularOpeningHours`，并以门店坐标为中心执行一次 Nearby Search（默认半径
-1200 米）。一次 Nearby Search 同时覆盖超市、杂货店、便利店、公交站和轨道站，
-最多保存最近的 5 个购物点与 6 个交通点；结果包含坐标、距离和 Google Maps 链接，
+1200 米）。一次 Nearby Search 同时覆盖超市、杂货店、便利店、公交与轨道站、
+加油站、学校、景点、博物馆和公园。最多保存最近的 5 个购物点、6 个交通点、
+3 个加油站、3 所学校与 5 个景点；结果包含坐标、距离和标准 Google Maps URL，
 供详情清单与地图高亮使用。
 
 ```sh
@@ -65,6 +66,9 @@ npm run context:check
 
 # 写入 src/data.js
 npm run context:apply
+
+# 复用已有营业时间，只刷新附近地点（每家店一次请求）
+npm run context:apply -- --nearby-only
 
 # 删除 Google 标记为永久停业的门店及其图片、路线引用
 npm run data:prune-closed
