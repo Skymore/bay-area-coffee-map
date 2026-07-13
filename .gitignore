@@ -4,4 +4,10 @@ dist/
 .DS_Store
 *.log
 .env
+# Raw/generated provider payloads can contain opaque URLs that trigger secret scanners.
 .verification/google-api-usage.json
+.verification/current-place-snapshots.json
+.verification/google-maps-candidate-pool.json
+.verification/google-maps-raw.json
+.verification/selected-43-google-maps.json
+.verification/selected-43-image-manifest.json
