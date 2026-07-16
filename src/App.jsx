@@ -34,6 +34,12 @@ import {
 } from "lucide-react";
 import { cafes, dataUpdatedAt, regionOptions, tagOptions } from "./data.js";
 import { imageAtlas } from "./imageAtlas.js";
+import {
+  cafeLocalClock,
+  isCafeOpenAt,
+  mergeOpeningSegments,
+  openingSegmentsByDay
+} from "./openingHours.js";
 import { photoData } from "./photoData.js";
 
 const numberedCafes = cafes.map((cafe, index) => ({ ...cafe, number: index + 1 }));
@@ -279,74 +285,13 @@ const weekDays = [
   { day: 0, label: "日" }
 ];
 
-function openingSegmentsByDay(periods = []) {
-  const segments = Array.from({ length: 7 }, () => []);
-  for (const period of periods) {
-    if (!period.open) continue;
-    const start = period.open.day * 1440 + period.open.hour * 60 + (period.open.minute ?? 0);
-    let end;
-    if (!period.close) {
-      end = start + 7 * 1440;
-    } else {
-      end = period.close.day * 1440 + period.close.hour * 60 + (period.close.minute ?? 0);
-      if (end <= start) end += 7 * 1440;
-    }
-    for (let absoluteDay = Math.floor(start / 1440); absoluteDay <= Math.floor((end - 1) / 1440); absoluteDay += 1) {
-      const dayStart = absoluteDay * 1440;
-      const segmentStart = Math.max(start, dayStart) - dayStart;
-      const segmentEnd = Math.min(end, dayStart + 1440) - dayStart;
-      segments[((absoluteDay % 7) + 7) % 7].push({ start: segmentStart, end: segmentEnd });
-    }
-  }
-  return segments;
-}
-
 function compactHoursText(description = "") {
   return description.replace(/^[^:：]+[:：]\s*/, "");
-}
-
-function mergeOpeningSegments(segments = []) {
-  return [...segments]
-    .sort((a, b) => a.start - b.start)
-    .reduce((merged, segment) => {
-      const current = {
-        start: Math.max(0, segment.start),
-        end: Math.min(1440, segment.end)
-      };
-      const previous = merged.at(-1);
-      if (!previous || current.start > previous.end) return [...merged, current];
-      previous.end = Math.max(previous.end, current.end);
-      return merged;
-    }, []);
 }
 
 function formatOpenDuration(minutes) {
   const hours = minutes / 60;
   return Number.isInteger(hours) ? `${hours}h` : `${hours.toFixed(1)}h`;
-}
-
-function cafeLocalClock(cafe) {
-  try {
-    const parts = Object.fromEntries(
-      new Intl.DateTimeFormat("en-US", {
-        timeZone: "America/Los_Angeles",
-        weekday: "short",
-        hour: "2-digit",
-        minute: "2-digit",
-        hourCycle: "h23"
-      }).formatToParts(new Date()).map(part => [part.type, part.value])
-    );
-    const day = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].indexOf(parts.weekday);
-    if (day >= 0) return { day, minute: Number(parts.hour) * 60 + Number(parts.minute) };
-  } catch {
-    // Fall back to the place offset if the browser lacks IANA time-zone support.
-  }
-
-  const fallbackDate = new Date(Date.now() + (cafe.utcOffsetMinutes ?? 0) * 60_000);
-  return {
-    day: fallbackDate.getUTCDay(),
-    minute: fallbackDate.getUTCHours() * 60 + fallbackDate.getUTCMinutes()
-  };
 }
 
 function HoursClock({ segments, currentMinute, isOpen, label }) {
@@ -896,6 +841,8 @@ export default function App() {
   const [regions, setRegions] = useState([]);
   const [selectedPreferences, setSelectedPreferences] = useState([]);
   const [selectedParking, setSelectedParking] = useState([]);
+  const [openNowOnly, setOpenNowOnly] = useState(false);
+  const [currentTime, setCurrentTime] = useState(() => new Date());
   const [query, setQuery] = useState("");
   const [selectedId, setSelectedId] = useState(null);
   const [userLatLng, setUserLatLng] = useState(null);
@@ -921,6 +868,14 @@ export default function App() {
   const closeLightbox = useCallback(() => setLightbox(null), []);
 
   useEffect(() => {
+    if (!openNowOnly) return undefined;
+
+    const refreshCurrentTime = () => setCurrentTime(new Date());
+    const intervalId = window.setInterval(refreshCurrentTime, 60_000);
+    return () => window.clearInterval(intervalId);
+  }, [openNowOnly]);
+
+  useEffect(() => {
     const handleLightboxRequest = event => {
       const { cafeId, photoIndex } = event.detail || {};
       if (!cafeById.has(cafeId)) return;
@@ -942,6 +897,7 @@ export default function App() {
         }
       }
       if (selectedParking.length && !selectedParking.includes(parkingDifficulty(cafe).tone)) return false;
+      if (openNowOnly && !isCafeOpenAt(cafe, currentTime)) return false;
       if (queryText && !cafeSearchText(cafe).includes(queryText)) return false;
       return true;
     });
@@ -949,7 +905,7 @@ export default function App() {
     if (!userLatLng) return filtered;
 
     return [...filtered].sort((a, b) => distanceInMiles(userLatLng, a) - distanceInMiles(userLatLng, b));
-  }, [query, regions, selectedParking, selectedPreferences, userLatLng]);
+  }, [currentTime, openNowOnly, query, regions, selectedParking, selectedPreferences, userLatLng]);
 
   const selectedCafe = selectedId ? cafeById.get(selectedId) : null;
 
@@ -1347,6 +1303,28 @@ export default function App() {
                     </div>
                   </div>
                 ))}
+              </div>
+
+              <div className="control-block">
+                <div className="control-heading">
+                  <span>营业状态</span>
+                  <Icon name="clock" />
+                </div>
+                <div className="chips" role="group" aria-label="营业状态">
+                  <button
+                    className={`chip${openNowOnly ? " is-active" : ""}`}
+                    type="button"
+                    aria-pressed={openNowOnly}
+                    onClick={() => {
+                      setOpenNowOnly(current => !current);
+                      setCurrentTime(new Date());
+                      requestFit();
+                    }}
+                  >
+                    <Icon name="clock" />
+                    <span>营业中</span>
+                  </button>
+                </div>
               </div>
 
               <div className="control-block">

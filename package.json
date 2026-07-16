@@ -13,6 +13,7 @@
     "context:check": "node --env-file-if-exists=.env scripts/sync-google-place-context.mjs",
     "context:apply": "node --env-file-if-exists=.env scripts/sync-google-place-context.mjs --apply",
     "data:prune-closed": "node scripts/prune-permanently-closed.mjs",
+    "test:hours": "node --test src/openingHours.test.js",
     "test:ratings": "node --test scripts/google-place-matcher.test.mjs"
   },
   "dependencies": {
